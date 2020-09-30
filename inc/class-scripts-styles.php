@@ -32,10 +32,10 @@ if (!class_exists('FPD_Scripts_Styles')) {
 			}
 
 			$fpd_css_url = $local_test ? '//radykal.dep/fpd/dist/css/FancyProductDesigner.css?' . $timestamp : plugins_url('/assets/css/FancyProductDesigner-all.min.css', FPD_PLUGIN_ROOT_PHP);
-			/* MRR */
+			/* FPD plugin js file change */
 			$fpd_js_url = $local_test ? '//radykal.dep/fpd/dist/js/FancyProductDesigner.js?' . $timestamp : plugins_url('/assets/js/FancyProductDesigner-all.js', FPD_PLUGIN_ROOT_PHP);
 			/* $fpd_js_url = $local_test ? '//radykal.dep/fpd/dist/js/FancyProductDesigner.js?'.$timestamp : plugins_url('/assets/js/FancyProductDesigner-all.min.js', FPD_PLUGIN_ROOT_PHP); */
-			/* MRR-END */
+			/* END */
 
 
 			$fpd_js_plugins_url = $local_test ? '//radykal.dep/fpd/dist/js/plugins.js' : plugins_url('/assets/js/plugins.js', FPD_PLUGIN_ROOT_PHP);
@@ -114,14 +114,14 @@ if (!class_exists('FPD_Scripts_Styles')) {
 										echo $css_str;
 									echo stripslashes($ui_layout['custom_css']);
 									?><?php
-						//hide tools
-						if (isset($ui_layout['toolbar_exclude_tools'])  && is_array($ui_layout['toolbar_exclude_tools'])) {
+										//hide tools
+										if (isset($ui_layout['toolbar_exclude_tools'])  && is_array($ui_layout['toolbar_exclude_tools'])) {
 
-							foreach ($ui_layout['toolbar_exclude_tools'] as $tb_tool) {
-								echo '[class^="fpd-element-toolbar"] .fpd-tool-' . $tb_tool . '{ display: none !important; }';
-							}
-						}
-						?>
+											foreach ($ui_layout['toolbar_exclude_tools'] as $tb_tool) {
+												echo '[class^="fpd-element-toolbar"] .fpd-tool-' . $tb_tool . '{ display: none !important; }';
+											}
+										}
+										?>
 				</style>
 <?php
 

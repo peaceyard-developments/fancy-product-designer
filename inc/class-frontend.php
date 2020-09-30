@@ -430,9 +430,9 @@ if (!class_exists('FPD_Frontend_Product')) {
 							},
 							imageEditorSettings: {
 								masks: <?php echo json_encode(fpd_get_files_from_uploads_by_type('fpd_masks', array('svg')), JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT); ?>,
-								/*MRR-get feather mask location */
+								/*get feather mask location */
 								feathers: <?php echo json_encode(fpd_get_files_from_uploads_by_type('fpd_feathers', array('svg')), JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT); ?>
-								/* MRR-END */
+								/* END */
 							},
 							guidedTour: <?php echo $guided_tour; ?>,
 							productsJSON: fpdProductsJSON,

@@ -365,7 +365,7 @@
 .fpd-icon-curve-radius:before {
   content: "\e91a";
 }
-/* MRR */
+/* radial grad icon style*/
 .fpd-icon-radial_grad:before {
   content: "\e91a";
 }
@@ -373,7 +373,7 @@
 .fpd-icon-liner_grad:before {
   content: "\e930";
 }
-/* MRR-END */
+/* END */
 .fpd-icon-instagram:before {
   content: "\e609";
   color: #444;
@@ -6252,7 +6252,7 @@ body .sp-container:not(.sp-palette-only) .sp-picker-container {
 .fpd-image-editor-container.fpd-show-secondary .fpd-mask-tools {
   display: inline-block;
 }
-/* MRR */
+/* edge-feather tool tab display style */
 .fpd-content-edge-feather > .fpd-edge-feather-tools {
   display: none;
 }
@@ -6263,7 +6263,7 @@ body .sp-container:not(.sp-palette-only) .sp-picker-container {
 .fpd-image-editor-container.fpd-show-secondary .fpd-edge-feather-tools {
   display: inline-block;
 }
-/* MRR-END */
+/* END */
 .fpd-image-editor-container.fpd-show-secondary .fpd-action-buttons {
   display: none !important;
 }
@@ -6291,7 +6291,7 @@ body .sp-container:not(.sp-palette-only) .sp-picker-container {
   padding: 5px 10px;
   margin: 0 5px 0 0 !important;
 }
-/* MRR */
+/* Edge feather selection style */
 .fpd-edge-feather-selection > span {
   display: inline-block;
   text-align: center;
@@ -6318,7 +6318,7 @@ body .sp-container:not(.sp-palette-only) .sp-picker-container {
   padding: 5px 10px;
   margin: 0 5px 0 0 !important;
 }
-/* MRR-End */
+/* End */
 .fpd-content-filters > div {
   border: 1px solid rgba(0, 0, 0, 0.1);
   display: inline-block;
