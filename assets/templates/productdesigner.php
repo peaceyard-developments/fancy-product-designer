@@ -18,7 +18,7 @@
 				<span class="fpd-current-val"></span>
 			</div>
 
-			<div class="fpd-tool-edit-text fpd-tooltip"  data-panel="edit-text" data-defaulttext="Edit Text" title="toolbar.edit_text">
+			<div class="fpd-tool-edit-text fpd-tooltip" data-panel="edit-text" data-defaulttext="Edit Text" title="toolbar.edit_text">
 				<span class="fpd-icon-text-input"></span>
 			</div>
 
@@ -102,19 +102,19 @@
 
 						<div class="fpd-color-wrapper fpd-color-picker"></div>
 
-					    <div class="fpd-tool-patterns">
-						    <div class="fpd-scroll-area">
-							    <div class="fpd-grid fpd-clearfix"></div>
-						    </div>
-					    </div>
+						<div class="fpd-tool-patterns">
+							<div class="fpd-scroll-area">
+								<div class="fpd-grid fpd-clearfix"></div>
+							</div>
+						</div>
 
-					    <div class="fpd-tool-fill-opacity fpd-slider-group fpd-clearfix fpd-tooltip" data-defaulttext="Transparency" title="toolbar.transparency">
-						    <span class="fpd-icon-transparency"></span>
-						    <div class="fpd-range-wrapper">
-							     <input class="fpd-slider-range" type="range" value="1" step="0.01" min="0" max="1" data-control="opacity" />
-						    </div>
-						    <input class="fpd-slider-number fpd-number" type="number" value="1" step="0.01" min="0" max="1" data-control="opacity" />
-					    </div>
+						<div class="fpd-tool-fill-opacity fpd-slider-group fpd-clearfix fpd-tooltip" data-defaulttext="Transparency" title="toolbar.transparency">
+							<span class="fpd-icon-transparency"></span>
+							<div class="fpd-range-wrapper">
+								<input class="fpd-slider-range" type="range" value="1" step="0.01" min="0" max="1" data-control="opacity" />
+							</div>
+							<input class="fpd-slider-number fpd-number" type="number" value="1" step="0.01" min="0" max="1" data-control="opacity" />
+						</div>
 
 					</div>
 
@@ -125,11 +125,11 @@
 						</div>
 						<div class="fpd-tool-stroke-width fpd-slider-group fpd-clearfix fpd-tooltip" data-defaulttext="Stroke Width" title="toolbar.stroke_width">
 							<span class="fpd-icon-stroke-width"></span>
-						    <div class="fpd-range-wrapper">
-							     <input class="fpd-slider-range" type="range" value="0" step="1" min="0" max="20" data-control="strokeWidth" />
-						    </div>
-						    <input class="fpd-slider-number fpd-number" type="number" value="0" step="1" min="0" max="20" data-control="strokeWidth" />
-					    </div>
+							<div class="fpd-range-wrapper">
+								<input class="fpd-slider-range" type="range" value="0" step="1" min="0" max="20" data-control="strokeWidth" />
+							</div>
+							<input class="fpd-slider-number fpd-number" type="number" value="0" step="1" min="0" max="20" data-control="strokeWidth" />
+						</div>
 
 					</div>
 
@@ -140,25 +140,25 @@
 						</div>
 						<div class="fpd-tool-shadow-blur fpd-slider-group fpd-clearfix fpd-tooltip" data-defaulttext="Blur" title="toolbar.shadow_blur">
 							<span class="fpd-icon-shadow-blur"></span>
-						    <div class="fpd-range-wrapper">
-							     <input class="fpd-slider-range" type="range" value="0" step="1" min="0" max="20" data-control="shadowBlur" />
-						    </div>
-						    <input class="fpd-slider-number fpd-number" type="number" value="0" step="1" min="0" max="20" data-control="shadowBlur" />
-					    </div>
-					    <div class="fpd-tool-shadow-offsetX fpd-slider-group fpd-clearfix fpd-tooltip" data-defaulttext=" Offset X" title="toolbar.shadow_offset_x">
+							<div class="fpd-range-wrapper">
+								<input class="fpd-slider-range" type="range" value="0" step="1" min="0" max="20" data-control="shadowBlur" />
+							</div>
+							<input class="fpd-slider-number fpd-number" type="number" value="0" step="1" min="0" max="20" data-control="shadowBlur" />
+						</div>
+						<div class="fpd-tool-shadow-offsetX fpd-slider-group fpd-clearfix fpd-tooltip" data-defaulttext=" Offset X" title="toolbar.shadow_offset_x">
 							<span class="fpd-icon-shadow-offsetX" style="font-family: Arial !important;">X</span>
-						    <div class="fpd-range-wrapper">
-							     <input class="fpd-slider-range" type="range" value="0" step="1" min="-100" max="100" data-control="shadowOffsetX" />
-						    </div>
-						    <input class="fpd-slider-number fpd-number" type="number" value="0" step="1" min="-100" max="100" data-control="shadowOffsetX" />
-					    </div>
-					    <div class="fpd-tool-shadow-offsetY fpd-slider-group fpd-clearfix fpd-tooltip" data-defaulttext="Offset Y" title="toolbar.shadow_offset_y">
-							<span class="fpd-icon-shadow-offsetY"  style="font-family: Arial !important;">Y</span>
-						    <div class="fpd-range-wrapper">
-							     <input class="fpd-slider-range" type="range" value="0" step="1" min="-100" max="100" data-control="shadowOffsetY" />
-						    </div>
-						    <input class="fpd-slider-number fpd-number" type="number" value="0" step="1" min="-100" max="100" data-control="shadowOffsetY" />
-					    </div>
+							<div class="fpd-range-wrapper">
+								<input class="fpd-slider-range" type="range" value="0" step="1" min="-100" max="100" data-control="shadowOffsetX" />
+							</div>
+							<input class="fpd-slider-number fpd-number" type="number" value="0" step="1" min="-100" max="100" data-control="shadowOffsetX" />
+						</div>
+						<div class="fpd-tool-shadow-offsetY fpd-slider-group fpd-clearfix fpd-tooltip" data-defaulttext="Offset Y" title="toolbar.shadow_offset_y">
+							<span class="fpd-icon-shadow-offsetY" style="font-family: Arial !important;">Y</span>
+							<div class="fpd-range-wrapper">
+								<input class="fpd-slider-range" type="range" value="0" step="1" min="-100" max="100" data-control="shadowOffsetY" />
+							</div>
+							<input class="fpd-slider-number fpd-number" type="number" value="0" step="1" min="-100" max="100" data-control="shadowOffsetY" />
+						</div>
 
 					</div>
 
@@ -176,27 +176,27 @@
 
 				<div class="fpd-tool-font-size fpd-slider-group fpd-clearfix fpd-tooltip" data-defaulttext="Font Size" title="toolbar.font_size">
 					<span class="fpd-icon-font-size"></span>
-				    <div class="fpd-range-wrapper">
-					     <input class="fpd-slider-range" type="range" value="12" step="1" min="1" max="1000" data-control="fontSize" />
-				    </div>
-				    <input class="fpd-slider-number fpd-number" type="number" value="12" step="1" min="1" max="1000" data-control="fontSize" />
-			    </div>
+					<div class="fpd-range-wrapper">
+						<input class="fpd-slider-range" type="range" value="12" step="1" min="1" max="1000" data-control="fontSize" />
+					</div>
+					<input class="fpd-slider-number fpd-number" type="number" value="12" step="1" min="1" max="1000" data-control="fontSize" />
+				</div>
 
-			    <div class="fpd-tool-line-height fpd-slider-group fpd-clearfix fpd-tooltip" data-defaulttext="Line Height" title="toolbar.line_height">
+				<div class="fpd-tool-line-height fpd-slider-group fpd-clearfix fpd-tooltip" data-defaulttext="Line Height" title="toolbar.line_height">
 					<span class="fpd-icon-format-line-spacing"></span>
-				    <div class="fpd-range-wrapper">
-					     <input class="fpd-slider-range" type="range" value="1" step="0.1" min="-2" max="3" data-control="lineHeight" />
-				    </div>
-				    <input class="fpd-slider-number fpd-number" type="number" value="1" step="0.1" min="-2" max="3" data-control="lineHeight" />
-			    </div>
+					<div class="fpd-range-wrapper">
+						<input class="fpd-slider-range" type="range" value="1" step="0.1" min="-2" max="3" data-control="lineHeight" />
+					</div>
+					<input class="fpd-slider-number fpd-number" type="number" value="1" step="0.1" min="-2" max="3" data-control="lineHeight" />
+				</div>
 
-			    <div class="fpd-tool-letter-spacing fpd-slider-group fpd-clearfix fpd-tooltip" data-defaulttext="Letter Spacing" title="toolbar.letter_spacing">
+				<div class="fpd-tool-letter-spacing fpd-slider-group fpd-clearfix fpd-tooltip" data-defaulttext="Letter Spacing" title="toolbar.letter_spacing">
 					<span class="fpd-icon-letter-spacing"></span>
-				    <div class="fpd-range-wrapper">
-					     <input class="fpd-slider-range" type="range" value="0" step="1" min="-30" max="30" data-control="letterSpacing" />
-				    </div>
-				    <input class="fpd-slider-number fpd-number" type="number" value="0" step="1" min="-30" max="30" data-control="letterSpacing" />
-			    </div>
+					<div class="fpd-range-wrapper">
+						<input class="fpd-slider-range" type="range" value="0" step="1" min="-30" max="30" data-control="letterSpacing" />
+					</div>
+					<input class="fpd-slider-number fpd-number" type="number" value="0" step="1" min="-30" max="30" data-control="letterSpacing" />
+				</div>
 
 			</div><!-- Font Size & Spacing -->
 
@@ -213,7 +213,7 @@
 
 			<div class="fpd-panel-curved-text fpd-panel-content">
 
-			 	<div class="fpd-curved-text-switcher fpd-switch-container fpd-tooltip fpd-toggle fpd-left" data-control="curved" data-enabled="true" data-disabled="false" data-defaulttext="Switch" title="toolbar.curved_text_switch">
+				<div class="fpd-curved-text-switcher fpd-switch-container fpd-tooltip fpd-toggle fpd-left" data-control="curved" data-enabled="true" data-disabled="false" data-defaulttext="Switch" title="toolbar.curved_text_switch">
 					<div class="fpd-switch-bar"></div>
 					<div class="fpd-switch-toggle"></div>
 				</div>
@@ -224,51 +224,51 @@
 
 				<div class="fpd-slider-group fpd-clearfix fpd-tooltip fpd-clear" data-defaulttext="Radius" title="toolbar.radius">
 					<span class="fpd-icon-curve-radius"></span>
-				    <div class="fpd-range-wrapper">
-					     <input class="fpd-slider-range" type="range" value="80" step="1" min="0" max="200" data-control="curveRadius" />
-				    </div>
-				    <input class="fpd-slider-number fpd-number" type="number" value="80" step="1" min="0" max="200" data-control="curveRadius" />
-			    </div>
+					<div class="fpd-range-wrapper">
+						<input class="fpd-slider-range" type="range" value="80" step="1" min="0" max="200" data-control="curveRadius" />
+					</div>
+					<input class="fpd-slider-number fpd-number" type="number" value="80" step="1" min="0" max="200" data-control="curveRadius" />
+				</div>
 
-			    <div class="fpd-slider-group fpd-clearfix fpd-tooltip" data-defaulttext="Spacing" title="toolbar.spacing">
+				<div class="fpd-slider-group fpd-clearfix fpd-tooltip" data-defaulttext="Spacing" title="toolbar.spacing">
 					<span class="fpd-icon-letter-spacing"></span>
-				    <div class="fpd-range-wrapper">
-					     <input class="fpd-slider-range" type="range" value="10" step="1" min="0" max="100" data-control="curveSpacing" />
-				    </div>
-				    <input class="fpd-slider-number fpd-number" type="number" value="10" step="1" min="0" max="100" data-control="curveSpacing" />
-			    </div>
+					<div class="fpd-range-wrapper">
+						<input class="fpd-slider-range" type="range" value="10" step="1" min="0" max="100" data-control="curveSpacing" />
+					</div>
+					<input class="fpd-slider-number fpd-number" type="number" value="10" step="1" min="0" max="100" data-control="curveSpacing" />
+				</div>
 
 			</div><!-- Curved Text -->
 
 			<div class="fpd-panel-transform fpd-panel-content">
 
-			 	<div class="fpd-tool-scaleX fpd-tool-scale fpd-slider-group fpd-clearfix">
+				<div class="fpd-tool-scaleX fpd-tool-scale fpd-slider-group fpd-clearfix">
 					<span class="fpd-icon-scaleX"></span>
-				    <div class="fpd-range-wrapper">
-					     <input class="fpd-slider-range" value="1" step="0.01" min="0" max="5" data-control="scaleX" />
-				    </div>
-				    <input class="fpd-slider-number fpd-number" type="number" value="1" step="0.01" min="0" max="5" data-control="scaleX" />
-			    </div>
+					<div class="fpd-range-wrapper">
+						<input class="fpd-slider-range" value="1" step="0.01" min="0" max="5" data-control="scaleX" />
+					</div>
+					<input class="fpd-slider-number fpd-number" type="number" value="1" step="0.01" min="0" max="5" data-control="scaleX" />
+				</div>
 
-			    <div class="fpd-tool-uniscaling-locker fpd-tool-scale fpd-toggle" data-control="lockUniScaling" data-enabled="true" data-disabled="false">
+				<div class="fpd-tool-uniscaling-locker fpd-tool-scale fpd-toggle" data-control="lockUniScaling" data-enabled="true" data-disabled="false">
 					<span class="fpd-icon-unlocked"></span>
 				</div>
 
-			    <div class="fpd-tool-scaleY fpd-tool-scale fpd-slider-group fpd-clearfix">
+				<div class="fpd-tool-scaleY fpd-tool-scale fpd-slider-group fpd-clearfix">
 					<span class="fpd-icon-scaleY"></span>
-				    <div class="fpd-range-wrapper">
-					     <input class="fpd-slider-range" type="range" value="1" step="0.01" min="0" max="5" data-control="scaleY" />
-				    </div>
-				    <input class="fpd-slider-number fpd-number" type="number" value="1" step="0.01" min="0" max="5" data-control="scaleY" />
-			    </div>
+					<div class="fpd-range-wrapper">
+						<input class="fpd-slider-range" type="range" value="1" step="0.01" min="0" max="5" data-control="scaleY" />
+					</div>
+					<input class="fpd-slider-number fpd-number" type="number" value="1" step="0.01" min="0" max="5" data-control="scaleY" />
+				</div>
 
-			    <div class="fpd-tool-angle fpd-slider-group fpd-clearfix">
+				<div class="fpd-tool-angle fpd-slider-group fpd-clearfix">
 					<span class="fpd-icon-rotate-right"></span>
-				    <div class="fpd-range-wrapper">
-					     <input class="fpd-slider-range" type="range" value="10" value="1" step="1" min="0" max="359" data-control="angle" />
-				    </div>
-				    <input class="fpd-slider-number fpd-number" type="number" value="1" step="1" min="0" max="359" data-control="angle" />
-			    </div>
+					<div class="fpd-range-wrapper">
+						<input class="fpd-slider-range" type="range" value="10" value="1" step="1" min="0" max="359" data-control="angle" />
+					</div>
+					<input class="fpd-slider-number fpd-number" type="number" value="1" step="1" min="0" max="359" data-control="angle" />
+				</div>
 
 			</div><!-- Transform -->
 
@@ -408,7 +408,7 @@
 			<div class="fpd-tool-curved-text fpd-tooltip" data-panel="curved-text" data-defaulttext="Curved Text" title="toolbar.curved_text">
 				<span class="fpd-icon-curved-text"></span>
 			</div>
-			<div class="fpd-tool-edit-text fpd-tooltip"  data-panel="edit-text" data-defaulttext="Edit Text" title="toolbar.edit_text">
+			<div class="fpd-tool-edit-text fpd-tooltip" data-panel="edit-text" data-defaulttext="Edit Text" title="toolbar.edit_text">
 				<span class="fpd-icon-text-input"></span>
 			</div>
 		</div>
@@ -426,11 +426,11 @@
 						<div class="fpd-color-wrapper fpd-color-picker"></div>
 						<div class="fpd-tool-fill-opacity fpd-slider-group fpd-clearfix  fpd-tooltip" data-defaulttext="Transparency" title="toolbar.transparency">
 							<span class="fpd-icon-transparency"></span>
-						    <input class="fpd-slider-number fpd-number" type="number" value="1" step="0.01" min="0" max="1" data-control="opacity" />
-						    <div class="fpd-range-wrapper">
-							     <input class="fpd-slider-range" type="range" value="1" step="0.01" min="0" max="1" data-control="opacity" />
-						    </div>
-					    </div>
+							<input class="fpd-slider-number fpd-number" type="number" value="1" step="0.01" min="0" max="1" data-control="opacity" />
+							<div class="fpd-range-wrapper">
+								<input class="fpd-slider-range" type="range" value="1" step="0.01" min="0" max="1" data-control="opacity" />
+							</div>
+						</div>
 					</div>
 					<div class="fpd-patterns" data-id="pattern">
 						<div class="fpd-grid fpd-clearfix"></div>
@@ -443,29 +443,29 @@
 
 				<div class="fpd-tool-scaleX fpd-tool-scale fpd-slider-group fpd-clearfix">
 					<span class="fpd-icon-scaleX"></span>
-				    <input class="fpd-slider-number fpd-number" type="number" value="1" step="0.01" min="0" max="5" data-control="scaleX" />
-				    <div class="fpd-range-wrapper">
-					     <input class="fpd-slider-range" type="range" value="1" step="0.01" min="0" max="5" data-control="scaleX" />
-				    </div>
-			    </div>
-			    <div class="fpd-tool-uniscaling-locker fpd-tool-scale fpd-toggle" data-control="lockUniScaling" data-enabled="true" data-disabled="false">
+					<input class="fpd-slider-number fpd-number" type="number" value="1" step="0.01" min="0" max="5" data-control="scaleX" />
+					<div class="fpd-range-wrapper">
+						<input class="fpd-slider-range" type="range" value="1" step="0.01" min="0" max="5" data-control="scaleX" />
+					</div>
+				</div>
+				<div class="fpd-tool-uniscaling-locker fpd-tool-scale fpd-toggle" data-control="lockUniScaling" data-enabled="true" data-disabled="false">
 					<span class="fpd-icon-unlocked"></span>
 				</div>
-			    <div class="fpd-tool-scaleY fpd-tool-scale fpd-slider-group fpd-clearfix">
+				<div class="fpd-tool-scaleY fpd-tool-scale fpd-slider-group fpd-clearfix">
 					<span class="fpd-icon-scaleY"></span>
-				    <input class="fpd-slider-number fpd-number" type="number" value="1" step="0.01" min="0" max="5" data-control="scaleY" />
-				    <div class="fpd-range-wrapper">
-					     <input class="fpd-slider-range" type="range" value="1" step="0.01" min="0" max="5" data-control="scaleY" />
-				    </div>
-			    </div>
+					<input class="fpd-slider-number fpd-number" type="number" value="1" step="0.01" min="0" max="5" data-control="scaleY" />
+					<div class="fpd-range-wrapper">
+						<input class="fpd-slider-range" type="range" value="1" step="0.01" min="0" max="5" data-control="scaleY" />
+					</div>
+				</div>
 
-			    <div class="fpd-tool-angle fpd-slider-group fpd-clearfix">
+				<div class="fpd-tool-angle fpd-slider-group fpd-clearfix">
 					<span class="fpd-icon-rotate-right"></span>
-				    <input class="fpd-slider-number fpd-number" type="number" value="1" step="1" min="0" max="359" data-control="angle" />
-				    <div class="fpd-range-wrapper">
-					     <input class="fpd-slider-range" type="range" value="1" step="1" min="0" max="359" data-control="angle" />
-				    </div>
-			    </div>
+					<input class="fpd-slider-number fpd-number" type="number" value="1" step="1" min="0" max="359" data-control="angle" />
+					<div class="fpd-range-wrapper">
+						<input class="fpd-slider-range" type="range" value="1" step="1" min="0" max="359" data-control="angle" />
+					</div>
+				</div>
 
 			</div><!-- Transform Panel -->
 
@@ -506,11 +506,11 @@
 				</div>
 				<div class="fpd-tool-stroke-width fpd-slider-group fpd-clearfix">
 					<span class="fpd-icon-stroke-width"></span>
-				    <input class="fpd-slider-number fpd-number" type="number" value="0" step="1" min="0" max="20" data-control="strokeWidth" />
-				    <div class="fpd-range-wrapper">
-					     <input class="fpd-slider-range" type="range" value="0" step="1" min="0" max="20" data-control="strokeWidth" />
-				    </div>
-			    </div>
+					<input class="fpd-slider-number fpd-number" type="number" value="0" step="1" min="0" max="20" data-control="strokeWidth" />
+					<div class="fpd-range-wrapper">
+						<input class="fpd-slider-range" type="range" value="0" step="1" min="0" max="20" data-control="strokeWidth" />
+					</div>
+				</div>
 			</div><!-- Stroke Panel -->
 
 			<div class="fpd-panel-curved-text">
@@ -524,18 +524,18 @@
 				</div>
 				<div class="fpd-tool-curveRadius fpd-slider-group fpd-tooltip fpd-clearfix fpd-clear" data-defaulttext="Radius" title="toolbar.radius">
 					<span class="fpd-icon-curve-radius"></span>
-				    <input class="fpd-slider-number fpd-number" type="number" value="80" step="1" min="0" max="200" data-control="curveRadius" />
-				    <div class="fpd-range-wrapper">
-					     <input class="fpd-slider-range" type="range" value="80" step="1" min="0" max="200" data-control="curveRadius" />
-				    </div>
-			    </div>
-			    <div class="fpd-tool-curveSpacing fpd-slider-group fpd-tooltip fpd-clearfix" data-defaulttext="Spacing" title="toolbar.spacing">
+					<input class="fpd-slider-number fpd-number" type="number" value="80" step="1" min="0" max="200" data-control="curveRadius" />
+					<div class="fpd-range-wrapper">
+						<input class="fpd-slider-range" type="range" value="80" step="1" min="0" max="200" data-control="curveRadius" />
+					</div>
+				</div>
+				<div class="fpd-tool-curveSpacing fpd-slider-group fpd-tooltip fpd-clearfix" data-defaulttext="Spacing" title="toolbar.spacing">
 					<span class="fpd-icon-letter-spacing"></span>
-				    <input class="fpd-slider-number fpd-number" type="number" value="10" step="1" min="0" max="100" data-control="curveSpacing" />
-				    <div class="fpd-range-wrapper">
-					     <input class="fpd-slider-range" type="range" value="10" step="1" min="0" max="100" data-control="curveSpacing" />
-				    </div>
-			    </div>
+					<input class="fpd-slider-number fpd-number" type="number" value="10" step="1" min="0" max="100" data-control="curveSpacing" />
+					<div class="fpd-range-wrapper">
+						<input class="fpd-slider-range" type="range" value="10" step="1" min="0" max="100" data-control="curveSpacing" />
+					</div>
+				</div>
 
 			</div><!-- Curved Text Panel -->
 
@@ -558,10 +558,10 @@
 
 	<div class="fpd-actions">
 
-		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="reset-product"  data-defaulttext="Reset" title="actions.reset_product">
+		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="reset-product" data-defaulttext="Reset" title="actions.reset_product">
 			<span class="fpd-icon-reset"></span>
 		</div>
-		<div class="fpd-action-btn fpd-tooltip fpd-sub-tooltip fpd-primary-text-color" data-action="zoom"  data-defaulttext="Zoom" title="actions.zoom">
+		<div class="fpd-action-btn fpd-tooltip fpd-sub-tooltip fpd-primary-text-color" data-action="zoom" data-defaulttext="Zoom" title="actions.zoom">
 			<span class="fpd-icon-zoom-in"></span>
 			<div class="fpd-action-context-zoom fpd-action-context fpd-clearfix">
 				<input class="fpd-zoom-slider" type="range" value="1" step="0.02" min="1" max="3" />
@@ -573,7 +573,7 @@
 		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="magnify-glass" data-defaulttext="Magnify Glass" title="actions.magnify_glass">
 			<span class="fpd-icon-magnify"></span>
 		</div>
-		<div class="fpd-action-btn fpd-tooltip fpd-sub-tooltip fpd-primary-text-color" data-action="download"  data-defaulttext="Download" title="actions.download">
+		<div class="fpd-action-btn fpd-tooltip fpd-sub-tooltip fpd-primary-text-color" data-action="download" data-defaulttext="Download" title="actions.download">
 			<span class="fpd-icon-cloud-download"></span>
 			<div class="fpd-modal-context fpd-modal-download">
 				<span data-value="jpeg">
@@ -594,23 +594,23 @@
 				</div>
 			</div>
 		</div>
-		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="info"  data-defaulttext="Info" title="actions.info">
+		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="info" data-defaulttext="Info" title="actions.info">
 			<span class="fpd-icon-info-outline"></span>
 			<div class="fpd-info-content" data-defaulttext="Change text in language JSON.">actions.info_content</div>
 		</div>
-		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="print"  data-defaulttext="Print" title="actions.print">
+		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="print" data-defaulttext="Print" title="actions.print">
 			<span class="fpd-icon-print"></span>
 		</div>
-		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="save"  data-defaulttext="Save" title="actions.save">
+		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="save" data-defaulttext="Save" title="actions.save">
 			<span class="fpd-icon-save"></span>
 		</div>
-		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="load"  data-defaulttext="Load" title="actions.load">
+		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="load" data-defaulttext="Load" title="actions.load">
 			<span class="fpd-icon-file-upload"></span>
 		</div>
-		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="manage-layers"  data-defaulttext="Manage Layers" title="actions.manage_layers">
+		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="manage-layers" data-defaulttext="Manage Layers" title="actions.manage_layers">
 			<span class="fpd-icon-layers"></span>
 		</div>
-		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="qr-code"  data-defaulttext="Add QR-Code" title="actions.qr_code">
+		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="qr-code" data-defaulttext="Add QR-Code" title="actions.qr_code">
 			<span class="fpd-icon-qrcode"></span>
 			<div class="fpd-modal-context fpd-modal-qrcode">
 				<input type="text" data-defaulttext="Enter a URL, some text..." placeholder="actions.qr_code_input" />
@@ -622,28 +622,28 @@
 				<div class="fpd-qrcode-wrapper fpd-hidden"></div>
 			</div>
 		</div>
-		<div class="fpd-action-btn fpd-tooltip fpd-disabled fpd-primary-text-color" data-action="undo"  data-defaulttext="Undo" title="actions.undo">
+		<div class="fpd-action-btn fpd-tooltip fpd-disabled fpd-primary-text-color" data-action="undo" data-defaulttext="Undo" title="actions.undo">
 			<span class="fpd-icon-undo"></span>
 		</div>
-		<div class="fpd-action-btn fpd-tooltip fpd-disabled fpd-primary-text-color" data-action="redo"  data-defaulttext="Redo" title="actions.redo">
+		<div class="fpd-action-btn fpd-tooltip fpd-disabled fpd-primary-text-color" data-action="redo" data-defaulttext="Redo" title="actions.redo">
 			<span class="fpd-icon-redo"></span>
 		</div>
-		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="snap"  data-defaulttext="Center Snap" title="actions.snap">
+		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="snap" data-defaulttext="Center Snap" title="actions.snap">
 			<span class="fpd-icon-magnet"></span>
 		</div>
-		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="preview-lightbox"  data-defaulttext="Preview" title="actions.preview_lightbox">
+		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="preview-lightbox" data-defaulttext="Preview" title="actions.preview_lightbox">
 			<span class="fpd-icon-preview-lightbox"></span>
 		</div>
-		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="ruler"  data-defaulttext="Toggle Ruler" title="actions.ruler">
+		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="ruler" data-defaulttext="Toggle Ruler" title="actions.ruler">
 			<span class="fpd-icon-ruler"></span>
 		</div>
-		<div class="fpd-action-btn fpd-tooltip fpd-disabled fpd-primary-text-color" data-action="previous-view"  data-defaulttext="Previous View" title="actions.previous_view">
+		<div class="fpd-action-btn fpd-tooltip fpd-disabled fpd-primary-text-color" data-action="previous-view" data-defaulttext="Previous View" title="actions.previous_view">
 			<span class="fpd-icon-back"></span>
 		</div>
-		<div class="fpd-action-btn fpd-tooltip fpd-disabled fpd-primary-text-color" data-action="next-view"  data-defaulttext="Next View" title="actions.next_view">
+		<div class="fpd-action-btn fpd-tooltip fpd-disabled fpd-primary-text-color" data-action="next-view" data-defaulttext="Next View" title="actions.next_view">
 			<span class="fpd-icon-forward"></span>
 		</div>
-		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="guided-tour"  data-defaulttext="Start Guided Tour" title="actions.start_guided_tour">
+		<div class="fpd-action-btn fpd-tooltip fpd-primary-text-color" data-action="guided-tour" data-defaulttext="Start Guided Tour" title="actions.start_guided_tour">
 			<span class="fpd-icon-guided-tour"></span>
 		</div>
 
@@ -668,46 +668,46 @@
 		<div class="fpd-module" data-module="images" data-moduleicon="fpd-icon-photo" data-defaulttext="Add Image" data-title="modules.images">
 
 			<div class="fpd-module-tabs">
-                <div data-context="upload">
-	                <span class="fpd-icon-cloud-upload"></span>
-                </div>
-                <div data-context="facebook" class="fpd-hidden fpd-tooltip" title="Facebook">
-	                 <span class="fpd-icon-facebook"></span>
-                </div>
-                <div data-context="instagram" class="fpd-hidden fpd-tooltip" title="Instagram">
-	                 <span class="fpd-icon-instagram"></span>
-                </div>
-                <div data-context="pixabay" class="fpd-hidden fpd-tooltip" title="Pixabay">
-	                 <span class="fpd-icon-pixabay"></span>
-                </div>
-                <div data-context="depositphotos" class="fpd-hidden fpd-tooltip" title="Depositphotos">
-	                 <span class="fpd-icon-depositphotos"></span>
-                </div>
-		    </div>
+				<div data-context="upload">
+					<span class="fpd-icon-cloud-upload"></span>
+				</div>
+				<div data-context="facebook" class="fpd-hidden fpd-tooltip" title="Facebook">
+					<span class="fpd-icon-facebook"></span>
+				</div>
+				<div data-context="instagram" class="fpd-hidden fpd-tooltip" title="Instagram">
+					<span class="fpd-icon-instagram"></span>
+				</div>
+				<div data-context="pixabay" class="fpd-hidden fpd-tooltip" title="Pixabay">
+					<span class="fpd-icon-pixabay"></span>
+				</div>
+				<div data-context="depositphotos" class="fpd-hidden fpd-tooltip" title="Depositphotos">
+					<span class="fpd-icon-depositphotos"></span>
+				</div>
+			</div>
 
-		    <div class="fpd-module-tabs-content">
-			    <!-- uploads -->
-		        <div data-context="upload">
-			        <form class="fpd-upload-form" enctype="multipart/form-data" method="POST">
-				        <div class="fpd-upload-zone">
-					        <div>
-						         <span class="fpd-icon-file-upload"></span>
-								 <span data-defaulttext="Click or drop images here">modules.upload_zone</span>
-								 <span class="fpd-price">Hello</span>
-					        </div>
-				        </div>
-				        <input type="file" multiple="multiple" class="fpd-input-image" name="files[]" accept="image/jpeg,image/jpg,image/png,image/svg+xml,application/pdf" />
-		            </form>
-		            <div class="fpd-scroll-area">
+			<div class="fpd-module-tabs-content">
+				<!-- uploads -->
+				<div data-context="upload">
+					<form class="fpd-upload-form" enctype="multipart/form-data" method="POST">
+						<div class="fpd-upload-zone">
+							<div>
+								<span class="fpd-icon-file-upload"></span>
+								<span data-defaulttext="Click or drop images here">modules.upload_zone</span>
+								<span class="fpd-price">Hello</span>
+							</div>
+						</div>
+						<input type="file" multiple="multiple" class="fpd-input-image" name="files[]" accept="image/jpeg,image/jpg,image/png,image/svg+xml,application/pdf" />
+					</form>
+					<div class="fpd-scroll-area">
 						<div class="fpd-grid fpd-grid-cover fpd-photo-grid"></div>
 					</div>
-		        </div>
-		          <!-- facebook -->
-		        <div data-context="facebook">
-			        <div class="fpd-head">
-				        <div class="fpd-facebook-login">
-					        <fb:login-button data-max-rows="1" data-show-faces="false" data-scope="user_photos"></fb:login-button>
-				        </div>
+				</div>
+				<!-- facebook -->
+				<div data-context="facebook">
+					<div class="fpd-head">
+						<div class="fpd-facebook-login">
+							<fb:login-button data-max-rows="1" data-show-faces="false" data-scope="user_photos"></fb:login-button>
+						</div>
 						<div class="fpd-facebook-albums fpd-dropdown fpd-search fpd-on-loading">
 							<input type="text" class="fpd-dropdown-current" data-defaulttext="Select An Album" placeholder="modules.facebook_select_album" />
 							<div class="fpd-dropdown-arrow"><span class="fpd-icon-arrow-dropdown"></span></div>
@@ -717,45 +717,53 @@
 					<div class="fpd-scroll-area">
 						<div class="fpd-grid fpd-grid-cover fpd-photo-grid"></div>
 					</div>
-		        </div>
-		        <!-- instagram -->
-		        <div data-context="instagram">
-			        <div class="fpd-scroll-area">
+				</div>
+				<!-- instagram -->
+				<div data-context="instagram">
+					<div class="fpd-scroll-area">
 						<div class="fpd-grid fpd-grid-cover fpd-photo-grid"></div>
 					</div>
-		        </div>
-		        <!-- pixabay -->
-		        <div data-context="pixabay">
-			        <div class="fpd-loader-wrapper"><div class="fpd-loader"><div class="fpd-loader-circle"></div></div></div>
-			        <div class="fpd-head">
-				        <a href="https://pixabay.com/" target="_blank" class="fpd-pixabay-logo"></a>
-				        <div class="fpd-input-search">
+				</div>
+				<!-- pixabay -->
+				<div data-context="pixabay">
+					<div class="fpd-loader-wrapper">
+						<div class="fpd-loader">
+							<div class="fpd-loader-circle"></div>
+						</div>
+					</div>
+					<div class="fpd-head">
+						<a href="https://pixabay.com/" target="_blank" class="fpd-pixabay-logo"></a>
+						<div class="fpd-input-search">
 							<input type="text" data-defaulttext="Search in Pixabay library" placeholder="modules.pixabay_search" />
 							<span class="fpd-icon-magnify"></span>
 						</div>
-			        </div>
-			        <div class="fpd-scroll-area">
+					</div>
+					<div class="fpd-scroll-area">
 						<div class="fpd-grid fpd-grid-cover fpd-photo-grid"></div>
 					</div>
-		        </div>
-		        <!-- depositphotos -->
-		        <div data-context="depositphotos">
-			        <div class="fpd-loader-wrapper"><div class="fpd-loader"><div class="fpd-loader-circle"></div></div></div>
-			        <div class="fpd-head">
-				        <div class="fpd-input-back-search fpd-clearfix">
-					        <div class="fpd-back fpd-btn">
+				</div>
+				<!-- depositphotos -->
+				<div data-context="depositphotos">
+					<div class="fpd-loader-wrapper">
+						<div class="fpd-loader">
+							<div class="fpd-loader-circle"></div>
+						</div>
+					</div>
+					<div class="fpd-head">
+						<div class="fpd-input-back-search fpd-clearfix">
+							<div class="fpd-back fpd-btn">
 								<span class="fpd-icon-back"></span>
 							</div>
-					        <div class="fpd-input-search">
+							<div class="fpd-input-search">
 								<input type="text" data-defaulttext="Search in depositphotos.com" placeholder="modules.depositphotos_search" />
 								<span class="fpd-icon-magnify"></span>
 							</div>
-				        </div>
-			        </div>
-			        <div class="fpd-scroll-area">
+						</div>
+					</div>
+					<div class="fpd-scroll-area">
 						<div class="fpd-grid fpd-grid-cover fpd-photo-grid"></div>
 					</div>
-		        </div>
+				</div>
 			</div>
 
 		</div><!-- Images Module -->
@@ -772,14 +780,14 @@
 		<div class="fpd-module" data-module="designs" data-moduleicon="fpd-icon-design-library" data-defaulttext="Choose From Designs" data-title="modules.designs">
 			<div class="fpd-head">
 				<div class="fpd-input-back-search fpd-clearfix">
-			        <div class="fpd-back fpd-btn">
+					<div class="fpd-back fpd-btn">
 						<span class="fpd-icon-back"></span>
 					</div>
-			        <div class="fpd-input-search">
+					<div class="fpd-input-search">
 						<input type="text" />
 						<span class="fpd-icon-magnify"></span>
 					</div>
-		        </div>
+				</div>
 			</div>
 			<div class="fpd-scroll-area">
 				<div class="fpd-grid fpd-grid-contain fpd-padding"></div>
@@ -828,19 +836,19 @@
 
 						<div class="fpd-label" data-defaulttext="Line Width">plus.drawing_line_width</div>
 						<div class="fpd-slider-group fpd-clearfix">
-						    <input class="fpd-slider-number fpd-number fpd-drawing-line-width" type="number" value="1" step="1" min="1" max="30" />
-						    <div class="fpd-range-wrapper">
-							     <input class="fpd-slider-range" type="range" value="1" step="1" min="1" max="30" />
-						    </div>
-					    </div>
+							<input class="fpd-slider-number fpd-number fpd-drawing-line-width" type="number" value="1" step="1" min="1" max="30" />
+							<div class="fpd-range-wrapper">
+								<input class="fpd-slider-range" type="range" value="1" step="1" min="1" max="30" />
+							</div>
+						</div>
 
 						<div class="fpd-label" data-defaulttext="Draw Here">plus.drawing_draw_here</div>
-					    <canvas class="fpd-drawing-canvas" width="100" height="150"></canvas>
+						<canvas class="fpd-drawing-canvas" width="100" height="150"></canvas>
 
-					    <div class="fpd-buttons fpd-clearfix">
-						    <span class="fpd-clear-drawing fpd-btn fpd-left fpd-secondary" data-defaulttext="Clear Drawing">plus.drawing_clear</span>
-						    <span class="fpd-add-drawing fpd-btn fpd-right" data-defaulttext="Add Drawing">plus.drawing_add</span>
-					    </div>
+						<div class="fpd-buttons fpd-clearfix">
+							<span class="fpd-clear-drawing fpd-btn fpd-left fpd-secondary" data-defaulttext="Clear Drawing">plus.drawing_clear</span>
+							<span class="fpd-add-drawing fpd-btn fpd-right" data-defaulttext="Add Drawing">plus.drawing_add</span>
+						</div>
 					</div>
 
 				</div>
@@ -958,6 +966,9 @@
 			<span data-id="mask" class="fpd-active" data-defaulttext="Mask">image_editor.mask</span>
 			<span data-id="filters" data-defaulttext="Filters">image_editor.filters</span>
 			<span data-id="color-manipulation" data-defaulttext="Color Manipulation">image_editor.color_manipulation</span>
+			<!-- MRR -->
+			<span data-id="edge-feather" data-defaulttext="Edge Feather">image_editor.edge_feather</span>
+			<!-- MRR-END -->
 		</div>
 
 		<div class="fpd-tab-content">
@@ -995,7 +1006,7 @@
 				</div>
 
 				<div class="fpd-left fpd-filter-contrast">
-					<div class="fpd-switch-container fpd-left" data-enabled="true" data-disabled="false"  data-filter="Contrast">
+					<div class="fpd-switch-container fpd-left" data-enabled="true" data-disabled="false" data-filter="Contrast">
 						<div class="fpd-switch-bar"></div>
 						<div class="fpd-switch-toggle"></div>
 					</div>
@@ -1008,7 +1019,7 @@
 				</div>
 
 				<div class="fpd-left fpd-filter-remove-white">
-					<div class="fpd-switch-container fpd-left" data-enabled="true" data-disabled="false" data-filter="RemoveWhite" >
+					<div class="fpd-switch-container fpd-left" data-enabled="true" data-disabled="false" data-filter="RemoveWhite">
 						<div class="fpd-switch-bar"></div>
 						<div class="fpd-switch-toggle"></div>
 					</div>
@@ -1021,7 +1032,22 @@
 				</div>
 
 			</div>
+			<!-- MRR -->
+			<!-- EDGE FEATHER -->
+			<div data-id="edge-feather" class="fpd-content-edge-feather">
 
+				<div class="fpd-edge-feather-selection">
+
+
+
+				</div>
+				<div class="fpd-edge-feather-tools">
+					<span class="fpd-edge-feather-cancel fpd-btn fpd-dark"><span class="fpd-icon-close"></span></span>
+					<span class="fpd-edge-feather-save fpd-btn"><span class="fpd-icon-done"></span></span>
+				</div>
+
+			</div>
+			<!-- MRR-END -->
 		</div>
 
 		<div class="fpd-image-editor-main"></div>
@@ -1050,5 +1076,3 @@
 	</div>
 
 </div>
-
-
