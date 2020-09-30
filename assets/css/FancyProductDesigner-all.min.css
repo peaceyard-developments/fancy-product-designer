@@ -6252,6 +6252,18 @@ body .sp-container:not(.sp-palette-only) .sp-picker-container {
 .fpd-image-editor-container.fpd-show-secondary .fpd-mask-tools {
   display: inline-block;
 }
+/* MRR */
+.fpd-content-edge-feather > .fpd-edge-feather-tools {
+  display: none;
+}
+.fpd-image-editor-container.fpd-show-secondary .fpd-edge-feather-selection {
+  display: none;
+}
+
+.fpd-image-editor-container.fpd-show-secondary .fpd-edge-feather-tools {
+  display: inline-block;
+}
+/* MRR-END */
 .fpd-image-editor-container.fpd-show-secondary .fpd-action-buttons {
   display: none !important;
 }
@@ -6279,6 +6291,34 @@ body .sp-container:not(.sp-palette-only) .sp-picker-container {
   padding: 5px 10px;
   margin: 0 5px 0 0 !important;
 }
+/* MRR */
+.fpd-edge-feather-selection > span {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  vertical-align: top;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50%;
+}
+
+.fpd-edge-feather-selection > span > [class^="fpd-icon-"] {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.fpd-edge-feather-tools .fpd-btn {
+  line-height: 18px;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 0 5px 0 0 !important;
+}
+/* MRR-End */
 .fpd-content-filters > div {
   border: 1px solid rgba(0, 0, 0, 0.1);
   display: inline-block;
