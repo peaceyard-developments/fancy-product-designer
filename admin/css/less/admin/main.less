@@ -1,0 +1,81 @@
+/**************************
+****RESET *******
+**************************/
+#fpd-react-root,
+#fpd-react-root *,
+.ui.modals,
+.ui.modals * {
+	font-size: 13px;
+	box-sizing: border-box;
+}
+
+.ui.modals .dropdown,
+.ui.modals .dropdown .item,
+.ui.modals .sub.header {
+	font-size: 13px !important;
+}
+
+#fpd-react-root,
+.ui.modals {
+	font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+/**************************
+**** FPD BACKEND *******
+**************************/
+body.fpd-backend {
+
+	background: #f7f7f7;
+
+	.ui.top.left.popup {
+		margin-bottom: 40px;
+		font-size: 12px !important;
+	}
+
+	[data-tooltip]:after {
+		font-size: 12px !important;
+	}
+
+	//delete when reactive became standard
+	.fpd-backend-footer {
+		position: absolute;
+		bottom: 10px;
+		margin: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	#wpfooter {
+		display:  none !important;
+	}
+
+	#wpcontent {
+		padding-left: 0;
+	}
+
+	#wpbody-content {
+		padding-bottom: 0;
+	}
+
+	.wrap {
+		margin-top: 40px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+}
+
+/**************************
+**** NOTIFICATION *******
+**************************/
+.ui.container > .notice h4 {
+	margin-top: 0;
+}
+
+.fpd-dismiss-notification {
+	position: relative;
+}
+
+.fpd-dismiss-notification > p {
+	margin-right: 20px;
+}

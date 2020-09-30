@@ -1,0 +1,3716 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fancy Product Designer - WooCommerce plugin\n"
+"POT-Creation-Date: 2018-07-10 22:58+0100\n"
+"PO-Revision-Date: 2019-06-28 12:55+0100\n"
+"Last-Translator: Rafael Dery <webmaster@radykal.de>\n"
+"Language-Team: Uptime\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;__;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: da_DK\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../inc/class-share.php:88
+msgid "Image string is not a valid Data URL."
+msgstr "Billedstreng er ikke en gyldig data-URL."
+
+#: ../inc/class-share.php:112
+msgid "Image could not be created. Please try again!"
+msgstr "Billede kunne ikke oprettes. Prøv igen!"
+
+#: ../inc/class-debug.php:63
+msgid "Theme Check"
+msgstr "Tema Tjek"
+
+#: ../inc/class-debug.php:69
+msgid " hook was found."
+msgstr " krog blev fundet."
+
+#: ../inc/class-debug.php:70
+msgid ""
+" hook is missing in the woocommerce templates of your theme. <a href="
+"\"http://fancyproductdesigner.com/woocommerce-plugin/documentation/"
+"troubleshooting/\" target=\"_blank\">Help me fixing it</a>."
+msgstr ""
+" Krog mangler i tematikkens woocommerce skabeloner. <a href=\"http://"
+"fancyproductdesigner.com/woocommerce-plugin/documentation/troubleshooting/\" "
+"target=\"_blank\">Hjælp mig ved at rette op på det</a>"
+
+#: ../inc/class-debug.php:90
+msgid " filter was found."
+msgstr " filter blev fundet."
+
+#: ../inc/class-debug.php:91
+msgid ""
+" filter is missing in the woocommerce templates of your theme. <a href="
+"\"http://fancyproductdesigner.com/woocommerce-plugin/documentation/"
+"troubleshooting/\" target=\"_blank\">Help me fixing it</a>."
+msgstr ""
+" Filter mangler i tematikkens wokommerce skabeloner. <a href=\"http://"
+"fancyproductdesigner.com/woocommerce-plugin/documentation/troubleshooting/\" "
+"target=\"_blank\">Hjælp mig ved at rette op på det</a>."
+
+#: ../inc/class-debug.php:113
+msgid ""
+"If a hook or filter is missing in your theme, you can <a href=\"http://"
+"support.fancyproductdesigner.com/support/solutions/articles/5000582912-using-"
+"the-debug-mode-to-inspect-any-missing-hooks-in-woocommerce-product-pages"
+"\">try fo fix it by yourself</a>. This is a theme issue, because authors of "
+"themes should follow the woocommerce codex and should not remove the default "
+"woocommerce hooks in the templates files. If you can not fix it by yourself "
+"after reading the \"Troubleshooting\" page, please contact the theme author."
+"<br /><strong>I (developer of Fancy Product Designer) will not fix these "
+"issues for you.</strong>"
+msgstr ""
+"Hvis en krog eller et filter mangler i dit tema, kan du <a href =\"http://"
+"support.fancyproductdesigner.com/support/solutions/articles/5000582912-using-"
+"the-bug-mode-to-inspect-any -afsendelse-kroge-in-woocommerce-produkt-sider"
+"\">prøv at rette det selv</a>. Dette er et temaproblem, fordi forfattere af "
+"temaer skal følge woocommerce codex og bør ikke fjerne standardwoocommerce-"
+"kroge i skabelonfilerne. Hvis du ikke kan løse det selv, efter at du har "
+"læst siden \"Fejlfinding\", skal du kontakte temaforfatteren. <br /> "
+"<strong>Jeg (udvikler af Fancy Product Designer) løser ikke disse problemer "
+"for dig. </Strong>"
+
+#: ../inc/class-radykal-settings.php:191
+msgid "Options updated."
+msgstr "Valg opdateret."
+
+#: ../inc/class-radykal-settings.php:191
+msgid "Options reseted."
+msgstr "Indstillinger nulstillet."
+
+#: ../inc/class-radykal-settings.php:211
+msgid "Save Options"
+msgstr "Gem indstillinger"
+
+#: ../inc/class-radykal-settings.php:214
+msgid "Reset"
+msgstr "Nulstil"
+
+#: ../inc/class-radykal-settings.php:477
+#: ../admin/views/html-product-builder-parameters-form.php:134
+msgid "Add"
+msgstr "Tilføj"
+
+#: ../inc/settings/class-fonts-settings.php:17
+msgid "System Fonts"
+msgstr "System skrifttyper"
+
+#: ../inc/settings/class-fonts-settings.php:27
+msgid "Google Webfonts"
+msgstr "Google Webfonts"
+
+#: ../inc/settings/class-fonts-settings.php:28
+msgid ""
+"Choose fonts from Google Webfonts. Please be aware that too many fonts from "
+"Google may increase the loading time of the website. "
+msgstr ""
+"Vælg skrifttyper fra Google Webfonts. Vær opmærksom på, at for mange "
+"skrifttyper fra Google kan øge webstartens indlæsningstid. "
+
+#: ../inc/settings/class-fonts-settings.php:38
+msgid "Fonts Directory"
+msgstr "Fonts Directory"
+
+#: ../inc/settings/class-fonts-settings.php:39
+msgid ""
+"You can add your own fonts to the fonts directory of the plugin, these font "
+"files need to be .ttf or .woff files. TTF files are recommend, as these can "
+"be embedded into the exported PDF of an order."
+msgstr ""
+"Du kan tilføje dine egne skrifttyper til skrifttyper-mappen i plugin'en, "
+"disse skrifttypefiler skal være .ttf eller .woff-filer. TTF-filer anbefales, "
+"da disse kan indlejres i den eksporterede PDF af en ordre."
+
+#: ../inc/settings/class-advanced-color-settings.php:17
+#: ../inc/settings/class-settings.php:72
+msgid "Color Names"
+msgstr "Farvebetegnelser"
+
+#: ../inc/settings/class-advanced-color-settings.php:18
+msgid "Show a custon name instead the hexadecimal value in the color palettes."
+msgstr ""
+"Vis et custon-navn i stedet for den hexadecimale værdi i farvepaletterne."
+
+#: ../inc/settings/class-advanced-color-settings.php:42
+msgid "Enable for Texts"
+msgstr "Aktivér for tekster"
+
+#: ../inc/settings/class-advanced-color-settings.php:43
+msgid "Use the color prices for all text elements."
+msgstr "Brug farvepriserne for alle tekstelementer."
+
+#: ../inc/settings/class-advanced-color-settings.php:50
+msgid "Enable for Images"
+msgstr "Aktivér for billeder"
+
+#: ../inc/settings/class-advanced-color-settings.php:51
+msgid "Use the color prices for all image elements."
+msgstr "Brug farvepriserne for alle billedelementer."
+
+#: ../inc/settings/class-advanced-color-settings.php:58
+#: ../inc/settings/class-settings.php:73
+msgid "Color Prices"
+msgstr "Farvepriser"
+
+#: ../inc/settings/class-advanced-color-settings.php:59
+msgid ""
+"You can set different prices based on the selected color. This works only "
+"for color palette."
+msgstr ""
+"Du kan indstille forskellige priser baseret på den valgte farve. Dette "
+"fungerer kun for farvepalet."
+
+#: ../inc/settings/class-wc-settings.php:17
+#: ../admin/modals/modal-individual-product-settings.php:417
+msgid "Product Designer Position"
+msgstr "Produkt Designer Position"
+
+#: ../inc/settings/class-wc-settings.php:18
+msgid "The position of the product designer in the product page."
+msgstr "Produktdesigners position på produktsiden."
+
+#: ../inc/settings/class-wc-settings.php:28
+msgid "Customization Button Position"
+msgstr "Tilpasningsknappposition"
+
+#: ../inc/settings/class-wc-settings.php:29
+msgid ""
+"When the customization button is enabled, set the position in the product "
+"page of it."
+msgstr ""
+"Når tilpasningsknappen er aktiveret, skal du indstille positionen på "
+"produktsiden af den."
+
+#: ../inc/settings/class-wc-settings.php:36
+msgid "After Short Description"
+msgstr "Efter kort beskrivelse"
+
+#: ../inc/settings/class-wc-settings.php:37
+msgid "Before Add-to-Cart Button"
+msgstr "Før knappen Tilføj til indkøbskurv"
+
+#: ../inc/settings/class-wc-settings.php:38
+msgid "After Add-to-Cart Button"
+msgstr "Efter Tilføj til indkøbskurv"
+
+#: ../inc/settings/class-wc-settings.php:43
+#: ../admin/modals/modal-individual-product-settings.php:431
+msgid "Hide Product Image"
+msgstr "Skjul produktbillede"
+
+#: ../inc/settings/class-wc-settings.php:44
+msgid "Hide product image in the product page."
+msgstr "Skjul produktbillede på produktsiden."
+
+#: ../inc/settings/class-wc-settings.php:51
+#: ../admin/modals/modal-individual-product-settings.php:441
+msgid "Fullwidth Summary"
+msgstr "Fuldstændig resumé"
+
+#: ../inc/settings/class-wc-settings.php:52
+msgid ""
+"Forces the summary (includes i.e. product title, price, add-to-cart button) "
+"to be fullwidth."
+msgstr ""
+"Forcerer sammendraget (inklusive produkttitel, pris, tilføj-til-kurv-knap) "
+"for at være fuldt udvidet."
+
+#: ../inc/settings/class-wc-settings.php:59
+msgid "Lightbox: Update Product Image"
+msgstr "Lightbox: Opdater produktbillede"
+
+#: ../inc/settings/class-wc-settings.php:60
+msgid "When \"Done\" button is clicked, update the WooCommerce product image."
+msgstr ""
+"Når   \"Done \" knappen er klikket, opdaterer du WooCommerce produktbillede."
+
+#: ../inc/settings/class-wc-settings.php:67
+msgid "Lightbox: Add to cart"
+msgstr "Lightbox: Læg i kurv"
+
+#: ../inc/settings/class-wc-settings.php:68
+msgid ""
+"When \"Done\" button is clicked in the lightbox, add designed product "
+"directly into cart."
+msgstr ""
+"Når \"Done\" knappen er klikket i lightboxen, skal du tilføje designet "
+"produkt direkte i vognen."
+
+#: ../inc/settings/class-wc-settings.php:75
+msgid "Get a quote"
+msgstr "Få et citat"
+
+#: ../inc/settings/class-wc-settings.php:76
+msgid ""
+"No price will be displayed, the customized product will be sent to the shop "
+"owner and he makes a quote."
+msgstr ""
+"Ingen pris vil blive vist, det tilpassede produkt vil blive sendt til "
+"butiksindehaveren og han laver et tilbud."
+
+#: ../inc/settings/class-wc-settings.php:83
+#: ../admin/modals/modal-individual-product-settings.php:461
+msgid "Customize Button: Variation Needed"
+msgstr "Tilpas knap: Variation er nødvendig"
+
+#: ../inc/settings/class-wc-settings.php:84
+msgid "The customize button will appear after a variation is selected."
+msgstr "Tilpasningsknappen vises efter en variation er valgt."
+
+#: ../inc/settings/class-wc-settings.php:91
+msgid "Add-to-Cart: Load..."
+msgstr "Tilføj til indkøbsvogn: Indlæs..."
+
+#: ../inc/settings/class-wc-settings.php:92
+msgid "Control which product is loaded after the user adds it to the cart."
+msgstr ""
+"Kontroller hvilket produkt der er lagt i, efter at brugeren har tilføjet det "
+"til vognen."
+
+#: ../inc/settings/class-wc-settings.php:97
+msgid "customized product"
+msgstr "tilpasset produkt"
+
+#: ../inc/settings/class-wc-settings.php:98
+msgid "default product"
+msgstr "standardprodukt"
+
+#: ../inc/settings/class-wc-settings.php:108
+msgid "Customized Product Thumbnail"
+msgstr "Tilpasset produktminatur"
+
+#: ../inc/settings/class-wc-settings.php:109
+msgid "Show the thumbnail of the customized product in the cart."
+msgstr "Vis miniaturebilledet for det tilpassede produkt i vognen."
+
+#: ../inc/settings/class-wc-settings.php:116
+#: ../inc/settings/class-wc-settings.php:160
+msgid "Element Properties Summary"
+msgstr "Element Properties Summary"
+
+#: ../inc/settings/class-wc-settings.php:117
+msgid "Show properties of editable elements in the cart."
+msgstr "Vis egenskaber af redigerbare elementer i vognen."
+
+#: ../inc/settings/class-wc-settings.php:122
+#: ../inc/settings/class-wc-settings.php:166
+msgid "Properties: Color, Font Family, Textsize"
+msgstr "Egenskaber: Farve, Font Family, Tekststørrelse"
+
+#: ../inc/settings/class-wc-settings.php:123
+#: ../inc/settings/class-wc-settings.php:167
+msgid "Only Used Colors"
+msgstr "Kun brugte farver"
+
+#: ../inc/settings/class-wc-settings.php:124
+#: ../inc/settings/class-wc-settings.php:168
+#: ../inc/settings/class-general-settings.php:358
+#: ../admin/class-admin-scripts-styles.php:115
+#: ../admin/modals/modal-individual-product-settings.php:122
+#: ../admin/modals/modal-individual-product-settings.php:132
+#: ../admin/modals/modal-individual-product-settings.php:142
+#: ../admin/modals/modal-individual-product-settings.php:152
+#: ../admin/modals/modal-individual-product-settings.php:162
+#: ../admin/modals/modal-individual-product-settings.php:198
+#: ../admin/modals/modal-individual-product-settings.php:284
+#: ../admin/modals/modal-individual-product-settings.php:337
+#: ../admin/modals/modal-individual-product-settings.php:436
+#: ../admin/modals/modal-individual-product-settings.php:446
+#: ../admin/modals/modal-individual-product-settings.php:456
+#: ../admin/modals/modal-individual-product-settings.php:466
+msgid "No"
+msgstr "Ingen"
+
+#: ../inc/settings/class-wc-settings.php:129
+msgid "Thumbnail Width"
+msgstr "Thumbnail Width"
+
+#: ../inc/settings/class-wc-settings.php:130
+#: ../inc/settings/class-wc-settings.php:143
+msgid "In pixel."
+msgstr "I pixel."
+
+#: ../inc/settings/class-wc-settings.php:142
+msgid "Thumbnail Height"
+msgstr "Miniaturehøjde"
+
+#: ../inc/settings/class-wc-settings.php:161
+msgid ""
+"Show properties of editable elements in the order details(Account and E-"
+"Mail)."
+msgstr ""
+"Vis egenskaber af redigerbare elementer i ordreoplysningerne (Konto og E-"
+"mail)."
+
+#: ../inc/settings/class-wc-settings.php:173
+#: ../inc/settings/class-general-settings.php:372
+msgid "Login Required"
+msgstr "Login påkrævet"
+
+#: ../inc/settings/class-wc-settings.php:174
+msgid "The customer needs to be logged in to view his customized products."
+msgstr "Kunden skal være logget ind for at se sine tilpassede produkter."
+
+#: ../inc/settings/class-wc-settings.php:181
+msgid "E-mail Customization Link"
+msgstr "E-mail-tilpasningslink"
+
+#: ../inc/settings/class-wc-settings.php:182
+msgid "Enable a link in the order e-mail to view the customized product."
+msgstr "Aktivér et link i ordre-mailen for at få vist det tilpassede produkt."
+
+#: ../inc/settings/class-wc-settings.php:189
+msgid "Save Order Button"
+msgstr "Gem ordreknap"
+
+#: ../inc/settings/class-wc-settings.php:190
+msgid ""
+"The customer can edit and save the order after purchase until the order is "
+"completed."
+msgstr ""
+"Kunden kan redigere og gemme ordren efter køb, indtil ordren er afsluttet."
+
+#: ../inc/settings/class-wc-settings.php:201
+msgid "Customize Button Position"
+msgstr "Tilpas knapposition"
+
+#: ../inc/settings/class-wc-settings.php:202
+msgid "The position of the button in the catalog listing."
+msgstr "Placeringen af knappen i kataloglisten."
+
+#: ../inc/settings/class-wc-settings.php:218
+msgid "Enable Global Product Designer"
+msgstr "Aktivér Global Product Designer"
+
+#: ../inc/settings/class-wc-settings.php:219
+msgid "Enable a product designer across all WooCommerce products."
+msgstr "Aktivér en produktdesigner på tværs af alle WooCommerce-produkter."
+
+#: ../inc/settings/class-wc-settings.php:226
+#: ../admin/views/html-admin-meta-box.php:42
+#: ../admin/views/html-admin-meta-box.php:96
+msgid "Source Type"
+msgstr "Kilde Type"
+
+#: ../inc/settings/class-wc-settings.php:231
+#: ../admin/views/html-admin-meta-box.php:45
+#: ../admin/views/html-admin-meta-box.php:99
+msgid "Category"
+msgstr "Kategori"
+
+#: ../inc/settings/class-wc-settings.php:232
+#: ../admin/views/html-admin-meta-box.php:49
+#: ../admin/views/html-admin-meta-box.php:103
+msgid "Product"
+msgstr "Produkt"
+
+#: ../inc/settings/class-wc-settings.php:247
+#: ../admin/views/html-admin-meta-box.php:54
+#: ../admin/views/html-admin-meta-box.php:108
+msgid "Product Categories"
+msgstr "Produktkategorier"
+
+#: ../inc/settings/class-wc-settings.php:252
+#: ../admin/views/html-admin-meta-box.php:55
+#: ../admin/views/html-admin-meta-box.php:109
+msgid "Add categories to selection."
+msgstr "Tilføj kategorier til udvælgelse."
+
+#: ../inc/settings/class-wc-settings.php:257 ../admin/class-admin-menus.php:35
+#: ../admin/class-admin-manage-products.php:107
+#: ../admin/modals/modal-shortcodes.php:60
+#: ../admin/views/html-admin-meta-box.php:72
+#: ../admin/views/html-admin-meta-box.php:126
+msgid "Products"
+msgstr "Produkter"
+
+#: ../inc/settings/class-wc-settings.php:262
+#: ../admin/views/html-admin-meta-box.php:73
+#: ../admin/views/html-admin-meta-box.php:127
+msgid "Add products to selection."
+msgstr "Tilføj produkter til udvælgelse."
+
+#: ../inc/settings/class-wc-settings.php:278
+msgid "Replace Product Image"
+msgstr "Udskift produktbillede"
+
+#: ../inc/settings/class-wc-settings.php:279
+msgid "After Product Title"
+msgstr "Efter produkttitel"
+
+#: ../inc/settings/class-wc-settings.php:280
+msgid "After Summary"
+msgstr "Efter opsummering"
+
+#: ../inc/settings/class-wc-settings.php:281
+msgid "Custom Hook"
+msgstr "Custom hook"
+
+#: ../inc/settings/class-default-element-options-settings.php:17
+#: ../inc/settings/class-default-element-options-settings.php:414
+#: ../admin/modals/modal-edit-design-category-options.php:58
+msgid "X-Position"
+msgstr "X-position"
+
+#: ../inc/settings/class-default-element-options-settings.php:29
+#: ../inc/settings/class-default-element-options-settings.php:427
+#: ../admin/modals/modal-edit-design-category-options.php:71
+msgid "Y-Position"
+msgstr "Y-position"
+
+#: ../inc/settings/class-default-element-options-settings.php:41
+#: ../inc/settings/class-default-element-options-settings.php:440
+#: ../admin/modals/modal-edit-design-category-options.php:84
+msgid "Z-Position"
+msgstr "Z-position"
+
+#: ../inc/settings/class-default-element-options-settings.php:42
+#: ../inc/settings/class-default-element-options-settings.php:441
+msgid ""
+"-1 means that the element will be added at the top. Any value higher than "
+"that will add the element to that z-position."
+msgstr ""
+"-1 betyder at elementet vil blive tilføjet øverst. Enhver værdi højere end "
+"den vil tilføre elementet til den z-position."
+
+#: ../inc/settings/class-default-element-options-settings.php:54
+#: ../inc/settings/class-default-element-options-settings.php:377
+#: ../admin/modals/modal-edit-design-category-options.php:110
+msgid "Minimum Scale Limit"
+msgstr "Mindste grænseværdi"
+
+#: ../inc/settings/class-default-element-options-settings.php:55
+#: ../inc/settings/class-default-element-options-settings.php:378
+msgid "The minimum allowed scale value."
+msgstr "Den mindste tilladte skala værdi."
+
+#: ../inc/settings/class-default-element-options-settings.php:67
+#: ../inc/settings/class-default-element-options-settings.php:462
+#: ../admin/modals/modal-individual-product-settings.php:178
+#: ../admin/modals/modal-individual-product-settings.php:313
+#: ../admin/views/html-product-builder-parameters-form.php:4
+#: ../admin/views/html-ui-layout-composer-toolbar.php:9
+msgid "Colors"
+msgstr "farver"
+
+#: ../inc/settings/class-default-element-options-settings.php:68
+#: ../inc/settings/class-default-element-options-settings.php:463
+msgid "The available colors the user can choose from."
+msgstr "De tilgængelige farver, som brugeren kan vælge imellem."
+
+#: ../inc/settings/class-default-element-options-settings.php:76
+#: ../inc/settings/class-default-element-options-settings.php:471
+#: ../admin/modals/modal-individual-product-settings.php:182
+#: ../admin/modals/modal-individual-product-settings.php:317
+#: ../admin/modals/modal-edit-design-category-options.php:186
+#: ../admin/views/html-product-builder-parameters-form.php:140
+msgid "Color Link Group"
+msgstr "Color Link Group"
+
+#: ../inc/settings/class-default-element-options-settings.php:77
+#: ../inc/settings/class-default-element-options-settings.php:472
+#: ../admin/views/html-product-builder-parameters-form.php:141
+msgid "You can set color links between elements."
+msgstr "Du kan indstille farveforbindelser mellem elementer."
+
+#: ../inc/settings/class-default-element-options-settings.php:85
+#: ../inc/settings/class-default-element-options-settings.php:480
+#: ../inc/settings/class-general-settings.php:617
+#: ../admin/modals/modal-individual-product-settings.php:186
+#: ../admin/modals/modal-individual-product-settings.php:325
+#: ../admin/modals/modal-edit-design-category-options.php:153
+#: ../admin/views/html-product-builder-parameters-form.php:55
+msgid "Price"
+msgstr "Pris"
+
+#: ../inc/settings/class-default-element-options-settings.php:86
+msgid ""
+"Enter the additional price for a design element. Use always a dot as decimal "
+"separator!"
+msgstr ""
+"Indtast den ekstra pris for et designelement. Brug altid en prik som "
+"decimalseparator!"
+
+#: ../inc/settings/class-default-element-options-settings.php:98
+#: ../inc/settings/class-default-element-options-settings.php:493
+#: ../admin/modals/modal-individual-product-settings.php:190
+#: ../admin/modals/modal-individual-product-settings.php:329
+#: ../admin/modals/modal-edit-design-category-options.php:195
+#: ../admin/views/html-product-builder-parameters-form.php:64
+msgid "Replace"
+msgstr "Erstatte"
+
+#: ../inc/settings/class-default-element-options-settings.php:99
+#: ../inc/settings/class-default-element-options-settings.php:494
+msgid "Elements with the same replace name will replace each other."
+msgstr "Elementer med det samme erstatningsnavn vil erstatte hinanden."
+
+#: ../inc/settings/class-default-element-options-settings.php:107
+#: ../inc/settings/class-default-element-options-settings.php:502
+#: ../admin/modals/modal-individual-product-settings.php:194
+#: ../admin/modals/modal-individual-product-settings.php:333
+#: ../admin/modals/modal-edit-design-category-options.php:371
+msgid "Replace In All Views"
+msgstr "Udskift i alle visninger"
+
+#: ../inc/settings/class-default-element-options-settings.php:108
+msgid "Replace image elements with the same replace value in all views?"
+msgstr "Erstat billedelementer med samme erstatningsværdi i alle visninger?"
+
+#: ../inc/settings/class-default-element-options-settings.php:115
+#: ../inc/settings/class-default-element-options-settings.php:510
+#: ../admin/modals/modal-edit-design-category-options.php:299
+msgid "Auto-Center"
+msgstr "Auto-Center"
+
+#: ../inc/settings/class-default-element-options-settings.php:122
+#: ../inc/settings/class-default-element-options-settings.php:517
+#: ../inc/settings/class-general-settings.php:636
+#: ../admin/modals/modal-edit-design-category-options.php:307
+#: ../admin/views/html-product-builder-parameters-form.php:182
+msgid "Draggable"
+msgstr "Draggable"
+
+#: ../inc/settings/class-default-element-options-settings.php:129
+#: ../inc/settings/class-default-element-options-settings.php:524
+#: ../admin/modals/modal-edit-design-category-options.php:315
+#: ../admin/views/html-product-builder-parameters-form.php:191
+msgid "Rotatable"
+msgstr "Drejeligt"
+
+#: ../inc/settings/class-default-element-options-settings.php:136
+#: ../inc/settings/class-default-element-options-settings.php:531
+#: ../inc/settings/class-general-settings.php:629
+#: ../admin/modals/modal-edit-design-category-options.php:323
+#: ../admin/views/html-product-builder-parameters-form.php:200
+msgid "Resizable"
+msgstr "resizable"
+
+#: ../inc/settings/class-default-element-options-settings.php:143
+#: ../inc/settings/class-default-element-options-settings.php:538
+#: ../admin/modals/modal-edit-design-category-options.php:339
+msgid "Z-Changeable"
+msgstr "Z-Udskiftelig"
+
+#: ../inc/settings/class-default-element-options-settings.php:150
+#: ../inc/settings/class-default-element-options-settings.php:545
+#: ../admin/modals/modal-edit-design-category-options.php:347
+#: ../admin/views/html-product-builder-parameters-form.php:233
+msgid "Auto-Select"
+msgstr "Auto-Select"
+
+#: ../inc/settings/class-default-element-options-settings.php:157
+#: ../inc/settings/class-default-element-options-settings.php:552
+#: ../admin/modals/modal-edit-design-category-options.php:355
+#: ../admin/views/html-product-builder-parameters-form.php:224
+msgid "Stay On Top"
+msgstr "Bo på toppen"
+
+#: ../inc/settings/class-default-element-options-settings.php:164
+#: ../admin/modals/modal-edit-design-category-options.php:363
+#: ../admin/views/html-product-builder-parameters-form.php:242
+msgid "Uni-Scaling Unlockable"
+msgstr "Uni-Scaling Unlockable"
+
+#: ../inc/settings/class-default-element-options-settings.php:171
+#: ../inc/settings/class-default-element-options-settings.php:604
+#: ../admin/modals/modal-edit-design-category-options.php:212
+msgid "Use another element as bounding box?"
+msgstr "Brug et andet element som afkrydsningsfelt?"
+
+#: ../inc/settings/class-default-element-options-settings.php:187
+#: ../inc/settings/class-default-element-options-settings.php:619
+#: ../admin/modals/modal-individual-product-settings.php:246
+#: ../admin/modals/modal-individual-product-settings.php:369
+#: ../admin/modals/modal-edit-design-category-options.php:281
+msgid "Bounding Box Target"
+msgstr "Bounding Box Target"
+
+#: ../inc/settings/class-default-element-options-settings.php:188
+#: ../inc/settings/class-default-element-options-settings.php:620
+msgid ""
+"Enter the title of another element that should be used as bounding box for "
+"design elements."
+msgstr ""
+"Indtast titlen på et andet element, der skal bruges som grænsekasse til "
+"designelementer."
+
+#: ../inc/settings/class-default-element-options-settings.php:196
+#: ../inc/settings/class-default-element-options-settings.php:628
+#: ../admin/modals/modal-individual-product-settings.php:230
+#: ../admin/modals/modal-individual-product-settings.php:353
+#: ../admin/modals/modal-edit-design-category-options.php:229
+msgid "Bounding Box X-Position"
+msgstr "Bundende boks X-Position"
+
+#: ../inc/settings/class-default-element-options-settings.php:208
+#: ../inc/settings/class-default-element-options-settings.php:640
+#: ../admin/modals/modal-individual-product-settings.php:234
+#: ../admin/modals/modal-individual-product-settings.php:357
+#: ../admin/modals/modal-edit-design-category-options.php:242
+msgid "Bounding Box Y-Position"
+msgstr "Bounding Box Y-Position"
+
+#: ../inc/settings/class-default-element-options-settings.php:220
+#: ../inc/settings/class-default-element-options-settings.php:652
+#: ../admin/modals/modal-individual-product-settings.php:238
+#: ../admin/modals/modal-individual-product-settings.php:361
+#: ../admin/modals/modal-edit-design-category-options.php:255
+msgid "Bounding Box Width"
+msgstr "Bundende boksbredde"
+
+#: ../inc/settings/class-default-element-options-settings.php:232
+#: ../inc/settings/class-default-element-options-settings.php:664
+#: ../admin/modals/modal-individual-product-settings.php:242
+#: ../admin/modals/modal-individual-product-settings.php:365
+#: ../admin/modals/modal-edit-design-category-options.php:268
+msgid "Bounding Box Height"
+msgstr "Bundende boks højde"
+
+#: ../inc/settings/class-default-element-options-settings.php:244
+#: ../inc/settings/class-default-element-options-settings.php:676
+#: ../admin/modals/modal-individual-product-settings.php:214
+#: ../admin/modals/modal-individual-product-settings.php:373
+#: ../admin/modals/modal-edit-design-category-options.php:290
+msgid "Bounding Box Mode"
+msgstr "Bounding Box Mode"
+
+#: ../inc/settings/class-default-element-options-settings.php:249
+#: ../inc/settings/class-default-element-options-settings.php:681
+#: ../inc/settings/class-default-element-options-settings.php:811
+#: ../inc/settings/class-general-settings.php:756
+#: ../admin/views/html-product-builder-parameters-form.php:330
+msgid "Inside"
+msgstr "Inde"
+
+#: ../inc/settings/class-default-element-options-settings.php:250
+#: ../inc/settings/class-default-element-options-settings.php:682
+#: ../inc/settings/class-default-element-options-settings.php:812
+#: ../inc/settings/class-general-settings.php:757
+#: ../admin/views/html-product-builder-parameters-form.php:331
+msgid "Clipping"
+msgstr "klipning"
+
+#: ../inc/settings/class-default-element-options-settings.php:251
+#: ../inc/settings/class-default-element-options-settings.php:683
+#: ../inc/settings/class-default-element-options-settings.php:813
+#: ../inc/settings/class-general-settings.php:758
+#: ../admin/views/html-product-builder-parameters-form.php:332
+msgid "Limit Modification"
+msgstr "Limit Modification"
+
+#: ../inc/settings/class-default-element-options-settings.php:252
+#: ../inc/settings/class-default-element-options-settings.php:684
+#: ../inc/settings/class-default-element-options-settings.php:814
+#: ../inc/settings/class-general-settings.php:759
+#: ../admin/views/html-product-builder-parameters-form.php:333
+#: ../admin/views/html-ui-layout-composer-toolbar.php:160
+msgid "None"
+msgstr "Ingen"
+
+#: ../inc/settings/class-default-element-options-settings.php:257
+#: ../inc/settings/class-default-element-options-settings.php:764
+msgid "Patterns"
+msgstr "Mønstre"
+
+#: ../inc/settings/class-default-element-options-settings.php:258
+msgid "Upload PNG or JPEG into wp-content/uploads/fpd_patterns_svg."
+msgstr "Upload PNG eller JPEG i wp-indhold/uploads/fpd_patterns_svg."
+
+#: ../inc/settings/class-default-element-options-settings.php:273
+#: ../admin/modals/modal-individual-product-settings.php:256
+msgid "Minimum Width"
+msgstr "Minimum Bredde"
+
+#: ../inc/settings/class-default-element-options-settings.php:274
+msgid "The minimum image width for uploaded designs from the customers."
+msgstr "Mindste billedbredde for uploadede designs fra kunderne."
+
+#: ../inc/settings/class-default-element-options-settings.php:286
+#: ../admin/modals/modal-individual-product-settings.php:260
+msgid "Minimum Height"
+msgstr "Minimum højde"
+
+#: ../inc/settings/class-default-element-options-settings.php:287
+msgid "The minimum image height for uploaded designs from the customers."
+msgstr "Mindste billedhøjde for uploadede designs fra kunderne."
+
+#: ../inc/settings/class-default-element-options-settings.php:299
+#: ../admin/modals/modal-individual-product-settings.php:264
+msgid "Maximum Width"
+msgstr "Maksimal bredde"
+
+#: ../inc/settings/class-default-element-options-settings.php:300
+msgid "The maximum image width for uploaded designs from the customers."
+msgstr "Maksimal billedbredde for uploadede designs fra kunderne."
+
+#: ../inc/settings/class-default-element-options-settings.php:312
+#: ../admin/modals/modal-individual-product-settings.php:268
+msgid "Maximum Height"
+msgstr "Maksimal højde"
+
+#: ../inc/settings/class-default-element-options-settings.php:313
+msgid "The maximum image height for uploaded designs from the customers."
+msgstr "Den maksimale billedhøjde for uploadede designs fra kunderne."
+
+#: ../inc/settings/class-default-element-options-settings.php:325
+#: ../inc/settings/class-general-settings.php:593
+#: ../admin/modals/modal-individual-product-settings.php:272
+#: ../admin/modals/modal-edit-design-category-options.php:123
+msgid "Resize To Width"
+msgstr "Ændre størrelse på bredde"
+
+#: ../inc/settings/class-default-element-options-settings.php:326
+msgid ""
+"Resize the uploaded image to this width, when width is larger than height."
+msgstr ""
+"Ændre størrelsen på det uploadede billede til denne bredde, når bredden er "
+"større end højden."
+
+#: ../inc/settings/class-default-element-options-settings.php:338
+#: ../inc/settings/class-general-settings.php:605
+#: ../admin/modals/modal-individual-product-settings.php:276
+#: ../admin/modals/modal-edit-design-category-options.php:132
+msgid "Resize To Height"
+msgstr "Ændre størrelse til højde"
+
+#: ../inc/settings/class-default-element-options-settings.php:339
+msgid ""
+"Resize the uploaded image to this height, when height is larger than width."
+msgstr ""
+"Ændre størrelsen på det uploadede billede til denne højde, når højden er "
+"større end bredden."
+
+#: ../inc/settings/class-default-element-options-settings.php:351
+msgid "Maximum Image Size (MB)"
+msgstr "Maksimal billedstørrelse (MB)"
+
+#: ../inc/settings/class-default-element-options-settings.php:352
+msgid "The maximum image size in Megabytes."
+msgstr "Den maksimale billedstørrelse i megabyte."
+
+#: ../inc/settings/class-default-element-options-settings.php:364
+msgid "Minimum JPEG DPI"
+msgstr "Mindste JPEG DPI"
+
+#: ../inc/settings/class-default-element-options-settings.php:365
+msgid "The minimum allowed DPI for JPEG images."
+msgstr "Den minimale tilladte DPI for JPEG-billeder."
+
+#: ../inc/settings/class-default-element-options-settings.php:390
+#: ../admin/modals/modal-individual-product-settings.php:280
+#: ../admin/modals/modal-edit-design-category-options.php:379
+#: ../admin/views/html-product-builder-parameters-form.php:270
+msgid "Advanced Editing"
+msgstr "Avanceret redigering"
+
+#: ../inc/settings/class-default-element-options-settings.php:391
+msgid ""
+"The advanced image editor will be enabled, the user has the possibility to "
+"set a custom mask or to manipulate the image colors. Only PNG and JPEG!"
+msgstr ""
+"Den avancerede billededitor vil blive aktiveret, brugeren har mulighed for "
+"at indstille en brugerdefineret maske eller til at manipulere "
+"billedfarverne. Kun PNG og JPEG!"
+
+#: ../inc/settings/class-default-element-options-settings.php:398
+#: ../admin/modals/modal-individual-product-settings.php:290
+msgid "Filter"
+msgstr "Filter"
+
+#: ../inc/settings/class-default-element-options-settings.php:399
+msgid "Set a filter when the image is added."
+msgstr "Indstil et filter, når billedet er tilføjet."
+
+#: ../inc/settings/class-default-element-options-settings.php:415
+msgid "The x-position of the custom text element."
+msgstr "X-positionen af det brugerdefinerede tekstelement."
+
+#: ../inc/settings/class-default-element-options-settings.php:428
+msgid "The y-position of the custom text element."
+msgstr "Y-positionen af det brugerdefinerede tekstelement."
+
+#: ../inc/settings/class-default-element-options-settings.php:453
+#: ../admin/modals/modal-individual-product-settings.php:321
+msgid "Default Color"
+msgstr "Standard farve"
+
+#: ../inc/settings/class-default-element-options-settings.php:454
+msgid "The default color for custom added text elements."
+msgstr "Standardfarven for brugerdefinerede tilføjede tekstelementer."
+
+#: ../inc/settings/class-default-element-options-settings.php:481
+msgid ""
+"Enter the additional price for a text element. Always use a dot as decimal "
+"separator!"
+msgstr ""
+"Indtast den ekstra pris for et tekstelement. Brug altid en prik som "
+"decimalseparator!"
+
+#: ../inc/settings/class-default-element-options-settings.php:503
+msgid "Replace text elements with the same replace value in all views?"
+msgstr "Erstat tekstelementer med samme erstatningsværdi i alle visninger?"
+
+#: ../inc/settings/class-default-element-options-settings.php:567
+#: ../admin/views/html-product-builder-parameters-form.php:494
+msgid "Curvable"
+msgstr "kan bues"
+
+#: ../inc/settings/class-default-element-options-settings.php:568
+msgid "Let the customer make the text curved?"
+msgstr "Lad kunden gøre teksten buet?"
+
+#: ../inc/settings/class-default-element-options-settings.php:575
+msgid "Curve Spacing"
+msgstr "Curve Spacing"
+
+#: ../inc/settings/class-default-element-options-settings.php:586
+msgid "Curve Radius"
+msgstr "Kurve Radius"
+
+#: ../inc/settings/class-default-element-options-settings.php:597
+msgid "Curve Reverse"
+msgstr "Kurve omvendt"
+
+#: ../inc/settings/class-default-element-options-settings.php:689
+#: ../admin/modals/modal-individual-product-settings.php:389
+msgid "Default Font Size"
+msgstr "Standard skriftstørrelse"
+
+#: ../inc/settings/class-default-element-options-settings.php:701
+#: ../admin/modals/modal-individual-product-settings.php:393
+msgid "Minimum Font Size"
+msgstr "Minimum skriftstørrelse"
+
+#: ../inc/settings/class-default-element-options-settings.php:713
+#: ../admin/modals/modal-individual-product-settings.php:397
+msgid "Maximum Font Size"
+msgstr "Maksimal skriftstørrelse"
+
+#: ../inc/settings/class-default-element-options-settings.php:725
+msgid "Default Font"
+msgstr "Standard skrifttype"
+
+#: ../inc/settings/class-default-element-options-settings.php:726
+msgid ""
+"Enter the default font. If you leave it empty, the first font from the fonts "
+"dropdown will be used."
+msgstr ""
+"Indtast standard skrifttype. Hvis du efterlader det tomt, bruges den første "
+"skrifttype fra skrifttyperne."
+
+#: ../inc/settings/class-default-element-options-settings.php:734
+#: ../admin/views/html-product-builder-parameters-form.php:467
+msgid "Maximum Characters"
+msgstr "Maksimale tegn"
+
+#: ../inc/settings/class-default-element-options-settings.php:735
+msgid "You can limit the number of characters. 0 means unlimited characters."
+msgstr "Du kan begrænse antallet af tegn. 0 betyder ubegrænsede tegn."
+
+#: ../inc/settings/class-default-element-options-settings.php:743
+#: ../admin/views/html-product-builder-parameters-form.php:471
+msgid "Maximum Lines"
+msgstr "Maksimale linjer"
+
+#: ../inc/settings/class-default-element-options-settings.php:744
+msgid "You can limit the number of lines. 0 means unlimited lines."
+msgstr "Du kan begrænse antallet af linjer. 0 betyder ubegrænsede linjer."
+
+#: ../inc/settings/class-default-element-options-settings.php:752
+#: ../admin/views/html-ui-layout-composer-toolbar.php:262
+msgid "Alignment"
+msgstr "Justering"
+
+#: ../inc/settings/class-default-element-options-settings.php:758
+#: ../inc/settings/class-default-element-options-settings.php:786
+#: ../admin/class-admin-product-builder.php:235
+#: ../admin/class-admin-product-builder.php:262
+#: ../admin/views/html-product-builder-parameters-form.php:23
+#: ../admin/views/html-ui-layout-composer-toolbar.php:267
+#: ../admin/views/html-ui-layout-composer-toolbar.php:285
+msgid "Left"
+msgstr "Venstre"
+
+#: ../inc/settings/class-default-element-options-settings.php:759
+#: ../inc/settings/class-default-element-options-settings.php:785
+#: ../inc/settings/class-default-element-options-settings.php:797
+#: ../admin/views/html-ui-layout-composer-toolbar.php:270
+#: ../admin/views/html-ui-layout-composer-toolbar.php:279
+#: ../admin/views/html-ui-layout-composer-toolbar.php:288
+#: ../admin/views/html-ui-layout-composer-toolbar.php:297
+msgid "Center"
+msgstr "Centrum"
+
+#: ../inc/settings/class-default-element-options-settings.php:760
+msgid "Right"
+msgstr "Ret"
+
+#: ../inc/settings/class-default-element-options-settings.php:765
+msgid "Upload PNG or JPEG into wp-content/uploads/fpd_patterns_text."
+msgstr "Upload PNG eller JPEG i wp-indhold/uploads/fpd_patterns_text."
+
+#: ../inc/settings/class-default-element-options-settings.php:779
+msgid "Origin-X Point"
+msgstr "Oprindelse-X Point"
+
+#: ../inc/settings/class-default-element-options-settings.php:791
+msgid "Origin-Y Point"
+msgstr "Oprindelse-Y Point"
+
+#: ../inc/settings/class-default-element-options-settings.php:798
+#: ../admin/class-admin-product-builder.php:239
+#: ../admin/class-admin-product-builder.php:266
+#: ../admin/views/html-product-builder-parameters-form.php:25
+#: ../admin/views/html-ui-layout-composer-toolbar.php:276
+#: ../admin/views/html-ui-layout-composer-toolbar.php:294
+msgid "Top"
+msgstr "Top"
+
+#: ../inc/settings/class-general-settings.php:16
+msgid "Main UI Layout"
+msgstr "Main UI Layout"
+
+#: ../inc/settings/class-general-settings.php:17
+#, php-format
+msgid ""
+"Create and customize UI layouts with the <a href=\"%s\" %s>Composer</a>."
+msgstr "Opret og tilpas UI-layouter med <a href=\"%s\" %s>Composer</a>."
+
+#: ../inc/settings/class-general-settings.php:28
+#: ../admin/modals/modal-individual-product-settings.php:47
+msgid "Open Product Designer in..."
+msgstr "Åbn produktdesigner i..."
+
+#: ../inc/settings/class-general-settings.php:29
+msgid ""
+"By default the product designer will display while page is loading. But you "
+"can also display it in a lightbox or in the page after the user clicks on a "
+"button."
+msgstr ""
+"Som standard vises produktdesigneren, mens siden indlæses. Men du kan også "
+"vise det i en lightbox eller på siden, efter at brugeren har klikket på en "
+"knap."
+
+#: ../inc/settings/class-general-settings.php:40
+#: ../admin/modals/modal-individual-product-settings.php:62
+msgid "Main Bar Position"
+msgstr "Main Bar Position"
+
+#: ../inc/settings/class-general-settings.php:41
+msgid ""
+"You can set a custom position for the main bar. Only sidebar layouts can be "
+"used with a custom position."
+msgstr ""
+"Du kan angive en brugerdefineret position for hovedlinjen. Kun sidebar "
+"layouter kan bruges med en brugerdefineret position."
+
+#: ../inc/settings/class-general-settings.php:53
+#: ../admin/modals/modal-individual-product-settings.php:158
+msgid "Customization Required"
+msgstr "Tilpasning er påkrævet"
+
+#: ../inc/settings/class-general-settings.php:54
+msgid ""
+"The user must customize the initial elements of a Product in order to "
+"proceed."
+msgstr ""
+"Brugeren skal tilpasse de oprindelige elementer af et produkt for at kunne "
+"fortsætte."
+
+#: ../inc/settings/class-general-settings.php:62
+#: ../admin/modals/modal-individual-product-settings.php:118
+msgid "Replace Initial Elements"
+msgstr "Udskift oprindelige elementer"
+
+#: ../inc/settings/class-general-settings.php:63
+msgid ""
+"Keep custom added elements, when changing the main product,  only the "
+"initial elements of a Product will be replaced."
+msgstr ""
+"Opbevar brugerdefinerede tilføjede elementer, når du ændrer hovedproduktet, "
+"erstattes kun de oprindelige elementer i et produkt."
+
+#: ../inc/settings/class-general-settings.php:71
+msgid "Lazy Load"
+msgstr "Lazy Load"
+
+#: ../inc/settings/class-general-settings.php:72
+msgid ""
+"Enable lazy loading for the images in the products and designs containers."
+msgstr "Aktivér lat ladning til billederne i produkterne og designcontainerne."
+
+#: ../inc/settings/class-general-settings.php:80
+msgid "Improved Image Resize Quality"
+msgstr "Forbedret billedformateringskvalitet"
+
+#: ../inc/settings/class-general-settings.php:81
+msgid ""
+"Enable a filter that improves the quality of a resized bitmap image. This "
+"could take a long time for large images."
+msgstr ""
+"Aktivér et filter, der forbedrer kvaliteten af et resized bitmap-billede. "
+"Det kan tage lang tid at få store billeder."
+
+#: ../inc/settings/class-general-settings.php:89
+msgid "Responsive"
+msgstr "Lydhør"
+
+#: ../inc/settings/class-general-settings.php:90
+msgid ""
+"Resizes the canvas and all elements in the canvas, so that all elements are "
+"displaying properly in the canvas container. This is useful, when your "
+"canvas is larger than the available space in the parent container."
+msgstr ""
+"Ændrer lærredet og alle elementer i lærredet, så alle elementer vises "
+"korrekt i lærredbeholderen. Dette er nyttigt, når dit lærred er større end "
+"det ledige rum i forældrebeholderen."
+
+#: ../inc/settings/class-general-settings.php:98
+msgid "Upload zones always on top"
+msgstr "Upload zoner altid øverst"
+
+#: ../inc/settings/class-general-settings.php:99
+msgid "Upload zones will be always on top of all elements."
+msgstr "Upload zoner vil altid være oven på alle elementer."
+
+#: ../inc/settings/class-general-settings.php:107
+msgid "Hide On Smartphones"
+msgstr "Skjul på smartphones"
+
+#: ../inc/settings/class-general-settings.php:108
+#, php-format
+msgid ""
+"Hide product designer on smartphones and display an <a href=\"%s"
+"\">information</a> instead."
+msgstr ""
+"Skjul produktdesigner på smartphones og vis en <a href=\"%s\">information</"
+"a> i stedet."
+
+#: ../inc/settings/class-general-settings.php:116
+msgid "Hide On Tablets"
+msgstr "Skjul på tabletter"
+
+#: ../inc/settings/class-general-settings.php:117
+#, php-format
+msgid ""
+"Hide product designer on tablets and display an <a href=\"%s\">information</"
+"a> instead."
+msgstr ""
+"Skjul produktdesigner på tablets og vis en <a href=\"%s\">information</a> i "
+"stedet."
+
+#: ../inc/settings/class-general-settings.php:125
+msgid "Unsaved Customizations Alert"
+msgstr "Unsaved Customizations Alert"
+
+#: ../inc/settings/class-general-settings.php:126
+msgid ""
+"The user will see a notification alert when he leaves the page without "
+"saving or adding the product to the cart."
+msgstr ""
+"Brugeren vil se en varslingsmeddelelse, når han forlader siden uden at gemme "
+"eller tilføje produktet til vognen."
+
+#: ../inc/settings/class-general-settings.php:134
+#: ../admin/modals/modal-individual-product-settings.php:148
+msgid "Hide Dialog On Add"
+msgstr "Skjul dialog på Tilføj"
+
+#: ../inc/settings/class-general-settings.php:135
+msgid ""
+"The dialog/off-canvas panel will be closed as soon as an element is added to "
+"the canvas."
+msgstr ""
+"Dialogen/off-canvas-panelet lukkes, så snart et element er føjet til "
+"lærredet."
+
+#: ../inc/settings/class-general-settings.php:143
+msgid "Canvas Touch Scrolling"
+msgstr "Canvas Touch Scrolling"
+
+#: ../inc/settings/class-general-settings.php:144
+msgid "Enable touch gesture to scroll on canvas."
+msgstr "Aktivér berøringsbevægelse for at rulle på lærred."
+
+#: ../inc/settings/class-general-settings.php:152
+msgid "Per-Pixel Detection"
+msgstr "Per-pixel Detection"
+
+#: ../inc/settings/class-general-settings.php:153
+msgid ""
+"Object detection happens on per-pixel basis rather than on per-bounding-box. "
+"This means transparency of an object is not clickable."
+msgstr ""
+"Objektdetektering sker pr. Pixel, snarere end på per-grænsekasse. Dette "
+"betyder, at gennemsigtigheden af et objekt ikke kan klikkes."
+
+#: ../inc/settings/class-general-settings.php:161
+msgid "Fit Images In Canvas"
+msgstr "Tilpas billeder i lærred"
+
+#: ../inc/settings/class-general-settings.php:162
+msgid ""
+"If the image (custom uploaded or design) is larger than the canvas, it will "
+"be scaled down to fit into the canvas."
+msgstr ""
+"Hvis billedet (brugerdefineret upload eller design) er større end lærredet, "
+"bliver det skaleret ned for at passe ind i lærredet."
+
+#: ../inc/settings/class-general-settings.php:170
+msgid "In Canvas Text Editing"
+msgstr "I Canvas Text Editing"
+
+#: ../inc/settings/class-general-settings.php:171
+msgid "The user can edit the text via double click or tap(mobile)."
+msgstr "Brugeren kan redigere teksten via dobbeltklik eller trykke på (mobil)."
+
+#: ../inc/settings/class-general-settings.php:179
+msgid "Open Text Input On Select"
+msgstr "Åbn tekstindtastning Vælg"
+
+#: ../inc/settings/class-general-settings.php:180
+msgid ""
+"The textarea in the toolbar to change an editbale text opens when the text "
+"is selected."
+msgstr ""
+"Tekstområdet i værktøjslinjen for at ændre en editbale tekst åbnes, når "
+"teksten er valgt."
+
+#: ../inc/settings/class-general-settings.php:188
+msgid "Account Product Storage"
+msgstr "Konto Produktopbevaring"
+
+#: ../inc/settings/class-general-settings.php:189
+msgid ""
+"When the user saves his products, it will be stored in his account and not "
+"in the storage of the used browser."
+msgstr ""
+"Når brugeren gemmer sine produkter, bliver den gemt på sin konto og ikke i "
+"opbevaring af den brugte browser."
+
+#: ../inc/settings/class-general-settings.php:197
+msgid "Auto Open Info"
+msgstr "Automatisk Åbn Info"
+
+#: ../inc/settings/class-general-settings.php:198
+msgid "Display the info modal when the product designer is loaded."
+msgstr "Vis info modal, når produktdesigneren er indlæst."
+
+#: ../inc/settings/class-general-settings.php:206
+msgid "Replace Colors In Color Group"
+msgstr "Udskift farver i farvegruppe"
+
+#: ../inc/settings/class-general-settings.php:207
+msgid ""
+" As soon as an element with a color link group is added, the colours of this "
+"element will be used for the color group."
+msgstr ""
+" Så snart et element med en farvelinkegruppe er tilføjet, vil farverne på "
+"dette element blive brugt til farvegruppen."
+
+#: ../inc/settings/class-general-settings.php:215
+msgid "Show Modal In Designer"
+msgstr "Vis Modal i Designer"
+
+#: ../inc/settings/class-general-settings.php:216
+msgid ""
+"Display some modals (info, qr-code etc.) in the designer instead in the "
+"whole page."
+msgstr ""
+"Vis nogle modeller (info, qr-kode osv.) I designeren i stedet på hele siden."
+
+#: ../inc/settings/class-general-settings.php:224
+msgid "Image Size Tooltip"
+msgstr "Billedstørrelse Tooltip"
+
+#: ../inc/settings/class-general-settings.php:225
+msgid ""
+"Display the image size in pixels of the current selected image in a tooltip."
+msgstr ""
+"Vis billedstørrelsen i pixels af det aktuelle valgte billede i et "
+"værktøjstip."
+
+#: ../inc/settings/class-general-settings.php:233
+msgid "Apply Fill When Replacing"
+msgstr "Ansøg Fyld, når du udskifter"
+
+#: ../inc/settings/class-general-settings.php:234
+msgid ""
+"When an element is replaced, apply fill(color) from replaced element to "
+"added element."
+msgstr ""
+"Når et element er udskiftet, skal du fylde (farve) fra erstattet element til "
+"tilføjet element."
+
+#: ../inc/settings/class-general-settings.php:242
+msgid "Zoom-Action: Step"
+msgstr "Zoom-handling: Trin"
+
+#: ../inc/settings/class-general-settings.php:243
+msgid "The step for zooming in and out."
+msgstr "Trinnet for at zoome ind og ud."
+
+#: ../inc/settings/class-general-settings.php:255
+msgid "Zoom-Action: Maximum"
+msgstr "Zoom-handling: Maks"
+
+#: ../inc/settings/class-general-settings.php:256
+msgid "The maximum zoom when zooming in."
+msgstr "Den maksimale zoom, når du zoomer ind."
+
+#: ../inc/settings/class-general-settings.php:268
+msgid "Snap-Action: Grid Width"
+msgstr "Snap-Action: Gitterbredde"
+
+#: ../inc/settings/class-general-settings.php:269
+msgid "The width for the grid when snap action is enabled."
+msgstr "Bredden til gitteret når snap-handling er aktiveret."
+
+#: ../inc/settings/class-general-settings.php:281
+msgid "Snap-Action: Grid Height"
+msgstr "Snap-Action: Gitterhøjde"
+
+#: ../inc/settings/class-general-settings.php:282
+msgid "The height for the grid when snap action is enabled."
+msgstr "Højden til gitteret når snap-handling er aktiveret."
+
+#: ../inc/settings/class-general-settings.php:294
+msgid "Text Control Padding"
+msgstr "Tekst kontrol padding"
+
+#: ../inc/settings/class-general-settings.php:295
+msgid "The padding of the corner controls when a text element is selected."
+msgstr "Hjulets polstring styrer, når et tekstelement er valgt."
+
+#: ../inc/settings/class-general-settings.php:307
+msgid "Bounding Box Stroke Width"
+msgstr "Bounding Box Stroke Width"
+
+#: ../inc/settings/class-general-settings.php:308
+msgid "The stroke width of the bounding box when an element is selected."
+msgstr "Stregbredden af grænsekassen, når et element er valgt."
+
+#: ../inc/settings/class-general-settings.php:320
+msgid "Highlight Editable Objects"
+msgstr "Fremhæv redigerbare objekter"
+
+#: ../inc/settings/class-general-settings.php:321
+msgid ""
+"Highlight objects (editable texts and upload zones) with a dashed border. To "
+"enable this just define a hexadecimal color value."
+msgstr ""
+"Fremhæv objekter (redigerbare tekster og upload zoner) med en stiplede "
+"grænse. For at aktivere dette defineres blot en hexadecimal farveværdi."
+
+#: ../inc/settings/class-general-settings.php:329
+msgid "Watermark Image"
+msgstr "Vandmærkebillede"
+
+#: ../inc/settings/class-general-settings.php:330
+msgid ""
+"Set a watermark image that will be added when the user downloads or prints "
+"the product. If the WooCommerce product is downloadable, the watermark will "
+"be removed when the customer downloads/prints the completed order."
+msgstr ""
+"Indstil et vandmærkebillede, der vil blive tilføjet, når brugeren henter "
+"eller udskriver produktet. Hvis WooCommerce-produktet downloades, fjernes "
+"vandmærket, når kunden downloader/udskriver den udfyldte ordre."
+
+#: ../inc/settings/class-general-settings.php:338
+msgid "Button CSS Classes"
+msgstr "Button CSS Klasser"
+
+#: ../inc/settings/class-general-settings.php:339
+msgid ""
+"These CSS clases will be added e.g. to the customisation button. Add class "
+"names without the dot."
+msgstr ""
+"Disse CSS-klaser vil blive føjet til f.eks. Til tilpasningsknappen. Tilføj "
+"klassenavne uden prikken."
+
+#: ../inc/settings/class-general-settings.php:352
+msgid "Save On Server"
+msgstr "Gem på server"
+
+#: ../inc/settings/class-general-settings.php:356
+msgid ""
+"If your customers can add multiple or large images, then save images on "
+"server, otherwise you may inspect some issues when adding the customized "
+"product to the cart. The images will be saved in wp-content/uploads/"
+"fancy_products_uploads/ directory."
+msgstr ""
+"Hvis dine kunder kan tilføje flere eller store billeder, skal du gemme "
+"billeder på serveren, ellers kan du kontrollere nogle problemer, når du "
+"tilføjer det tilpassede produkt til vognen. Billederne gemmes i wp-indhold/"
+"uploads/fancy_products_uploads/directory."
+
+#: ../inc/settings/class-general-settings.php:359
+#: ../admin/class-admin-scripts-styles.php:114
+#: ../admin/modals/modal-individual-product-settings.php:123
+#: ../admin/modals/modal-individual-product-settings.php:133
+#: ../admin/modals/modal-individual-product-settings.php:143
+#: ../admin/modals/modal-individual-product-settings.php:153
+#: ../admin/modals/modal-individual-product-settings.php:163
+#: ../admin/modals/modal-individual-product-settings.php:199
+#: ../admin/modals/modal-individual-product-settings.php:285
+#: ../admin/modals/modal-individual-product-settings.php:338
+#: ../admin/modals/modal-individual-product-settings.php:435
+#: ../admin/modals/modal-individual-product-settings.php:445
+#: ../admin/modals/modal-individual-product-settings.php:455
+#: ../admin/modals/modal-individual-product-settings.php:465
+msgid "Yes"
+msgstr "Ja"
+
+#: ../inc/settings/class-general-settings.php:373
+msgid ""
+"Users must create an account in your Wordpress site and need to be logged-in "
+"to upload images."
+msgstr ""
+"Brugere skal oprette en konto på dit Wordpress-websted og skal være logget "
+"ind for at uploade billeder."
+
+#: ../inc/settings/class-general-settings.php:380
+msgid "Confirm Image Rights"
+msgstr "Bekræft billedrettigheder"
+
+#: ../inc/settings/class-general-settings.php:381
+msgid ""
+"Before the image is uploaded the user needs to confirm an agreement to have "
+"the right to use the image."
+msgstr ""
+"Før billedet uploades, skal brugeren bekræfte en aftale om at have ret til "
+"at bruge billedet."
+
+#: ../inc/settings/class-general-settings.php:388
+msgid "Allowed Image Types"
+msgstr "Tilladte billedtyper"
+
+#: ../inc/settings/class-general-settings.php:402
+msgid "Facebook App-ID"
+msgstr "Facebook App-ID"
+
+#: ../inc/settings/class-general-settings.php:403
+msgid "Enter a Facebook App-ID to enable Facebook photos in the images module."
+msgstr ""
+"Indtast et Facebook App-ID for at aktivere Facebook-fotos i billedmodulet."
+
+#: ../inc/settings/class-general-settings.php:411
+msgid "Instagram Client ID"
+msgstr "Instagram Client ID"
+
+#: ../inc/settings/class-general-settings.php:412
+msgid ""
+"Enter an Instagram Client ID to enable Instagram photos in the images module."
+msgstr ""
+"Indtast et Instagram Client ID for at aktivere Instagram-fotos i "
+"billedmodulet."
+
+#: ../inc/settings/class-general-settings.php:420
+msgid "Instagram Redirect URI"
+msgstr "Instagram Redirect URI"
+
+#: ../inc/settings/class-general-settings.php:421
+msgid ""
+"This is the URI you need to paste into the \"OAuth Redirect URI\" input when "
+"creating a Instagram Client ID. Do not change it!"
+msgstr ""
+"Dette er URI'en, du skal indsætte i \"OAuth Redirect URI\" -indgangen, når "
+"du opretter et Instagram-klient-id. Du må ikke ændre det!"
+
+#: ../inc/settings/class-general-settings.php:429
+msgid "Pixabay API Key"
+msgstr "Pixabay API nøgle"
+
+#: ../inc/settings/class-general-settings.php:430
+msgid ""
+"Enter a Pixabay API key to enable the Pixabay photo library in the images "
+"module."
+msgstr ""
+"Indtast en Pixabay API-nøgle for at aktivere Pixabay fotobibliotek i "
+"billedmodulet."
+
+#: ../inc/settings/class-general-settings.php:438
+msgid "Pixabay High-Res Images"
+msgstr "Pixabay High-Res-billeder"
+
+#: ../inc/settings/class-general-settings.php:439
+msgid "Let your customers add only high resolution images from Pixabay."
+msgstr "Lad dine kunder tilføje kun højopløsningsbilleder fra Pixabay."
+
+#: ../inc/settings/class-general-settings.php:446
+msgid "Depositphotos Reseller API Key"
+msgstr "Depositphotos Reseller API Key"
+
+#: ../inc/settings/class-general-settings.php:447
+msgid ""
+"Enter a Depositphotos Reseller API key to enable the Depositphotos photo "
+"library in the images module."
+msgstr ""
+"Indtast en Depositphotos Reseller API-nøgle for at aktivere Depositphotos "
+"fotobibliotek i billedmodulet."
+
+#: ../inc/settings/class-general-settings.php:455
+msgid "Depositphotos Image Price"
+msgstr "Depositphotos Billedpris"
+
+#: ../inc/settings/class-general-settings.php:456
+msgid "The price that is charged when adding an image from depositphotos.com."
+msgstr ""
+"Den pris, der opkræves, når du tilføjer et billede fra depositphotos.com."
+
+#: ../inc/settings/class-general-settings.php:468
+msgid "Depositphotos Language"
+msgstr "Depositphotos Sprog"
+
+#: ../inc/settings/class-general-settings.php:469
+msgid "The language for the category titles."
+msgstr "Sproget for kategorititlerne."
+
+#: ../inc/settings/class-general-settings.php:503
+msgid "Depositphotos Username"
+msgstr "Depositphotos Brugernavn"
+
+#: ../inc/settings/class-general-settings.php:504
+msgid ""
+"In order to download the purchased image from your customers, you need to "
+"enter your username."
+msgstr ""
+"For at downloade det købte billede fra dine kunder skal du indtaste dit "
+"brugernavn."
+
+#: ../inc/settings/class-general-settings.php:512
+msgid "Depositphotos Password"
+msgstr "Depositphotos Password"
+
+#: ../inc/settings/class-general-settings.php:513
+msgid ""
+"In order to download the purchased image from your customers, you need to "
+"enter your password."
+msgstr ""
+"For at downloade det købte billede fra dine kunder skal du indtaste dit "
+"kodeord."
+
+#: ../inc/settings/class-general-settings.php:521
+msgid "Depositphotos Image Size"
+msgstr "Depositphotos Billedstørrelse"
+
+#: ../inc/settings/class-general-settings.php:522
+msgid "The image size that you want to download in the order viewer."
+msgstr "Billedstørrelsen, som du vil downloade i ordregiveren."
+
+#: ../inc/settings/class-general-settings.php:543
+#: ../inc/settings/class-settings.php:57
+msgid "Design Share"
+msgstr "Design Share"
+
+#: ../inc/settings/class-general-settings.php:544
+msgid "Allow users to share their designs on social networks."
+msgstr "Tillad brugere at dele deres designs på sociale netværk."
+
+#: ../inc/settings/class-general-settings.php:551
+msgid "Add Open graph image meta"
+msgstr "Tilføj Åbn graf billede meta"
+
+#: ../inc/settings/class-general-settings.php:552
+msgid ""
+"If your site does not add an open graph image meta tag, enable this option, "
+"otherwise the image of the customized product will not be shared on Facebook."
+msgstr ""
+"Hvis dit websted ikke tilføjer et åbent graf billede metatag, skal du "
+"aktivere denne indstilling, ellers vil billedet af det tilpassede produkt "
+"ikke blive delt på Facebook."
+
+#: ../inc/settings/class-general-settings.php:559
+msgid "Cache Days"
+msgstr "Cache Dage"
+
+#: ../inc/settings/class-general-settings.php:560
+msgid ""
+"Whenever an user shares a design, an image and database entry will be "
+"created. To delete this data after a certain period of time, you can set the "
+"days of caching. A value of 0 will store the data forever."
+msgstr ""
+"Når en bruger deler et design, oprettes et billede og en "
+"databaseindtastning. For at slette disse data efter en bestemt periode, kan "
+"du indstille dage med caching. En værdi på 0 gemmer dataene for evigt."
+
+#: ../inc/settings/class-general-settings.php:571
+msgid "Social Networks"
+msgstr "Sociale netværk"
+
+#: ../inc/settings/class-general-settings.php:647
+msgid "Debug Mode"
+msgstr "Fejlretningstilstand"
+
+#: ../inc/settings/class-general-settings.php:648
+msgid "Enables Theme-Check modal and loads the unminified Javascript files."
+msgstr ""
+"Aktiverer Theme-Check modal og indlæser de ikke-gemte Javascript-filer."
+
+#: ../inc/settings/class-general-settings.php:653
+#: ../inc/settings/class-general-settings.php:665
+msgid "On"
+msgstr "På"
+
+#: ../inc/settings/class-general-settings.php:654
+#: ../inc/settings/class-general-settings.php:666
+msgid "Off"
+msgstr "Af"
+
+#: ../inc/settings/class-general-settings.php:659
+msgid "jQuery No Conflict Mode"
+msgstr "jQuery Ingen konflikt tilstand"
+
+#: ../inc/settings/class-general-settings.php:660
+msgid ""
+"Turns on the jQuery no conflict mode. Turn it on if you are facing some "
+"Javascript issues."
+msgstr ""
+"Tænder jQuery ingen konflikt tilstand. Tænd den, hvis du står over for nogle "
+"Javascript-problemer."
+
+#: ../inc/settings/class-general-settings.php:671
+msgid "Test: FabricJS Version"
+msgstr "Test: FabricJS Version"
+
+#: ../inc/settings/class-general-settings.php:672
+msgid ""
+"Please test Fancy Product Designer with the latest FabricJS. If you have any "
+"bug, please let us know in the support forum."
+msgstr ""
+"Prøv venligst Fancy Product Designer med den nyeste FabricJS. Hvis du har "
+"nogen fejl, så kontakt os venligst i supportforummet."
+
+#: ../inc/settings/class-general-settings.php:677
+msgid "1.6.7"
+msgstr "1.6.7"
+
+#: ../inc/settings/class-general-settings.php:678
+msgid "2.+"
+msgstr "2.+"
+
+#: ../inc/settings/class-general-settings.php:687
+msgid "Basis Plugin"
+msgstr "Basis-plugin"
+
+#: ../inc/settings/class-general-settings.php:688
+msgid ""
+"Enter here the purchase code of the basis plugin - <a href=\"https://"
+"codecanyon.net/item/fancy-product-designer-woocommercewordpress/6318393\" "
+"target=\"_blank\">Fancy Product Designer | WooCommerce/WordPress</a>.\n"
+msgstr ""
+"Indtast købekoden for basis plugin - <a href=\"https://codecanyon.net/item/"
+"fancy-product-designer-woocommercewordpress/6318393\" target=\"_blank\"> "
+"Fancy Product Designer | WooCommerce / WordPress </a>.\n"
+
+#: ../inc/settings/class-general-settings.php:708
+#: ../inc/settings/class-general-settings.php:740
+msgid "Default"
+msgstr "Standard"
+
+#: ../inc/settings/class-general-settings.php:728
+msgid "Page"
+msgstr "Side"
+
+#: ../inc/settings/class-general-settings.php:729
+msgid "Lightbox"
+msgstr "Lyskasse"
+
+#: ../inc/settings/class-general-settings.php:730
+msgid "Page after user clicks on the customization button"
+msgstr "Side efter bruger klikker på tilpasningsknappen"
+
+#: ../inc/settings/class-general-settings.php:741
+msgid "Via Shortcode: [fpd_main_bar]"
+msgstr "Via kortkode: [fpd_main_bar]"
+
+#: ../inc/settings/class-general-settings.php:745
+msgid "After Product Title (WooCommerce)"
+msgstr "Efter produkttitel (WooCommerce)"
+
+#: ../inc/settings/class-general-settings.php:746
+msgid "After Product Excerpt (WooCommerce)"
+msgstr "Efter produktuddrag (WooCommerce)"
+
+#: ../inc/settings/class-general-settings.php:772
+msgid "Shadow 1"
+msgstr "Skygge 1"
+
+#: ../inc/settings/class-general-settings.php:773
+msgid "Shadow 2"
+msgstr "Skygge 2"
+
+#: ../inc/settings/class-general-settings.php:774
+msgid "Shadow 3"
+msgstr "Skygge 3"
+
+#: ../inc/settings/class-general-settings.php:775
+msgid "Shadow 4"
+msgstr "Skygge 4"
+
+#: ../inc/settings/class-general-settings.php:776
+msgid "Shadow 5"
+msgstr "Skygge 5"
+
+#: ../inc/settings/class-general-settings.php:777
+msgid "Shadow 6"
+msgstr "Skygge 6"
+
+#: ../inc/settings/class-general-settings.php:778
+msgid "No Shadow "
+msgstr "Ingen skygge "
+
+#: ../inc/settings/class-settings.php:33
+#: ../admin/modals/modal-individual-product-settings.php:17
+#: ../admin/views/html-product-builder-parameters-form.php:3
+msgid "General"
+msgstr "Generel"
+
+#: ../inc/settings/class-settings.php:34
+msgid "Default Element Options"
+msgstr "Standardelementindstillinger"
+
+#: ../inc/settings/class-settings.php:35
+msgid "Labels"
+msgstr "Etiketter"
+
+#: ../inc/settings/class-settings.php:36
+msgid "Fonts"
+msgstr "Skrifttyper"
+
+#: ../inc/settings/class-settings.php:37
+msgid "Color Swatches"
+msgstr "Farveprøver"
+
+#: ../inc/settings/class-settings.php:41
+#: ../admin/modals/modal-individual-product-settings.php:21
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: ../inc/settings/class-settings.php:55
+msgid "Product Designer"
+msgstr "Produkt Designer"
+
+#: ../inc/settings/class-settings.php:56
+msgid "Custom Image Uploads"
+msgstr "Brugerdefinerede billedoverførsler"
+
+#: ../inc/settings/class-settings.php:58
+msgid "QR-Code"
+msgstr "QR kode"
+
+#: ../inc/settings/class-settings.php:59
+msgid "Troubleshooting"
+msgstr "Fejlfinding"
+
+#: ../inc/settings/class-settings.php:60
+msgid "Envato Item Purchase Codes"
+msgstr "Envato-varekoder"
+
+#: ../inc/settings/class-settings.php:63
+#: ../admin/modals/modal-individual-product-settings.php:18
+msgid "Image Options"
+msgstr "Billedindstillinger"
+
+#: ../inc/settings/class-settings.php:64
+msgid "Custom Image Options"
+msgstr "Brugerdefinerede billedindstillinger"
+
+#: ../inc/settings/class-settings.php:65
+#: ../admin/modals/modal-individual-product-settings.php:19
+msgid "Custom Text Options"
+msgstr "Brugerdefinerede tekstindstillinger"
+
+#: ../inc/settings/class-settings.php:66
+msgid "Common Options"
+msgstr "Fælles valgmuligheder"
+
+#: ../inc/settings/class-settings.php:69
+msgid "Fonts for the typeface dropdown"
+msgstr "Skrifttyper til skrifttype dropdown"
+
+#: ../inc/settings/class-settings.php:76
+msgid "Product Page"
+msgstr "Produktside"
+
+#: ../inc/settings/class-settings.php:77
+msgid "Cart"
+msgstr "Kurv"
+
+#: ../inc/settings/class-settings.php:78
+msgid "Order"
+msgstr "Bestille"
+
+#: ../inc/settings/class-settings.php:79
+msgid "Catalog Listing"
+msgstr "Katalogoversigt"
+
+#: ../inc/settings/class-settings.php:80
+msgid "Global Product Designer"
+msgstr "Global Product Designer"
+
+#: ../inc/settings/class-settings.php:87
+msgid "The default options for added images from users and Designs."
+msgstr "Standardindstillingerne for tilføjede billeder fra brugere og design."
+
+#: ../inc/settings/class-settings.php:88
+msgid "The default options for uploaded images by the customer."
+msgstr "Standardindstillingerne for uploadede billeder af kunden."
+
+#: ../inc/settings/class-settings.php:89
+msgid "The default options for added texts by the customer."
+msgstr "Standardindstillingerne for tilføjede tekster af kunden."
+
+#: ../inc/settings/class-settings.php:90
+msgid ""
+"In order to auto-update directly via the WordPress admin, please enter the "
+"<a href=\"https://help.market.envato.com/hc/en-us/articles/202822600-Where-"
+"Is-My-Purchase-Code-\" target=\"_blank\">Envato Item Purchase Codes</a>."
+msgstr ""
+
+#: ../inc/settings/class-settings.php:150
+msgid "You can translate all labels in the frontend."
+msgstr "Du kan oversætte alle etiketter i frontenden."
+
+#: ../inc/settings/class-settings.php:218
+msgid "HTML Tags Supported"
+msgstr "HTML-tags understøttes"
+
+#: ../inc/api/class-product.php:174
+msgid "Views successfully created!"
+msgstr "Visninger er oprettet med succes!"
+
+#: ../inc/api/class-product.php:182
+msgid "Product could not be stored. Please try again!"
+msgstr "Produktet kunne ikke gemmes. Prøv igen!"
+
+#: ../inc/api/class-shortcode-order.php:64
+#, php-format
+msgid "New Order received from %s"
+msgstr "Ny ordre modtaget fra %s"
+
+#: ../inc/api/class-shortcode-order.php:66
+#, php-format
+msgid "New Order received from %s."
+msgstr "Ny ordre modtaget fra %s ."
+
+#: ../inc/api/class-shortcode-order.php:67
+#, php-format
+msgid "Order Details for #%d"
+msgstr "Ordreoplysninger for #%d"
+
+#: ../inc/api/class-shortcode-order.php:69
+#, php-format
+msgid "Customer Name: %s"
+msgstr "Kundenavn: %s"
+
+#: ../inc/api/class-shortcode-order.php:70
+#, php-format
+msgid "Customer Email: %s"
+msgstr "Kunde Emaill: %s"
+
+#: ../inc/api/class-shortcode-order.php:72
+#, php-format
+msgid "View Order: %s"
+msgstr "Vis ordre: %s"
+
+#: ../admin/class-admin-menus.php:23 ../admin/class-admin-menus.php:24
+#: ../admin/class-admin.php:132 ../admin/class-admin.php:140
+#: ../admin/class-admin.php:156
+msgid "Fancy Product Designer"
+msgstr "Fancy Product Designer"
+
+#: ../admin/class-admin-menus.php:34
+#: ../admin/class-admin-manage-products.php:45
+msgid "Manage Products"
+msgstr "Administrer produkter"
+
+#: ../admin/class-admin-menus.php:44 ../admin/class-admin-menus.php:45
+#: ../admin/class-admin-product-builder.php:17
+msgid "Product Builder"
+msgstr "Produktbygger"
+
+#: ../admin/class-admin-menus.php:54 ../admin/class-admin-menus.php:55
+msgid "UI Composer"
+msgstr "UI Komponist"
+
+#: ../admin/class-admin-menus.php:64 ../admin/class-admin-designs.php:57
+msgid "Manage Designs"
+msgstr "Administrer design"
+
+#: ../admin/class-admin-menus.php:65 ../admin/modals/modal-shortcodes.php:62
+#: ../admin/views/html-product-builder-parameters-form.php:568
+msgid "Designs"
+msgstr "Design"
+
+#: ../admin/class-admin-menus.php:74 ../admin/class-admin-menus.php:75
+msgid "Orders"
+msgstr "ordrer"
+
+#: ../admin/class-admin-menus.php:84 ../admin/class-admin-menus.php:85
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: ../admin/class-admin-menus.php:96
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: ../admin/fpd-admin-functions.php:9
+msgid "Shortcodes"
+msgstr "kortkoder"
+
+#: ../admin/fpd-admin-functions.php:11
+msgid "Support Center"
+msgstr "Support Center"
+
+#: ../admin/class-admin.php:101
+msgid "Layout saved."
+msgstr "Layout gemt."
+
+#: ../admin/class-admin.php:235
+msgid ""
+"Please update WooCommerce to the latest version! Fancy Product Designer only "
+"works with version 2.1 or newer."
+msgstr ""
+"Opdater WooCommerce til den nyeste version! Fancy Product Designer fungerer "
+"kun med version 2.1 eller nyere."
+
+#: ../admin/class-admin.php:242
+msgid ""
+"GD library is not installed on your web server. If you do not know how to "
+"install GD library, please ask your server provider!"
+msgstr ""
+"GD-biblioteket er ikke installeret på din webserver. Hvis du ikke ved, "
+"hvordan du installerer GD-bibliotek, spørg din serverudbyder!"
+
+#: ../admin/class-admin.php:249
+msgid "Fancy Product Designer requires a minimum PHP version of 5.4!"
+msgstr "Fancy Product Designer kræver en minimum PHP version af 5.4!"
+
+#: ../admin/class-admin.php:255
+msgid "allow_url_fopen is disabled"
+msgstr "allow_url_fopen er deaktiveret"
+
+#: ../admin/class-admin.php:256
+msgid ""
+"For some features (Facebook/Instagram Images & Loading Google Webfonts) in "
+"Fancy Product Designer <i>allow_url_fopen</i> needs to be enabled in the php."
+"ini. Please enable <i>allow_url_fopen</i> in your php.ini. <a href=\"http://"
+"php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen\" target="
+"\"_blank\">What is allow_url_fopen?</a>"
+msgstr ""
+"For some features (Facebook/Instagram Images & Loading Google Webfonts) in "
+"Fancy Product Designer <i>allow_url_fopen</i> needs to be enabled in the php."
+"ini. Please enable <i>allow_url_fopen</i> in your php.ini. <a href=\"http://"
+"php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen\" target="
+"\"_blank\">What is allow_url_fopen?</a"
+
+#: ../admin/class-admin.php:264
+msgid "Fancy Product Designer successfully updated"
+msgstr "Fancy Product Designer med succes opdateret"
+
+#: ../admin/class-admin.php:265
+msgid ""
+"Please check out the <a href=\"http://support.fancyproductdesigner.com/"
+"support/discussions/forums/5000283646\" target=\"_blank\">Changelog</a> and "
+"<a href=\"http://support.fancyproductdesigner.com/support/solutions/"
+"articles/5000582931-changelog-upgrading\" target=\"_blank\">Upgrading</a> "
+"instructions."
+msgstr ""
+"Se venligst <a href=\"http://support.fancyproductdesigner.com/support/"
+"discussions/forums/5000283646\" target=\"_blank\"> Changelog </a> og <a href "
+"=\"http : //support.fancyproductdesigner.com/support/solutions/"
+"articles/5000582931-changelog-upgrading\"target =\"_blank\">Opgradering</a> "
+"instruktioner."
+
+#: ../admin/class-admin-import.php:47
+msgid "Not a zip archive."
+msgstr "Ikke et zip arkiv."
+
+#: ../admin/class-admin-import.php:50
+msgid "Consistency check failed."
+msgstr "Konsekvenscheck mislykkedes."
+
+#: ../admin/class-admin-import.php:53
+msgid "Checksum failed."
+msgstr "Kontrolsummet mislykkedes."
+
+#: ../admin/class-admin-import.php:56
+msgid "error "
+msgstr "fejl "
+
+#: ../admin/class-admin-import.php:70
+msgid "Zip does not contain the necessary product.json."
+msgstr "Zip indeholder ikke den nødvendige product.json."
+
+#: ../admin/class-admin-import.php:142
+msgid " image could not be added to media library. Error message: "
+msgstr " billede kunne ikke føjes til mediebibliotek. Fejl besked: "
+
+#: ../admin/class-admin-import.php:149
+msgid " image could not be added to media library."
+msgstr " billede kunne ikke føjes til mediebibliotek."
+
+#: ../admin/class-admin-ui-layout-composer.php:44
+msgid "UI &amp; Layout Composer"
+msgstr "UI & amp; Layout Komponist"
+
+#: ../admin/class-admin-ui-layout-composer.php:47
+msgid ""
+"With the composer you can easily customize and create own user interfaces "
+"for the product designer."
+msgstr ""
+"Med komponisten kan du nemt tilpasse og oprette egne brugergrænseflader til "
+"produktdesigneren."
+
+#: ../admin/class-admin-ui-layout-composer.php:63
+#: ../admin/class-admin-product-builder.php:164
+#: ../admin/class-admin-product-builder.php:251
+#: ../admin/class-admin-product-builder.php:276
+#: ../admin/modals/modal-edit-view-options.php:186
+msgid "Save"
+msgstr "Gemme"
+
+#: ../admin/class-admin-ui-layout-composer.php:64
+#: ../admin/class-admin-manage-products.php:205
+#: ../admin/class-admin-manage-products.php:213
+#: ../admin/class-admin-manage-products.php:227
+#: ../admin/class-admin-designs.php:291
+msgid "Delete"
+msgstr "Slet"
+
+#: ../admin/class-admin-ui-layout-composer.php:65
+msgid "Reset To Default"
+msgstr "Nulstil til standard"
+
+#: ../admin/class-admin-ui-layout-composer.php:66
+msgid "Save As New"
+msgstr "Gem som nyt"
+
+#: ../admin/class-admin-ui-layout-composer.php:73
+msgid "Preview"
+msgstr "Eksempel"
+
+#: ../admin/class-admin-shortcode-order.php:30
+msgid "&laquo;"
+msgstr "& Laquo;"
+
+#: ../admin/class-admin-shortcode-order.php:31
+msgid "&raquo;"
+msgstr "& Raquo;"
+
+#: ../admin/class-admin-shortcode-order.php:42
+msgid "Orders via Shortcode"
+msgstr "Ordrer via Shortcode"
+
+#: ../admin/class-admin-shortcode-order.php:49
+#: ../woo/class-wc-admin-order.php:66
+msgid "New ADMIN"
+msgstr "Ny ADMIN"
+
+#: ../admin/class-admin-shortcode-order.php:50
+#: ../woo/class-wc-admin-order.php:67
+msgid ""
+"<a href=\"http://admin.fancyproductdesigner.com/\" target=\"_blank\">We "
+"created a new online solution with an improved Order viewer that has much "
+"more feature than this one.</a>"
+msgstr ""
+"<a href=\"http://admin.fancyproductdesigner.com/\" target=\"_blank\"> Vi har "
+"oprettet en ny online-løsning med en forbedret ordreviser, der har meget "
+"mere funktion end denne.</a>"
+
+#: ../admin/class-admin-shortcode-order.php:60
+msgid ""
+"Orders made with WooCommerce can be viewed in the order details of a "
+"WooCommerce order!"
+msgstr ""
+"Ordrer lavet med WooCommerce kan ses i rækkefølgen af en WooCommerce-ordre!"
+
+#: ../admin/class-admin-shortcode-order.php:65
+msgid "Choose Order"
+msgstr "Vælg Bestil"
+
+#: ../admin/class-admin-shortcode-order.php:102
+msgid "Order Viewer"
+msgstr "Order Viewer"
+
+#: ../admin/class-admin-shortcode-order.php:215
+msgid "Remove"
+msgstr "Fjern"
+
+#: ../admin/class-admin-scripts-styles.php:107
+msgid "Please enter a title!"
+msgstr "Indtast venligst en titel!"
+
+#: ../admin/class-admin-scripts-styles.php:108
+#: ../admin/class-admin-ajax.php:174
+msgid "Something went wrong. Please try again!"
+msgstr "Noget gik galt. Prøv igen!"
+
+#: ../admin/class-admin-scripts-styles.php:109
+msgid "Add imported image source to media library?"
+msgstr "Tilføj importeret billedkilde til mediebibliotek?"
+
+#: ../admin/class-admin-scripts-styles.php:110
+msgid "Do you really want to delete the item?"
+msgstr "Vil du virkelig slette varen?"
+
+#: ../admin/class-admin-scripts-styles.php:111
+msgid "Choose Thumbnail"
+msgstr "Vælg miniaturebillede"
+
+#: ../admin/class-admin-scripts-styles.php:112
+msgid "Cancel"
+msgstr "Afbestille"
+
+#: ../admin/class-admin-scripts-styles.php:113
+msgid "Got It"
+msgstr "Forstået"
+
+#: ../admin/class-admin-scripts-styles.php:116
+msgid "Okay"
+msgstr "okay"
+
+#: ../admin/class-admin-scripts-styles.php:170
+msgid "Please select a Product first to assign the category!"
+msgstr "Vælg venligst et produkt først for at tildele kategorien!"
+
+#: ../admin/class-admin-scripts-styles.php:171
+msgid "This product does not contain any views!"
+msgstr "Dette produkt indeholder ingen visninger!"
+
+#: ../admin/class-admin-scripts-styles.php:172
+msgid ""
+"Sorry, but the selected file is not a valid JSON object. Are you sure you "
+"have selected the correct file to import?"
+msgstr ""
+"Beklager, men den valgte fil er ikke et gyldigt JSON-objekt. Er du sikker på "
+"at du har valgt den rigtige fil, der skal importeres?"
+
+#: ../admin/class-admin-scripts-styles.php:173
+msgid "Choose a thumbnail"
+msgstr "Vælg en miniature"
+
+#: ../admin/class-admin-scripts-styles.php:174
+msgid "If no, the images are stored in: "
+msgstr "Hvis nej, gemmes billederne i: "
+
+#: ../admin/class-admin-scripts-styles.php:214
+msgid "Enter a title for the element"
+msgstr "Indtast en titel for elementet"
+
+#: ../admin/class-admin-scripts-styles.php:215
+msgid "Choose an element image"
+msgstr "Vælg et elementbillede"
+
+#: ../admin/class-admin-scripts-styles.php:216
+#: ../admin/modals/modal-individual-product-settings.php:481
+#: ../admin/modals/modal-edit-product-options.php:43
+#: ../admin/modals/modal-edit-design-category-options.php:400
+msgid "Set"
+msgstr "Sæt"
+
+#: ../admin/class-admin-scripts-styles.php:217
+msgid "Enter your text."
+msgstr "Indtast din tekst."
+
+#: ../admin/class-admin-scripts-styles.php:218
+msgid "Remove element?"
+msgstr "Fjern element?"
+
+#: ../admin/class-admin-scripts-styles.php:219
+msgid "You have not saved your changes!"
+msgstr "Du har ikke gemt dine ændringer!"
+
+#: ../admin/class-admin-scripts-styles.php:220
+msgid "Change Image Source"
+msgstr "Skift billedkilde"
+
+#: ../admin/class-admin-scripts-styles.php:221
+msgid "Loading"
+msgstr "Indlæser"
+
+#: ../admin/class-admin-scripts-styles.php:224
+msgid "The image is not a SVG, you can only use SVG as view mask!"
+msgstr "Billedet er ikke en SVG, du kan kun bruge SVG som visning maske!"
+
+#: ../admin/class-admin-scripts-styles.php:251
+msgid "The default layout can not be deleted!"
+msgstr "Standardlayoutet kan ikke slettes!"
+
+#: ../admin/class-admin-scripts-styles.php:252
+msgid "The current selected layout will be overwritten!"
+msgstr "Det nuværende valgte layout overskrives!"
+
+#: ../admin/class-admin-scripts-styles.php:253
+msgid "Delete selected layout?"
+msgstr "Slet valgt layout?"
+
+#: ../admin/class-admin-scripts-styles.php:254
+msgid "Are your sure to reset the current selected layout to default?"
+msgstr "Er du sikker på at nulstille det nuværende valgte layout til standard?"
+
+#: ../admin/class-admin-scripts-styles.php:255
+msgid "The text can be changed in the Labels settings!"
+msgstr "Teksten kan ændres i indstillingerne for etiketter!"
+
+#: ../admin/class-admin-scripts-styles.php:292
+msgid "Choose a Design Image"
+msgstr "Vælg et designbillede"
+
+#: ../admin/class-admin-scripts-styles.php:350
+msgid "Loading data..."
+msgstr "Indlæser data ..."
+
+#: ../admin/class-admin-scripts-styles.php:351
+msgid "Order data could not be loaded. Please try again!"
+msgstr "Ordreoplysninger kunne ikke indlæses. Prøv igen!"
+
+#: ../admin/class-admin-scripts-styles.php:352
+msgid ""
+"You cannot create an SVG file from a bitmap, you can only do this by using a "
+"text element or another SVG image file"
+msgstr ""
+"Du kan ikke oprette en SVG-fil fra en bitmap, du kan kun gøre dette ved "
+"hjælp af et tekstelement eller en anden SVG-billedfil"
+
+#: ../admin/class-admin-scripts-styles.php:353
+msgid "Image creation failed. Please try again!"
+msgstr "Billedoprettelsen mislykkedes. Prøv igen!"
+
+#: ../admin/class-admin-scripts-styles.php:354
+msgid "No element selected!"
+msgstr "Intet element valgt!"
+
+#: ../admin/class-admin-scripts-styles.php:355
+msgid "No width has been entered. Please set one!"
+msgstr "Ingen bredde er indtastet. Venligst indstil en!"
+
+#: ../admin/class-admin-scripts-styles.php:356
+msgid "No height has been entered. Please set one!"
+msgstr "Ingen højde er indtastet. Venligst indstil en!"
+
+#: ../admin/class-admin-scripts-styles.php:357
+msgid ""
+"PDF creation failed - There is too much data being sent. To fix this please "
+"increase the WordPress memory limit in your php.ini file. You could export a "
+"single view or use the JPEG image format! "
+msgstr ""
+"PDF-oprettelse mislykkedes - Der sendes for meget data. For at løse dette "
+"skal du øge WordPress-hukommelsesgrænsen i din php.ini-fil. Du kan "
+"eksportere en enkelt visning eller bruge JPEG-billedformatet! "
+
+#: ../admin/class-admin-scripts-styles.php:358
+msgid ""
+"JSON could not be parsed. Go to wp-content/fancy_products_orders/pdfs and "
+"check if a PDF has been generated."
+msgstr ""
+"JSON kunne ikke analyseres. Gå til wp-indhold/fancy_products_orders/pdfs og "
+"kontroller om en PDF er genereret."
+
+#: ../admin/class-admin-scripts-styles.php:359
+msgid "No Product is selected. Please load one from the Order Items table!"
+msgstr "Ingen produkt er valgt. Indlæs venligst en fra ordreelementtabellen!"
+
+#: ../admin/class-admin-scripts-styles.php:360
+msgid ""
+"Your Pop-Up Blocker is enabled so the image will be opened in a new window. "
+"Please choose to allow this website in your pop-up blocker!"
+msgstr ""
+"Din popup-blokering er aktiveret, så billedet åbnes i et nyt vindue. Vælg "
+"venligst at tillade denne hjemmeside i din pop-up blocker!"
+
+#: ../admin/class-admin-scripts-styles.php:361
+msgid "Could not load order item image. Please try again!"
+msgstr "Kunne ikke indlæse ordreelementbilledet. Prøv igen!"
+
+#: ../admin/class-admin-manage-products.php:108
+#: ../admin/class-admin-manage-products.php:177
+msgid "Add New"
+msgstr "Tilføj ny"
+
+#: ../admin/class-admin-manage-products.php:109
+msgid "Import"
+msgstr "Importere"
+
+#: ../admin/class-admin-manage-products.php:110
+msgid "Load Template"
+msgstr "Indlæs skabelon"
+
+#: ../admin/class-admin-manage-products.php:111
+msgid "Download a demo to get started"
+msgstr "Download en demo for at komme i gang"
+
+#: ../admin/class-admin-manage-products.php:111
+msgid "Download Demo"
+msgstr "Download Demo"
+
+#: ../admin/class-admin-manage-products.php:116
+msgid "Filter:"
+msgstr "Filter:"
+
+#: ../admin/class-admin-manage-products.php:118
+msgid "ID"
+msgstr "ID"
+
+#: ../admin/class-admin-manage-products.php:119
+msgid "Title"
+msgstr "Titel"
+
+#: ../admin/class-admin-manage-products.php:122
+msgid "Ascending"
+msgstr "stigende"
+
+#: ../admin/class-admin-manage-products.php:123
+msgid "Descending"
+msgstr "Aftagende"
+
+#: ../admin/class-admin-manage-products.php:127
+msgid "Search Products..."
+msgstr "Søg produkter ..."
+
+#: ../admin/class-admin-manage-products.php:128
+msgid "Search"
+msgstr "Søg"
+
+#: ../admin/class-admin-manage-products.php:133
+msgid "No Products found!"
+msgstr "Ingen produkter fundet!"
+
+#: ../admin/class-admin-manage-products.php:176
+#: ../admin/class-admin-designs.php:156
+msgid "Categories"
+msgstr "Kategorier"
+
+#: ../admin/class-admin-manage-products.php:205
+msgid "Product Thumbnail"
+msgstr "Produkttema"
+
+#: ../admin/class-admin-manage-products.php:205
+msgid "Add View"
+msgstr "Tilføj visning"
+
+#: ../admin/class-admin-manage-products.php:205
+#: ../admin/class-admin-manage-products.php:213
+#: ../admin/class-admin-manage-products.php:227
+#: ../admin/class-admin-designs.php:288
+msgid "Edit Title"
+msgstr "Rediger Titel"
+
+#: ../admin/class-admin-manage-products.php:205
+msgid "Edit Options"
+msgstr "Rediger indstillinger"
+
+#: ../admin/class-admin-manage-products.php:205
+#: ../admin/views/html-order-viewer.php:19
+msgid "Export"
+msgstr "Eksport"
+
+#: ../admin/class-admin-manage-products.php:205
+msgid "Save as template"
+msgstr "Gem som skabelon"
+
+#: ../admin/class-admin-manage-products.php:205
+#: ../admin/class-admin-manage-products.php:213
+msgid "Duplicate"
+msgstr "Duplikere"
+
+#: ../admin/class-admin-manage-products.php:213
+msgid "View Thumbnail"
+msgstr "Se miniaturebillede"
+
+#: ../admin/class-admin-manage-products.php:213
+msgid "Edit view in product builder"
+msgstr "Rediger visning i produktbygger"
+
+#: ../admin/class-admin-manage-products.php:227
+msgid "Show only products of this category"
+msgstr "Vis kun produkter af denne kategori"
+
+#: ../admin/wp_autoupdate.php:78
+msgid "Please enter a valid Envato Item Purchase code in order to auto-update!"
+msgstr ""
+"Indtast venligst en gyldig Envato-varekøbskode for automatisk at opdatere!"
+
+#: ../admin/wp_autoupdate.php:80
+msgid ""
+"The Envato Item Purchase Code is not correct! Please enter a valid one in "
+"order to auto-update."
+msgstr ""
+"Envato Item Purchase Code er ikke korrekt! Indtast venligst en gyldig en for "
+"at opdatere automatisk."
+
+#: ../admin/class-admin-ajax.php:98
+msgid "Category successfully reordered!"
+msgstr "Kategori med succes ændret!"
+
+#: ../admin/class-admin-ajax.php:129
+msgid "Category successfully deleted!"
+msgstr "Kategori slettet korrekt!"
+
+#: ../admin/class-admin-ajax.php:181
+msgid "Category successfully updated!"
+msgstr "Kategori med succes opdateret!"
+
+#: ../admin/class-admin-ajax.php:254 ../admin/class-admin-ajax.php:828
+msgid "Product successfully created!"
+msgstr "Produkt med succes oprettet!"
+
+#: ../admin/class-admin-ajax.php:254
+msgid "Product could not be created. Please try again!"
+msgstr "Produkt kunne ikke oprettes. Prøv igen!"
+
+#: ../admin/class-admin-ajax.php:290 ../admin/class-admin-ajax.php:678
+msgid "Product Updated!"
+msgstr "Produkt opdateret!"
+
+#: ../admin/class-admin-ajax.php:407
+msgid "Category successfully created!"
+msgstr "Kategori med succes oprettet!"
+
+#: ../admin/class-admin-ajax.php:407
+msgid "Category could not be created. Please try again!"
+msgstr "Kategori kunne ikke oprettes. Prøv igen!"
+
+#: ../admin/class-admin-ajax.php:441
+msgid "Category Updated!"
+msgstr "Kategori Opdateret!"
+
+#: ../admin/class-admin-ajax.php:591
+msgid "View Updated!"
+msgstr "Vis opdateret!"
+
+#: ../admin/class-admin-ajax.php:764
+msgid "Template successfully created."
+msgstr "Skabelon er oprettet."
+
+#: ../admin/class-admin-ajax.php:768
+msgid "Template could not be stored. Please try again!"
+msgstr "Skabelonen kunne ikke gemmes. Prøv igen!"
+
+#: ../admin/class-admin-ajax.php:836
+msgid "Fancy Product could not be stored. Please try again!"
+msgstr "Fancy Product kunne ikke gemmes. Prøv igen!"
+
+#: ../admin/class-admin-ajax.php:1231
+msgid "Depositphotos Image successfully replaced!"
+msgstr "Depositphotos Billede erstattet succesfuldt!"
+
+#: ../admin/class-admin-ajax.php:1267
+msgid "Order successfully saved."
+msgstr "Ordre med succes gemt."
+
+#: ../admin/class-admin-ajax.php:1267
+msgid "Order changes could not be saved. Please try again!"
+msgstr "Ordreændringer kunne ikke gemmes. Prøv igen!"
+
+#: ../admin/class-admin-product-builder.php:33
+msgid "There are no products!"
+msgstr "Der er ingen produkter!"
+
+#: ../admin/class-admin-product-builder.php:61
+msgid "Elements saved."
+msgstr "Elementer gemt."
+
+#: ../admin/class-admin-product-builder.php:69
+msgid "Select the view of a product:"
+msgstr "Vælg visning af et produkt:"
+
+#: ../admin/class-admin-product-builder.php:143
+msgid "Edit View Options"
+msgstr "Rediger visningsindstillinger"
+
+#: ../admin/class-admin-product-builder.php:163
+msgid "Layers"
+msgstr "Lag"
+
+#: ../admin/class-admin-product-builder.php:167
+msgid "Add Image"
+msgstr "Tilføj billede"
+
+#: ../admin/class-admin-product-builder.php:168
+msgid "The user can add one element into a placeholder image."
+msgstr "Brugeren kan tilføje et element til et stedholder billede."
+
+#: ../admin/class-admin-product-builder.php:168
+msgid "Add Upload Zone"
+msgstr "Tilføj Upload Zone"
+
+#: ../admin/class-admin-product-builder.php:169
+msgid "Add Text"
+msgstr "Tilføj tekst"
+
+#: ../admin/class-admin-product-builder.php:170
+msgid "Add Curved Text"
+msgstr "Tilføj buet tekst"
+
+#: ../admin/class-admin-product-builder.php:171
+msgid "Text box has a fixed width."
+msgstr "Tekstboksen har en fast bredde."
+
+#: ../admin/class-admin-product-builder.php:171
+msgid "Add Text Box"
+msgstr "Tilføj tekstboks"
+
+#: ../admin/class-admin-product-builder.php:179
+msgid "You can change the order by dragging the items."
+msgstr "Du kan ændre ordren ved at trække emnerne."
+
+#: ../admin/class-admin-product-builder.php:193
+msgid "Canvas"
+msgstr "Lærred"
+
+#: ../admin/class-admin-product-builder.php:203
+msgid "Undo"
+msgstr "Fortryd"
+
+#: ../admin/class-admin-product-builder.php:206
+msgid "Redo"
+msgstr "redo"
+
+#: ../admin/class-admin-product-builder.php:209
+msgid "Center Horizontal"
+msgstr "Center Horisontalt"
+
+#: ../admin/class-admin-product-builder.php:212
+msgid "Center Vertical"
+msgstr "Center Vertikal"
+
+#: ../admin/class-admin-product-builder.php:215
+msgid "Ruler"
+msgstr "Lineal"
+
+#: ../admin/class-admin-product-builder.php:219
+msgid "Edit Mask"
+msgstr "Rediger Mask"
+
+#: ../admin/class-admin-product-builder.php:221
+msgid "Use a SVG with one path as mask"
+msgstr "Brug en SVG med en sti som maske"
+
+#: ../admin/class-admin-product-builder.php:225
+msgid "Image URL"
+msgstr "Billedwebadresse"
+
+#: ../admin/class-admin-product-builder.php:243
+msgid "Scale-X"
+msgstr "Scale-X"
+
+#: ../admin/class-admin-product-builder.php:247
+msgid "Scale-Y"
+msgstr "Scale-Y"
+
+#: ../admin/class-admin-product-builder.php:257
+msgid "Edit Printing Box"
+msgstr "Rediger udskrivningsboks"
+
+#: ../admin/class-admin-product-builder.php:259
+msgid "Printing box"
+msgstr "Udskrivningsboks"
+
+#: ../admin/class-admin-product-builder.php:270
+#: ../admin/modals/modal-edit-design-category-options.php:97
+#: ../admin/views/html-product-builder-parameters-form.php:29
+msgid "Scale"
+msgstr "vægt"
+
+#: ../admin/class-admin-product-builder.php:282
+msgid "Preview: Tablet"
+msgstr "Forhåndsvisning: Tablet"
+
+#: ../admin/class-admin-product-builder.php:285
+msgid "Preview: Mobile Phone"
+msgstr "Forhåndsvisning: Mobiltelefon"
+
+#: ../admin/class-admin-product-builder.php:288
+msgid "Preview: Fit into container"
+msgstr "Preview: Føj til container"
+
+#: ../admin/class-admin-designs.php:58
+#: ../admin/modals/modal-manage-categories.php:5
+msgid "Manage Categories"
+msgstr "Administrer kategorier"
+
+#: ../admin/class-admin-designs.php:75
+msgid "No categories found. You need to create a category first!"
+msgstr "Ingen kategorier fundet. Du skal først oprette en kategori!"
+
+#: ../admin/class-admin-designs.php:142
+msgid "Designs saved."
+msgstr "Design gemt."
+
+#: ../admin/class-admin-designs.php:180
+msgid "Add Designs"
+msgstr "Tilføj design"
+
+#: ../admin/class-admin-designs.php:181
+msgid "Edit Category Options"
+msgstr "Rediger kategoriindstillinger"
+
+#: ../admin/class-admin-designs.php:227
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: ../admin/class-admin-designs.php:279
+msgid "Category Thumbnail"
+msgstr "Kategori Thumbnail"
+
+#: ../admin/class-admin-designs.php:294
+msgid "Collapse Toggle"
+msgstr "Collapse Toggle"
+
+#: ../admin/modals/modal-load-template.php:5
+msgid "Load a template"
+msgstr "Indlæs en skabelon"
+
+#: ../admin/modals/modal-load-template.php:13
+msgid ""
+"No templates created. You can create a template via the action bar in a "
+"product list item."
+msgstr ""
+"Ingen skabeloner oprettet. Du kan oprette en skabelon via handlingslinjen i "
+"en produktliste."
+
+#: ../admin/modals/modal-manage-categories.php:11
+msgid "Categories will be sorted alphabetically in the product designer!"
+msgstr "Kategorier sorteres alfabetisk i produktdesigneren!"
+
+#: ../admin/modals/modal-manage-categories.php:26
+msgid "Add new category"
+msgstr "Tilføj ny kategori"
+
+#: ../admin/modals/modal-load-demo.php:5
+msgid "Download an example demo and import the zip"
+msgstr "Download et eksempel demo og importer zip"
+
+#: ../admin/modals/modal-load-demo.php:22
+msgid "Download"
+msgstr "Hent"
+
+#: ../admin/modals/modal-individual-product-settings.php:5
+msgid "Individual Settings"
+msgstr "Individuelle indstillinger"
+
+#: ../admin/modals/modal-individual-product-settings.php:7
+#, php-format
+msgid ""
+"Here you can set individual product designer settings for this product. That "
+"allows to use different settings from the <a href=\"%s\">main settings</a>."
+msgstr ""
+"Her kan du indstille individuelle produktdesignerindstillinger for dette "
+"produkt. Det gør det muligt at bruge forskellige indstillinger fra <a href="
+"\"%s\">hovedindstillinger</a>."
+
+#: ../admin/modals/modal-individual-product-settings.php:32
+msgid "UI Layout"
+msgstr "UI Layout"
+
+#: ../admin/modals/modal-individual-product-settings.php:35
+#: ../admin/modals/modal-individual-product-settings.php:50
+#: ../admin/modals/modal-individual-product-settings.php:65
+#: ../admin/modals/modal-individual-product-settings.php:121
+#: ../admin/modals/modal-individual-product-settings.php:131
+#: ../admin/modals/modal-individual-product-settings.php:141
+#: ../admin/modals/modal-individual-product-settings.php:151
+#: ../admin/modals/modal-individual-product-settings.php:161
+#: ../admin/modals/modal-individual-product-settings.php:197
+#: ../admin/modals/modal-individual-product-settings.php:207
+#: ../admin/modals/modal-individual-product-settings.php:217
+#: ../admin/modals/modal-individual-product-settings.php:283
+#: ../admin/modals/modal-individual-product-settings.php:293
+#: ../admin/modals/modal-individual-product-settings.php:336
+#: ../admin/modals/modal-individual-product-settings.php:346
+#: ../admin/modals/modal-individual-product-settings.php:376
+#: ../admin/modals/modal-individual-product-settings.php:420
+#: ../admin/modals/modal-individual-product-settings.php:434
+#: ../admin/modals/modal-individual-product-settings.php:444
+#: ../admin/modals/modal-individual-product-settings.php:454
+#: ../admin/modals/modal-individual-product-settings.php:464
+msgid "Use Option From Main Settings"
+msgstr "Brug valgmulighed fra hovedindstillinger"
+
+#: ../admin/modals/modal-individual-product-settings.php:77
+#: ../admin/views/html-product-builder-parameters-form.php:577
+msgid "Design Categories"
+msgstr "Designkategorier"
+
+#: ../admin/modals/modal-individual-product-settings.php:79
+msgid "All Categories"
+msgstr "alle kategorier"
+
+#: ../admin/modals/modal-individual-product-settings.php:85
+msgid "Available Fonts"
+msgstr "Tilgængelige skrifttyper"
+
+#: ../admin/modals/modal-individual-product-settings.php:87
+msgid "All Fonts"
+msgstr "Alle skrifttyper"
+
+#: ../admin/modals/modal-individual-product-settings.php:99
+msgid "Background"
+msgstr "Baggrund"
+
+#: ../admin/modals/modal-individual-product-settings.php:101
+msgid "Image"
+msgstr "Billede"
+
+#: ../admin/modals/modal-individual-product-settings.php:102
+msgid "Color"
+msgstr "Farve"
+
+#: ../admin/modals/modal-individual-product-settings.php:108
+msgid "Set Image"
+msgstr "Indstil billede"
+
+#: ../admin/modals/modal-individual-product-settings.php:128
+msgid "Color Prices for Images"
+msgstr "Farve Priser for billeder"
+
+#: ../admin/modals/modal-individual-product-settings.php:138
+msgid "Color Prices for Texts"
+msgstr "Farvepriser for tekster"
+
+#: ../admin/modals/modal-individual-product-settings.php:174
+msgid "Custom Uploads, Designs and Social Network Images"
+msgstr "Brugerdefinerede uploads, design og sociale netværk billeder"
+
+#: ../admin/modals/modal-individual-product-settings.php:204
+#: ../admin/modals/modal-individual-product-settings.php:343
+#: ../admin/views/html-product-builder-parameters-form.php:6
+#: ../admin/views/html-ui-layout-composer-toolbar.php:355
+msgid "Bounding Box"
+msgstr "Bounding Box"
+
+#: ../admin/modals/modal-individual-product-settings.php:208
+#: ../admin/modals/modal-individual-product-settings.php:347
+msgid "Custom Bounding Box"
+msgstr "Custom Bounding Box"
+
+#: ../admin/modals/modal-individual-product-settings.php:209
+#: ../admin/modals/modal-individual-product-settings.php:348
+#: ../admin/views/html-product-builder-parameters-form.php:301
+msgid "Use another element as bounding box"
+msgstr "Brug et andet element som afkrydsningsfelt"
+
+#: ../admin/modals/modal-individual-product-settings.php:252
+msgid "Custom Uploads & Social Network Images"
+msgstr "Brugerdefinerede uploads og sociale netværk billeder"
+
+#: ../admin/modals/modal-individual-product-settings.php:401
+msgid "Maximum Characters\t"
+msgstr "Maksimale tegn \t"
+
+#: ../admin/modals/modal-individual-product-settings.php:405
+msgid "Maximum Lines\t"
+msgstr "Maksimale linjer \t"
+
+#: ../admin/modals/modal-individual-product-settings.php:451
+msgid "Get A Quote"
+msgstr "Få et citat"
+
+#: ../admin/modals/modal-individual-product-settings.php:547
+msgid "Choose a background image"
+msgstr "Vælg et baggrundsbillede"
+
+#: ../admin/modals/modal-edit-product-options.php:5
+msgid "Product Options"
+msgstr "Produktindstillinger"
+
+#: ../admin/modals/modal-edit-product-options.php:21
+msgid "Canvas width from UI Layout"
+msgstr "Canvas bredde fra UI Layout"
+
+#: ../admin/modals/modal-edit-product-options.php:30
+msgid "Canvas height from UI Layout"
+msgstr "Canvas højde fra UI Layout"
+
+#: ../admin/modals/modal-shortcodes.php:5
+msgid "Shortcode Builder"
+msgstr "Shortcode Builder"
+
+#: ../admin/modals/modal-shortcodes.php:13
+msgid "Shortcode"
+msgstr "Lær"
+
+#: ../admin/modals/modal-shortcodes.php:14
+msgid "Attribute(s)"
+msgstr "Egenskab(er)"
+
+#: ../admin/modals/modal-shortcodes.php:21
+msgid ""
+"Place the product designer anywhere you want with these two shortcodes."
+"<br>NOT NECESARRY FOR Woo PRODUCTS!"
+msgstr ""
+"Placer produktdesigneren hvor som helst du vil med disse to kortkoder. "
+"<br>IKKE NØDVENDIG FOR Woo PRODUKTER!"
+
+#: ../admin/modals/modal-shortcodes.php:24
+#, php-format
+msgid "Price Format (%d is the placeholder for the price)"
+msgstr "Prisformat (%d er placeholder for prisen)"
+
+#: ../admin/modals/modal-shortcodes.php:25
+#, php-format
+msgid "e.g. $%d"
+msgstr "e.g. $%d"
+
+#: ../admin/modals/modal-shortcodes.php:31
+msgid "Place an action button anywhere in your page."
+msgstr "Placer en handlingsknap hvor som helst på din side."
+
+#: ../admin/modals/modal-shortcodes.php:35
+msgid "Type"
+msgstr "Type"
+
+#: ../admin/modals/modal-shortcodes.php:37
+msgid "Select Type"
+msgstr "Vælg Type"
+
+#: ../admin/modals/modal-shortcodes.php:41
+#: ../admin/views/html-ui-layout-composer-toolbar.php:5
+msgid "Layout"
+msgstr "Layout"
+
+#: ../admin/modals/modal-shortcodes.php:43
+msgid "Select Layout"
+msgstr "Vælg Layout"
+
+#: ../admin/modals/modal-shortcodes.php:44
+msgid "Icon Tooltip"
+msgstr "Ikon Værktøjstip"
+
+#: ../admin/modals/modal-shortcodes.php:45
+msgid "Icon Text"
+msgstr "Ikon Tekst"
+
+#: ../admin/modals/modal-shortcodes.php:46
+#: ../admin/modals/modal-shortcodes.php:63
+#: ../admin/views/html-product-builder-parameters-form.php:7
+msgid "Text"
+msgstr "Tekst"
+
+#: ../admin/modals/modal-shortcodes.php:54
+msgid "Place a module anywhere in your page."
+msgstr "Placer et modul overalt på din side."
+
+#: ../admin/modals/modal-shortcodes.php:57
+msgid "Module"
+msgstr "Modul"
+
+#: ../admin/modals/modal-shortcodes.php:59
+msgid "Select Module"
+msgstr "Vælg modul"
+
+#: ../admin/modals/modal-shortcodes.php:61
+msgid "Images"
+msgstr "Billeder"
+
+#: ../admin/modals/modal-shortcodes.php:64
+msgid "Manage Layers"
+msgstr "Administrer lag"
+
+#: ../admin/modals/modal-shortcodes.php:65
+msgid "Text Layers"
+msgstr "Tekstlag"
+
+#: ../admin/modals/modal-shortcodes.php:68
+msgid "Wrapper CSS Style"
+msgstr "Wrapper CSS Style"
+
+#: ../admin/modals/modal-shortcodes.php:69
+msgid "e.g. height: 500px; width: 300px;"
+msgstr "fx højde: 500px; bredde: 300px;"
+
+#: ../admin/modals/modal-edit-design-category-options.php:5
+msgid "Options"
+msgstr "Muligheder"
+
+#: ../admin/modals/modal-edit-design-category-options.php:6
+msgid ""
+"Here you can set custom options for all designs in a single category or for "
+"every design element separately."
+msgstr ""
+"Her kan du indstille brugerdefinerede valgmuligheder for alle design i en "
+"enkelt kategori eller for hvert designelement separat."
+
+#: ../admin/modals/modal-edit-design-category-options.php:17
+msgid "Design Thumbnail"
+msgstr "Design miniatur"
+
+#: ../admin/modals/modal-edit-design-category-options.php:46
+msgid "Enable Options"
+msgstr "Aktivér indstillinger"
+
+#: ../admin/modals/modal-edit-design-category-options.php:140
+#: ../admin/views/html-product-builder-parameters-form.php:585
+msgid "Scale Mode"
+msgstr "Skalemodus"
+
+#: ../admin/modals/modal-edit-design-category-options.php:145
+#: ../admin/views/html-product-builder-parameters-form.php:588
+msgid "Fit"
+msgstr "Passe"
+
+#: ../admin/modals/modal-edit-design-category-options.php:146
+#: ../admin/views/html-product-builder-parameters-form.php:589
+msgid "Cover"
+msgstr "Dække over"
+
+#: ../admin/modals/modal-edit-design-category-options.php:177
+msgid "Color(s)"
+msgstr "Farve(r)"
+
+#: ../admin/modals/modal-edit-design-category-options.php:204
+msgid "SKU"
+msgstr "SKU"
+
+#: ../admin/modals/modal-edit-design-category-options.php:331
+#: ../admin/views/html-product-builder-parameters-form.php:173
+msgid "Removable"
+msgstr "Aftagelig"
+
+#: ../admin/modals/modal-edit-design-category-options.php:387
+#: ../admin/views/html-product-builder-parameters-form.php:258
+msgid "Exclude From Export"
+msgstr "Ekskluder fra eksport"
+
+#: ../admin/modals/modal-edit-view-options.php:5
+msgid "View Options"
+msgstr "Vis indstillinger"
+
+#: ../admin/modals/modal-edit-view-options.php:6
+msgid ""
+"Here you can adjust the options for a single view. This allows, among other "
+"things to use different prices in different views."
+msgstr ""
+"Her kan du justere mulighederne for en enkelt visning. Dette tillader bl.a. "
+"at bruge forskellige priser i forskellige visninger."
+
+#: ../admin/modals/modal-edit-view-options.php:21
+msgid "Canvas width from UI-Layout/Product Options"
+msgstr "Canvas bredde fra UI-Layout / Produktindstillinger"
+
+#: ../admin/modals/modal-edit-view-options.php:30
+msgid "Canvas height from UI-Layout/Product Options"
+msgstr "Canvas højde fra UI-Layout/Product Options"
+
+#: ../admin/modals/modal-edit-view-options.php:39
+msgid "This price will be used for custom added images."
+msgstr "Denne pris vil blive brugt til brugerdefinerede tilføjede billeder."
+
+#: ../admin/modals/modal-edit-view-options.php:48
+msgid "This price will be used for custom added texts."
+msgstr "Denne pris vil blive brugt til brugerdefinerede tilføjede tekster."
+
+#: ../admin/modals/modal-edit-view-options.php:57
+msgid ""
+"The maximum price that will be charged for the view. -1 will disable this "
+"option."
+msgstr ""
+"Den maksimale pris, der opkræves for visningen. -1 deaktiverer denne "
+"indstilling."
+
+#: ../admin/modals/modal-edit-view-options.php:66
+msgid ""
+"The view is optional, the user must unlock the view and the prices for all "
+"element will be added to the total product price."
+msgstr ""
+"Visningen er valgfri, brugeren skal låse op for visningen, og prisen for alt "
+"element vil blive tilføjet til den samlede produktpris."
+
+#: ../admin/modals/modal-edit-view-options.php:74
+msgid "Choose design categories"
+msgstr "Vælg designkategorier"
+
+#: ../admin/modals/modal-edit-view-options.php:75
+msgid "You can choose specific design categories for this view."
+msgstr "Du kan vælge bestemte designkategorier for denne visning."
+
+#: ../admin/modals/modal-edit-view-options.php:108
+msgid ""
+"Define the necessary information for the PDF generation in the <a href="
+"\"https://admin.fancyproductdesigner.com\" target=\"_blank\">ADMIN solution</"
+"a>. After setting a format, a rectangular box will be added to the canvas. "
+"When exporting the order as PDF in the ADMIN solution, only the content in "
+"the printing box will be visible in the PDF!"
+msgstr ""
+"Definer de nødvendige oplysninger til PDF-generationen i <a href=\"https://"
+"admin.fancyproductdesigner.com\" target=\"_blank\"> ADMIN-løsningen </a>. "
+"Efter indstilling af et format, tilføjes en rektangulær boks til lærredet. "
+"Når du eksporterer ordren som PDF i ADMIN-løsningen, vil kun indholdet i "
+"udskrivningsboksen være synligt i PDF-filen!"
+
+#: ../admin/modals/modal-edit-view-options.php:118
+msgid "Select a standard format or enter a custom size."
+msgstr "Vælg et standardformat eller indtast en brugerdefineret størrelse."
+
+#: ../admin/modals/modal-edit-view-options.php:121
+msgid "Set Custom Size"
+msgstr "Indstil brugerdefineret størrelse"
+
+#: ../admin/modals/modal-edit-view-options.php:135
+msgid "Standard US & Canada Business Card (89x51 mm ; 3.5x2 in)"
+msgstr "Standard US og Canada visitkort (89x51 mm; 3,5x2 in)"
+
+#: ../admin/modals/modal-edit-view-options.php:136
+msgid "Standard EU Business Card (85x55 mm ; 3.35x2.2 in)"
+msgstr "Standard EU visitkort (85x55 mm; 3,35x2,2 in)"
+
+#: ../admin/modals/modal-edit-view-options.php:137
+msgid "Micro Business Card (25x76 mm ; 1x3 in)"
+msgstr "Micro visitkort (25x76 mm; 1x3 in)"
+
+#: ../admin/modals/modal-edit-view-options.php:138
+msgid "Square Business Card (57x57 mm ; 2.25x2.25 in)"
+msgstr "Firkantet visitkort (57x57 mm; 2.25x2.25 in)"
+
+#: ../admin/modals/modal-edit-view-options.php:139
+msgid "Folded Business Card (83x51 mm ; 3.25x2 in)"
+msgstr "Foldet visitkort (83x51 mm; 3,25x2 in)"
+
+#: ../admin/modals/modal-edit-view-options.php:146
+msgid "Printing Area Width in MM"
+msgstr "Udskrivningsarealbredde i MM"
+
+#: ../admin/modals/modal-edit-view-options.php:155
+msgid "Printing Area Height in MM"
+msgstr "Udskrivningsareal Højde i MM"
+
+#: ../admin/modals/modal-edit-view-options.php:164
+msgid "Show Printing Box In Frontend"
+msgstr "Vis udskrivningskasse i frontend"
+
+#: ../admin/modals/modal-edit-view-options.php:172
+msgid "Background PDF"
+msgstr "Baggrund PDF"
+
+#: ../admin/views/html-order-viewer.php:11
+msgid "Save Order Changes"
+msgstr "Gem ordreændringer"
+
+#: ../admin/views/html-order-viewer.php:12
+msgid ""
+"Create a new Product with the current showing views in the Order Viewer."
+msgstr "Opret en ny produkt med de nuværende visninger i ordregiveren."
+
+#: ../admin/views/html-order-viewer.php:12
+msgid "Create Product From Order"
+msgstr "Opret produkt fra ordre"
+
+#: ../admin/views/html-order-viewer.php:20
+msgid "Single Elements"
+msgstr "Enkle elementer"
+
+#: ../admin/views/html-order-viewer.php:21
+msgid "Depositphotos"
+msgstr "Depositphotos"
+
+#: ../admin/views/html-order-viewer.php:32
+msgid "Output File"
+msgstr "Output File"
+
+#: ../admin/views/html-order-viewer.php:35
+msgid "PDF"
+msgstr "PDF"
+
+#: ../admin/views/html-order-viewer.php:38
+msgid "IMAGE"
+msgstr "BILLEDE"
+
+#: ../admin/views/html-order-viewer.php:43
+#: ../admin/views/html-order-viewer.php:130
+msgid "Image Format"
+msgstr "Billedformat"
+
+#: ../admin/views/html-order-viewer.php:53
+msgid ""
+"Exporting as SVG format allows to create a multi-layer PDF. Bounding box "
+"clippings are ignored!"
+msgstr ""
+"Eksportering som SVG-format gør det muligt at oprette en multi-layer PDF. "
+"Afgrænsningsområdet udklip ignoreres!"
+
+#: ../admin/views/html-order-viewer.php:58
+msgid "View(s)"
+msgstr "Visning(er)"
+
+#: ../admin/views/html-order-viewer.php:61
+msgid "ALL"
+msgstr "ALLE"
+
+#: ../admin/views/html-order-viewer.php:64
+msgid "CURRENT SHOWING"
+msgstr "Nuværende Visning"
+
+#: ../admin/views/html-order-viewer.php:69
+#: ../admin/views/html-order-viewer.php:159
+msgid "Create"
+msgstr "skab"
+
+#: ../admin/views/html-order-viewer.php:70
+msgid "The created pdfs will be stored in: "
+msgstr "De oprettede pdfs gemmes i: "
+
+#: ../admin/views/html-order-viewer.php:77
+msgid "Size"
+msgstr "Størrelse"
+
+#: ../admin/views/html-order-viewer.php:78
+msgid "DPI - Pixel Converter"
+msgstr "DPI - Pixel Converter"
+
+#: ../admin/views/html-order-viewer.php:84
+msgid "PDF width in mm"
+msgstr "PDF bredde i mm"
+
+#: ../admin/views/html-order-viewer.php:89
+msgid "PDF height in mm"
+msgstr "PDF højde i mm"
+
+#: ../admin/views/html-order-viewer.php:94
+msgid "Scale Factor"
+msgstr "Skaleringsfaktor"
+
+#: ../admin/views/html-order-viewer.php:99
+msgid "Image DPI"
+msgstr "Billede DPI"
+
+#: ../admin/views/html-order-viewer.php:105
+msgid "Include Text Summary"
+msgstr "Inkluder tekstoversigt"
+
+#: ../admin/views/html-order-viewer.php:110
+msgid "Adds an additional page with information about all elements."
+msgstr "Tilføjer en ekstra side med oplysninger om alle elementer."
+
+#: ../admin/views/html-order-viewer.php:121
+msgid "Selected Element"
+msgstr "Udvalgt element"
+
+#: ../admin/views/html-order-viewer.php:124
+msgid "Export Options"
+msgstr "Eksportindstillinger"
+
+#: ../admin/views/html-order-viewer.php:140
+msgid ""
+"When creating an SVG image with a text element, make sure that the font you "
+"are using is installed on your computer otherwise it will not be shown."
+msgstr ""
+"Når du opretter et SVG-billede med et tekstelement, skal du sørge for, at "
+"den skrifttype, du bruger, er installeret på din computer, ellers vil den "
+"ikke blive vist."
+
+#: ../admin/views/html-order-viewer.php:146
+msgid "Padding around exported element."
+msgstr "Padding omkring eksporteret element."
+
+#: ../admin/views/html-order-viewer.php:152
+msgid "DPI"
+msgstr "DPI"
+
+#: ../admin/views/html-order-viewer.php:167
+msgid ""
+"Use origin size, that will set the scaling to 1, when exporting the image."
+msgstr ""
+"Brug oprindelsesstørrelse, som indstiller skaleringen til 1, når du "
+"eksporterer billedet."
+
+#: ../admin/views/html-order-viewer.php:175
+msgid "Save exported image on server."
+msgstr "Gem eksporteret billede på serveren."
+
+#: ../admin/views/html-order-viewer.php:176
+msgid ""
+"You can save all elements of the Product as an image on your server, to be "
+"stored in: "
+msgstr ""
+"Du kan gemme alle elementer af produktet som et billede på din server, der "
+"skal gemmes i: "
+
+#: ../admin/views/html-order-viewer.php:184
+msgid "Export without bounding box clipping if element has one."
+msgstr "Eksport uden at afgrænse bokseklipning, hvis elementet har en."
+
+#: ../admin/views/html-order-viewer.php:196
+msgid "Added By Customer"
+msgstr "Tilføjet af kunde"
+
+#: ../admin/views/html-order-viewer.php:202
+msgid "Saved Images On Server"
+msgstr "Gemte billeder på serveren"
+
+#: ../admin/views/html-order-viewer.php:210
+msgid "Depositphotos Images added by user"
+msgstr "Depositphotos Billeder tilføjet af brugeren"
+
+#: ../admin/views/html-order-viewer.php:211
+msgid ""
+"Be aware that downloading an image will take coins from your depositphotos "
+"reseller account."
+msgstr ""
+"Vær opmærksom på, at downloading af et billede vil tage mønter fra din "
+"deposito-forhandlerkonto."
+
+#: ../admin/views/html-product-builder-parameters-form.php:5
+msgid "Modifications"
+msgstr "Ændringer"
+
+#: ../admin/views/html-product-builder-parameters-form.php:8
+msgid "Upload Zone"
+msgstr "Upload zone"
+
+#: ../admin/views/html-product-builder-parameters-form.php:21
+msgid "Position"
+msgstr "Position"
+
+#: ../admin/views/html-product-builder-parameters-form.php:31
+#: ../admin/views/html-product-builder-parameters-form.php:314
+msgid "X"
+msgstr "x"
+
+#: ../admin/views/html-product-builder-parameters-form.php:33
+#: ../admin/views/html-product-builder-parameters-form.php:316
+msgid "Y"
+msgstr "Y"
+
+#: ../admin/views/html-product-builder-parameters-form.php:38
+msgid "Angle"
+msgstr "Vinkel"
+
+#: ../admin/views/html-product-builder-parameters-form.php:56
+msgid "Always use a dot as the decimal separator!"
+msgstr "Brug altid en prik som decimalseparator!"
+
+#: ../admin/views/html-product-builder-parameters-form.php:65
+msgid "Elements with the same replace value are replaced by each other."
+msgstr "Elementer med samme erstatningsværdi erstattes af hinanden."
+
+#: ../admin/views/html-product-builder-parameters-form.php:72
+msgid "X-Axis Reference Point"
+msgstr "X-akse Reference Point"
+
+#: ../admin/views/html-product-builder-parameters-form.php:89
+msgid "Y-Axis Reference Point"
+msgstr "Y-akse referencepunkt"
+
+#: ../admin/views/html-product-builder-parameters-form.php:117
+msgid "Color Picker per path"
+msgstr "Farvevælger pr. Sti"
+
+#: ../admin/views/html-product-builder-parameters-form.php:118
+msgid "Every path in the SVG gets an own color picker."
+msgstr "Hver vej i SVG får en egen farvevælger."
+
+#: ../admin/views/html-product-builder-parameters-form.php:129
+msgid "Available Colors"
+msgstr "Tilgængelige farver"
+
+#: ../admin/views/html-product-builder-parameters-form.php:130
+msgid ""
+"One color value: Colorpicker, Multiple color values: Fixed color palette"
+msgstr "En farveværdi: Colorpicker, Flere farveværdier: Fast farvepalet"
+
+#: ../admin/views/html-product-builder-parameters-form.php:133
+msgid "e.g. #000000,#ffffff"
+msgstr "feks #000000,#ffffff"
+
+#: ../admin/views/html-product-builder-parameters-form.php:148
+msgid "Current Color"
+msgstr "Nuværende farve"
+
+#: ../admin/views/html-product-builder-parameters-form.php:150
+#: ../admin/views/html-product-builder-parameters-form.php:484
+msgid "e.g. #000000"
+msgstr "feks #000000"
+
+#: ../admin/views/html-product-builder-parameters-form.php:154
+msgid "Opacity"
+msgstr "Gennemsigtighed"
+
+#: ../admin/views/html-product-builder-parameters-form.php:215
+msgid "Layer Position Unlockable"
+msgstr "Layer Position Låses op"
+
+#: ../admin/views/html-product-builder-parameters-form.php:260
+msgid ""
+"Only available when viewing orders with the new <a href=\"http://admin."
+"fancyproductdesigner.com\" target=\"_blank\">ADMIN solution</a>!"
+msgstr ""
+"Kun tilgængelig ved visning af ordrer med den nye <a href=\"http://admin."
+"fancyproductdesigner.com\" target=\"_blank\">ADMIN-løsning</a>!"
+
+#: ../admin/views/html-product-builder-parameters-form.php:280
+msgid "Locked"
+msgstr "Låst"
+
+#: ../admin/views/html-product-builder-parameters-form.php:281
+msgid "The user needs to unlock the element in Layers module to edit it."
+msgstr "Brugeren skal låse elementet op i Lagermodul for at redigere det."
+
+#: ../admin/views/html-product-builder-parameters-form.php:311
+msgid "Define Bounding Box"
+msgstr "Definer Bounding Box"
+
+#: ../admin/views/html-product-builder-parameters-form.php:318
+msgid "Width"
+msgstr "Bredde"
+
+#: ../admin/views/html-product-builder-parameters-form.php:320
+msgid "Height"
+msgstr "Højde"
+
+#: ../admin/views/html-product-builder-parameters-form.php:323
+msgid "Title of an image element in the same view."
+msgstr "Titel på et billedelement i samme visning."
+
+#: ../admin/views/html-product-builder-parameters-form.php:327
+msgid "Mode"
+msgstr "Mode"
+
+#: ../admin/views/html-product-builder-parameters-form.php:348
+msgid "Font"
+msgstr "Skrifttype"
+
+#: ../admin/views/html-product-builder-parameters-form.php:350
+msgid "Select a font"
+msgstr "Vælg en skrifttype"
+
+#: ../admin/views/html-product-builder-parameters-form.php:360
+msgid "Font Size"
+msgstr "Skriftstørrelse"
+
+#: ../admin/views/html-product-builder-parameters-form.php:365
+msgid "Minimum"
+msgstr "Minimum"
+
+#: ../admin/views/html-product-builder-parameters-form.php:369
+msgid "Maximum"
+msgstr "Maksimum"
+
+#: ../admin/views/html-product-builder-parameters-form.php:375
+msgid "Font Size To Width"
+msgstr "Skriftstørrelse til bredde"
+
+#: ../admin/views/html-product-builder-parameters-form.php:376
+msgid ""
+"The font size will be automatically adjusted, so the text fits into the "
+"defined width."
+msgstr ""
+"Skriftstørrelsen justeres automatisk, så teksten passer ind i den definerede "
+"bredde."
+
+#: ../admin/views/html-product-builder-parameters-form.php:380
+msgid "Line Height"
+msgstr "Linjehøjde"
+
+#: ../admin/views/html-product-builder-parameters-form.php:384
+msgid "Letter Spacing"
+msgstr "Letter Spacing"
+
+#: ../admin/views/html-product-builder-parameters-form.php:395
+msgid "Editable"
+msgstr "Redigerbar"
+
+#: ../admin/views/html-product-builder-parameters-form.php:406
+msgid "Charge After Editing"
+msgstr "Opkrævning efter redigering"
+
+#: ../admin/views/html-product-builder-parameters-form.php:407
+msgid ""
+"If the text has price, it will be charged first after the text has been "
+"edited."
+msgstr ""
+"Hvis teksten har en pris, vil den blive opkrævet først, efter at teksten er "
+"blevet redigeret."
+
+#: ../admin/views/html-product-builder-parameters-form.php:417
+msgid "Styling"
+msgstr "Styling"
+
+#: ../admin/views/html-product-builder-parameters-form.php:436
+msgid "Transform"
+msgstr "Transform"
+
+#: ../admin/views/html-product-builder-parameters-form.php:447
+msgid "Multiline Alignment"
+msgstr "Multilinearjustering"
+
+#: ../admin/views/html-product-builder-parameters-form.php:481
+msgid "Stroke"
+msgstr "Slag"
+
+#: ../admin/views/html-product-builder-parameters-form.php:495
+msgid "Allow customer to switch between curvable and normal text."
+msgstr "Tillad kunden at skifte mellem kurv og normal tekst."
+
+#: ../admin/views/html-product-builder-parameters-form.php:506
+msgid "Curved Text Spacing"
+msgstr "Buet tekstafstand"
+
+#: ../admin/views/html-product-builder-parameters-form.php:515
+msgid "Curved Text Radius"
+msgstr "Buet tekstradius"
+
+#: ../admin/views/html-product-builder-parameters-form.php:523
+msgid "Curved Text Reverse"
+msgstr "Buet tekst omvendt"
+
+#: ../admin/views/html-product-builder-parameters-form.php:531
+msgid "Text Box Width"
+msgstr "Tekstboksbredde"
+
+#: ../admin/views/html-product-builder-parameters-form.php:550
+msgid "Image Uploads"
+msgstr "Billedoverførsler"
+
+#: ../admin/views/html-product-builder-parameters-form.php:559
+msgid "Custom Texts"
+msgstr "Brugerdefinerede tekster"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:6
+msgid "Modules"
+msgstr "moduler"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:7
+msgid "Actions"
+msgstr "Handlinger"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:8
+msgid "Toolbar"
+msgstr "Toolbar"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:10
+msgid "Custom CSS"
+msgstr "Brugerdefineret CSS"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:11
+msgid "Guided Tour"
+msgstr "Rundvisning"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:21
+msgid "Main Bar"
+msgstr "Main Bar"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:27
+msgid "Top Bar"
+msgstr "Top Bar"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:35
+msgid "Side Bar Left"
+msgstr "Sidebjælke til venstre"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:43
+msgid "Side Bar Right"
+msgstr "Sidebjælke Højre"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:51
+msgid "Top Bar Layout"
+msgstr "Top Bar Layout"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:57
+msgid "Dynamic Dialog"
+msgstr "Dynamisk dialog"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:64
+msgid "Off-Canvas Left"
+msgstr "Lærred til venstre"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:71
+msgid "Off-Canvas Right"
+msgstr "Lærred til højre"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:80
+msgid "Side Bar Tabs Position"
+msgstr "Side Bar Tabs Position"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:86
+msgid "Tabs Side"
+msgstr "Tabs Side"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:93
+msgid "Tabs Top"
+msgstr "Faneblade Top"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:106
+msgid "Dimensions"
+msgstr "Dimensioner"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:110
+msgid "Canvas Width"
+msgstr "Canvas Bredde"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:118
+msgid "Canvas Height"
+msgstr "Lærred højde"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:127
+msgid "Miscellaneous"
+msgstr "Diverse"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:131
+msgid "Image Grid Columns"
+msgstr "Billedgitters kolonner"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:132
+msgid "Used in products & designs module"
+msgstr "Anvendes i produkter og design modul"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:137
+msgid "One"
+msgstr "En"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:138
+msgid "Two"
+msgstr "To"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:139
+msgid "Three"
+msgstr "Tre"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:140
+msgid "Four"
+msgstr "fire"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:141
+msgid "Five"
+msgstr "Fem"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:146
+msgid "Container Shadow"
+msgstr "Containerskygge"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:158
+msgid "Initial Active Module"
+msgstr "Indledende aktivt modul"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:165
+msgid "View Selection Position"
+msgstr "Se valgposition"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:167
+#: ../admin/views/html-ui-layout-composer-toolbar.php:323
+msgid "Inside Top"
+msgstr "Inside Top"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:168
+msgid "Inside Right"
+msgstr "Inde Højre"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:169
+#: ../admin/views/html-ui-layout-composer-toolbar.php:324
+msgid "Inside Bottom"
+msgstr "Inde i bunden"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:170
+msgid "Inside Left"
+msgstr "Inde i venstre side"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:171
+msgid "Outside"
+msgstr "Uden for"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:194
+msgid "Your Selected Modules"
+msgstr "Dine valgte moduler"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:195
+msgid "These modules will be visible in your main navigation."
+msgstr "Disse moduler vil blive synlige i din hovednavigation."
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:198
+msgid "Drop Modules Here"
+msgstr "Drop moduler her"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:203
+#: ../admin/views/html-ui-layout-composer-toolbar.php:248
+msgid "Double-click on an item to remove it from the dropzone."
+msgstr "Dobbeltklik på et element for at fjerne det fra dropzone."
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:210
+msgid "Available Modules"
+msgstr "Tilgængelige moduler"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:211
+msgid "Drag desired modules to dropzone."
+msgstr "Træk ønskede moduler til dropzone."
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:226
+msgid "Your Selected Actions"
+msgstr "Dine valgte handlinger"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:230
+#: ../admin/views/html-ui-layout-composer-toolbar.php:234
+#: ../admin/views/html-ui-layout-composer-toolbar.php:238
+#: ../admin/views/html-ui-layout-composer-toolbar.php:242
+msgid "Drop Actions here"
+msgstr "Drop Actions her"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:256
+msgid "Available Actions"
+msgstr "Tilgængelige handlinger"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:258
+msgid "Drag desired actions to dropzone"
+msgstr "Træk ønskede handlinger til dropzone"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:265
+msgid "Top Actions"
+msgstr "Tophandlinger"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:274
+msgid "Right Actions"
+msgstr "Højre handlinger"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:283
+msgid "Bottom Actions"
+msgstr "Bundhandlinger"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:292
+msgid "Left Actions"
+msgstr "Venstre handlinger"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:314
+msgid "Exclude Tools"
+msgstr "Ekskluder værktøj"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:320
+msgid "Type & Placement"
+msgstr "Type & placering"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:322
+msgid "Dynamic"
+msgstr "Dynamisk"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:325
+msgid "Smart"
+msgstr "Smart"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:336
+msgid "Create an own color scheme."
+msgstr "Opret eget farveskema."
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:341
+msgid "Primary"
+msgstr "Primær"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:345
+msgid "Secondary"
+msgstr "Sekundær"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:349
+msgid "Element Boundary"
+msgstr "Element Boundary"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:359
+msgid "Out Of Bounding Box"
+msgstr "Uden for afgrænsningsområdet"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:363
+msgid "Corner Control Icons"
+msgstr "Hjørne kontrol ikoner"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:369
+#: ../admin/views/html-ui-layout-composer-toolbar.php:385
+msgid "Update Preview"
+msgstr "Opdater Preview"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:375
+msgid ""
+"You can add custom CSS styles to the pages where the product designer is "
+"included."
+msgstr ""
+"Du kan tilføje brugerdefinerede CSS-stilarter til de sider, hvor "
+"produktdesigneren er inkluderet."
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:376
+msgid "Helpful CSS classes:"
+msgstr "Nyttige CSS klasser:"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:378
+msgid "The product designer container."
+msgstr "Produktdesignerbeholderen."
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:379
+msgid "Wrapper around the product designer container."
+msgstr "Wrapper omkring produkt designer container."
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:380
+msgid "The main bar container."
+msgstr "Hovedbeholderen."
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:390
+msgid ""
+"Create a guided tour by marking action and module elements with an "
+"explanation tooltip."
+msgstr ""
+"Lav en guidet tur ved at markere handling og modulelementer med en "
+"forklaring værktøjstip."
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:392
+msgid "Add step"
+msgstr "Tilføj trin"
+
+#: ../admin/views/html-ui-layout-composer-toolbar.php:393
+msgid "Run"
+msgstr "Løb"
+
+#: ../admin/views/html-admin-meta-box.php:33
+msgid "Desktop"
+msgstr "Desktop"
+
+#: ../admin/views/html-admin-meta-box.php:34
+msgid "Mobile"
+msgstr "Mobil"
+
+#: ../admin/views/html-admin-meta-box.php:69
+#: ../admin/views/html-admin-meta-box.php:88
+#: ../admin/views/html-admin-meta-box.php:123
+#: ../admin/views/html-admin-meta-box.php:142
+msgid "Sort items by drag & drop."
+msgstr "Sorter varer ved at trække og slip."
+
+#: ../admin/views/html-admin-meta-box.php:153
+msgid "Individual Product Settings"
+msgstr "Individuelle produktindstillinger"
+
+#: ../woo/class-wc-product.php:190
+msgid "Sorry, but the cart item could not be found!"
+msgstr "Beklager, men vognen var ikke fundet!"
+
+#: ../woo/class-wc-product.php:427 ../woo/class-wc-product.php:465
+msgid ""
+"The product is not created yet, try again when the product has been fully "
+"loaded into the designer"
+msgstr ""
+"Produktet er ikke oprettet endnu, prøv igen, når produktet er fuldt indlæst "
+"til designeren"
+
+#: ../woo/class-wc-admin-order.php:30
+msgid "Fancy Product Designer - Order Viewer"
+msgstr "Fancy Product Designer - Order Viewer"
+
+#: ../woo/class-wc-admin-order.php:51
+msgid "Load in Order Viewer"
+msgstr "Indlæs i ordrefremviser"
+
+#: ../woo/class-wc-admin-product.php:43
+msgid "Optional: Load a different product into product designer"
+msgstr "Valgfrit: Indsæt et andet produkt i produktdesigneren"
+
+#: ../woo/class-wc-admin-product.php:68
+msgid "Fancy Product Designer - Product"
+msgstr "Fancy Product Designer - Produkt"
+
+#: ../woo/class-wc-admin-product.php:69
+msgid ""
+"Changes the product in the Product Designer when a variation is selected."
+msgstr "Ændrer produktet i produktdesigneren, når der vælges en variant."

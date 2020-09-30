@@ -1,0 +1,202 @@
+/**************************
+****RESET *******
+**************************/
+#fpd-react-root,
+#fpd-react-root *,
+.ui.modals,
+.ui.modals * {
+  font-size: 13px;
+  box-sizing: border-box;
+}
+.ui.modals .dropdown,
+.ui.modals .dropdown .item,
+.ui.modals .sub.header {
+  font-size: 13px !important;
+}
+#fpd-react-root,
+.ui.modals {
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+/**************************
+**** FPD BACKEND *******
+**************************/
+body.fpd-backend {
+  background: #f7f7f7;
+}
+body.fpd-backend .ui.top.left.popup {
+  margin-bottom: 40px;
+  font-size: 12px !important;
+}
+body.fpd-backend [data-tooltip]:after {
+  font-size: 12px !important;
+}
+body.fpd-backend .fpd-backend-footer {
+  position: absolute;
+  bottom: 10px;
+  margin: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+body.fpd-backend #wpfooter {
+  display: none !important;
+}
+body.fpd-backend #wpcontent {
+  padding-left: 0;
+}
+body.fpd-backend #wpbody-content {
+  padding-bottom: 0;
+}
+body.fpd-backend .wrap {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/**************************
+**** NOTIFICATION *******
+**************************/
+.ui.container > .notice h4 {
+  margin-top: 0;
+}
+.fpd-dismiss-notification {
+  position: relative;
+}
+.fpd-dismiss-notification > p {
+  margin-right: 20px;
+}
+/**************************
+**** FORM *******
+**************************/
+.input-uploader > .button:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.input-uploader input[type="text"] {
+  border-radius: 0 !important;
+}
+.wp-picker-container,
+.wp-picker-container * {
+  box-sizing: content-box !important;
+}
+/* SELECT" */
+.select2-drop {
+  z-index: 999999 !important;
+}
+.select2-search__field {
+  webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+/* SELECT LIST */
+.radykal-select-sortable-list {
+  margin: 10px 0 5px 0;
+}
+.radykal-select-sortable-list > li {
+  display: inline-block;
+  list-style: none;
+  background: #e9e9e9;
+  font-size: 10px;
+  line-height: 18px;
+  padding: 2px 6px;
+  margin: 0 5px 5px 0;
+  border-radius: 2px;
+  cursor: move;
+}
+.radykal-select-sortable-list > li > span {
+  display: inline-block;
+  padding: 0 3px;
+  cursor: pointer;
+  vertical-align: bottom;
+  font-size: 20px;
+}
+.radykal-select-sortable-list > li.radykal-sortable-placeholder {
+  border: 1px dashed #e9e9e9;
+  background: #f6f6f6;
+  width: 80px;
+  height: 22px;
+  padding: 0;
+}
+/**************************
+**** MISC *******
+**************************/
+.fpd-clearfix:before,
+.fpd-clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.fpd-clearfix:after {
+  clear: both;
+}
+.fpd-clearfix {
+  zoom: 1;
+}
+.fpd-clear {
+  clear: both;
+}
+.fpd-hidden {
+  display: none!important;
+}
+.fpd-left {
+  float: left;
+}
+.fpd-right {
+  float: right;
+}
+.fpd-status-table td:nth-child(2) {
+  font-weight: bold;
+}
+.fpd-status-table td em {
+  text-transform: capitalize;
+  font-style: normal;
+}
+.fpd-status-table td [data-tooltip] {
+  float: right;
+  font-size: 16x;
+}
+#fpd-modal-shortcodes textarea {
+  height: 40px;
+}
+/**************************
+**** POST
+**************************/
+#fpd-meta-box .menu {
+  min-height: auto;
+}
+#fpd-meta-box .menu > .item {
+  width: 49%;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  font-size: 13px;
+  justify-content: center;
+  padding: 0 0 5px !important;
+}
+#fpd-meta-box .inside label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: block;
+}
+.select2-selection__clear {
+  padding-right: 10px;
+}
+#fpd-modal-ips .radykal-option-type--text .ui.input {
+  width: 100%;
+}
+#fpd-modal-ips .select2-selection {
+  border-color: #e6e9ed;
+  padding: 4px 0;
+  height: auto;
+}
+#fpd-modal-ips .select2-selection__clear {
+  display: none !important;
+}
+#fpd-modal-ips .select2-search__field {
+  min-height: auto;
+}
+#fpd-modal-ips .select2-selection__arrow {
+  top: 7px;
+}
+#fpd-modal-ips .select2:focus,
+#fpd-modal-ips .select2 *:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
