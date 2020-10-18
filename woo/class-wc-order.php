@@ -130,6 +130,7 @@ if(!class_exists('FPD_WC_Order')) {
 
 		}
 
+		// MRR - This is where FPD generate customized product link to view from cart page
 		public function display_order_item_meta( $item_id, $item, $order, $plain_text=false ) {
 
 			if( $plain_text )
@@ -248,5 +249,3 @@ if(!class_exists('FPD_WC_Order')) {
 }
 
 new FPD_WC_Order();
-
-?>
