@@ -40,6 +40,8 @@ if (!class_exists('FPD_WC_Cart')) {
 			// MRR - IN QUOTE Page
 			//reset raq item link so the customized product is loaded from the raq list
 			add_filter('raq_cart_item_permalink', array(&$this, 'set_raq_cart_item_permalink'), 100, 3);
+			// Reset raq cart items tilte name link
+			add_filter('raq_cart_item_name', array(&$this, 'reset_raq_cart_item_link'), 100, 4);
 		}
 
 		public function cross_sells_display()
