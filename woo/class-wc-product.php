@@ -396,7 +396,9 @@ if (!class_exists('FPD_WC_Product')) {
 
 							var priceSet = _setTotalPrice();
 							jQuery('.single_add_to_cart_button').addClass('fpd-disabled');
-
+							// MRR - Disable raq button while Add to cart process
+							jQuery(".add-request-quote-button").addClass("fpd-disabled");
+							// MRR - END
 							var tempDevicePixelRation = fabric.devicePixelRatio,
 								viewOpts = fancyProductDesigner.viewInstances[0].options,
 								multiplier = FPDUtil.getScalingByDimesions(viewOpts.stageWidth, viewOpts.stageHeight, <?php echo fpd_get_option('fpd_wc_cart_thumbnail_width'); ?>, <?php echo fpd_get_option('fpd_wc_cart_thumbnail_height'); ?>);
