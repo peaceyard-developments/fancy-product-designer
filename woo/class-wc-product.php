@@ -24,6 +24,11 @@ if (!class_exists('FPD_WC_Product')) {
 			add_action('woocommerce_before_single_product', array(&$this, 'before_product_container'), 1);
 
 			add_action('fpd_before_product_designer', array(&$this, 'before_product_designer'), 1);
+
+			// MRR - Add MSPC before FPD when a product loading from raq page
+			add_action('fpd_before_product_designer_raq', array(&$this, 'before_product_designer_from_raq'), 1);
+			// MRR - END
+
 			add_action('fpd_before_js_fpd_init', array(&$this, 'before_js_product_designer'), 1);
 			add_action('fpd_after_product_designer', array(&$this, 'after_product_designer'), 1);
 
