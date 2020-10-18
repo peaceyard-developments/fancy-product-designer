@@ -288,6 +288,31 @@ if (!class_exists('FPD_WC_Cart')) {
 			return $link;
 		}
 
+		// MRR - FPD designed product title link in request a quote page
+		public function reset_raq_cart_item_link($title, $permalink, $fpd_prod, $raq_item_key)
+		{
+
+			if (!empty($permalink)) {
+				//set again for WPML
+
+				$link = sprintf('<a href="%s">%s<br /><i style="opacity: 1; font-size: 0.9em;">%s</i></a>', $permalink, $title, FPD_Settings_Labels::get_translation('woocommerce', 'cart:_re-edit product'));
+
+				if (fpd_get_option('fpd_cart_show_element_props') === 'used_colors') {
+
+					$order = $fpd_prod;
+					if (array_key_exists('product', $order))
+						$views = $order['product'];
+					else
+						$views = $order; //deprecated: getProduct() as used instead getOrder()
+
+					$link .= '<div style="margin-top:10px;" class="fpd-wc-cart-element-colors fpd-clearfix">' . implode('', self::get_display_elements($views, 'used_colors')) . '</div>';
+				}
+			}
+
+			return $link;
+		}
+		// MRR - END
+
 		public function change_cart_item_thumbnail($thumbnail, $cart_item = null)
 		{
 
