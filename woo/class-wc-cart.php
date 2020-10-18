@@ -37,10 +37,9 @@ if (!class_exists('FPD_WC_Cart')) {
 
 			//add_action( 'woocommerce_cart_collaterals', array(&$this, 'cross_sells_display'), 20 );
 
-			// IN QUOTE Page
-
-
-
+			// MRR - IN QUOTE Page
+			//reset raq item link so the customized product is loaded from the raq list
+			add_filter('raq_cart_item_permalink', array(&$this, 'set_raq_cart_item_permalink'), 100, 3);
 		}
 
 		public function cross_sells_display()
