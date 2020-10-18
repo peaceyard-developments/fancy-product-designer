@@ -430,8 +430,13 @@ if (!class_exists('FPD_WC_Product')) {
 						}
 
 					});
+					//MRR - Add FPD waiting spinner on raq button click event
+					$cartForm.on('raq_fpdProductSubmit', function() {
+						fancyProductDesigner.toggleSpinner(true);
+					})
+					// MRR - END
 
-					//pyapp - fill custom form with values on raq btn click
+					//MRR - fill custom form with values on raq btn click
 					$raq_btn = jQuery('.add-request-quote-button');
 					$raq_btn.on('click', function(evt) {
 
@@ -486,6 +491,7 @@ if (!class_exists('FPD_WC_Product')) {
 						}
 
 					});
+					// MRR - END
 
 					jQuery('.fpd-modal-product-designer').on('click', '.fpd-done', function(evt) {
 
