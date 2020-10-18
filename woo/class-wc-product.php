@@ -237,6 +237,100 @@ if (!class_exists('FPD_WC_Product')) {
 						<a href="#" id="fpd-save-order" class="<?php echo trim(fpd_get_option('fpd_start_customizing_css_class')); ?>" style="display: inline-block; margin: 10px 10px 10px 0;">
 							<?php echo FPD_Settings_Labels::get_translation('woocommerce', 'save_order'); ?>
 						</a>
+						<?php endif;
+				}
+			} else if (isset($_GET['start_customizing']) && isset($_GET['fpd_product'])) {
+
+				$get_fpd_product_id = intval($_GET['fpd_product']);
+
+				if (FPD_Product::exists($get_fpd_product_id)) {
+					$fancy_product = new FPD_Product($get_fpd_product_id);
+					FPD_Frontend_Product::$form_views = $fancy_product->to_JSON();
+				}
+			}
+		}
+
+		// MRR - Load product from raq page before FPD designer add to product page
+		public function before_product_designer_from_raq($post)
+		{
+
+			if (get_post_type($post) !== 'product')
+				return;
+
+			global $product, $woocommerce;
+
+			//added to raq, recall added product
+			if (isset($_POST['fpd_product'])) {
+
+				$views = $_POST['fpd_product'];
+
+				FPD_Frontend_Product::$form_views = fpd_get_option('fpd_wc_add_to_cart_product_load') == 'customized-product' ? stripslashes($views) : null;
+			} else if (isset($_GET['raq_item_key'])) {
+
+				//load from raq item
+				$raq = YITH_Request_Quote()->get_raq_for_session();
+				$raq_item_from_request = YITH_Request_Quote()->get_raq_for_session($_GET);
+				$raq_item_key = $_GET['raq_item_key'];
+				$raq_item_values = ($raq_item_from_request[$raq_item_key]);
+
+				$raq_item_arr = array(
+					'quantity' => $raq_item_values['quantity'],
+					'fpd_product' => $raq_item_values['_fpd_data']
+				);
+
+				if (!empty($raq_item_arr['quantity'])) {
+
+					$_POST['quantity'] = $raq_item_arr['quantity'];
+					$views = $raq_item_arr['fpd_product'];
+
+					FPD_Frontend_Product::$form_views = stripslashes($views);
+				} else {
+
+					//cart item could not be found
+					echo '<p><strong>';
+					_e('Sorry, but the quote request item could not be found!', 'radykal');
+					echo '</strong></p>';
+					return;
+				}
+			} else if (isset($_GET['order']) && isset($_GET['item_id'])) {
+
+				$order = wc_get_order($_GET['order']);
+
+				//check if order belongs to customer
+				if (
+					!fpd_get_option('fpd_order_login_required')
+					|| current_user_can(Fancy_Product_Designer::CAPABILITY)
+					|| $order->get_user_id() === get_current_user_id()
+				) {
+
+					$item_meta = fpd_wc_get_order_item_meta($_GET['item_id'], $_GET['order']);
+
+					//V3.4.9: only order is stored in fpd_data
+					FPD_Frontend_Product::$form_views = is_array($item_meta) ? $item_meta['fpd_product'] : $item_meta;
+
+					if ($order && $order->is_paid()) {
+						FPD_Frontend_Product::$remove_watermark = true;
+
+						if ($product->is_downloadable()) : ?>
+							<a href="#" id="fpd-extern-download-pdf" class="<?php echo trim(fpd_get_option('fpd_start_customizing_css_class')); ?>" style="display: inline-block; margin: 10px 10px 10px 0;">
+								<?php echo FPD_Settings_Labels::get_translation('actions', 'download'); ?>
+							</a>
+						<?php
+						endif;
+					} else {
+						FPD_Frontend_Product::$remove_watermark = false;
+					}
+
+					$allowed_edit_status = array(
+						'pending',
+						'processing',
+						'on-hold'
+					);
+
+					if (fpd_get_option('fpd_order_save_order') && in_array($order->get_status(), $allowed_edit_status)) : ?>
+						<a href="#" id="fpd-save-order" class="<?php echo trim(fpd_get_option('fpd_start_customizing_css_class')); ?>" style="display: inline-block; margin: 10px 10px 10px 0;">
+							<?php echo FPD_Settings_Labels::get_translation('woocommerce', 'save_order'); ?>
+						</a>
 				<?php endif;
 				}
 			} else if (isset($_GET['start_customizing']) && isset($_GET['fpd_product'])) {
@@ -249,6 +343,7 @@ if (!class_exists('FPD_WC_Product')) {
 				}
 			}
 		}
+		// MRR - END
 
 		public function before_js_product_designer()
 		{
