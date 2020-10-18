@@ -347,6 +347,33 @@ if (!class_exists('FPD_WC_Cart')) {
 
 			return $thumbnail;
 		}
+		// MRR - FPD designed product thumbnail modifier function for request a quote page
+		public function change_raq_cart_item_thumbnail($thumbnail, $fpd_tumb = null)
+		{
+
+			if (!empty($thumbnail) && !is_null($fpd_tumb)) {
+				$dom = new DOMDocument;
+				libxml_use_internal_errors(true);
+				$dom->loadHTML($thumbnail);
+				$xpath = new DOMXPath($dom);
+				libxml_clear_errors();
+				$doc = $dom->getElementsByTagName("img")->item(0);
+				$src = $xpath->query(".//@src");
+				$srcset = $xpath->query(".//@srcset");
+				foreach ($src as $s) {
+					$s->nodeValue = $fpd_tumb;
+				}
+
+				foreach ($srcset as $s) {
+					$s->nodeValue = $fpd_tumb;
+				}
+
+				return $dom->saveXML($doc);
+			}
+
+			return $thumbnail;
+		}
+		// MRR - END
 
 		public function after_cart()
 		{
