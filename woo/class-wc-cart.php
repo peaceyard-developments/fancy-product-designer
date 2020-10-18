@@ -42,6 +42,11 @@ if (!class_exists('FPD_WC_Cart')) {
 			add_filter('raq_cart_item_permalink', array(&$this, 'set_raq_cart_item_permalink'), 100, 3);
 			// Reset raq cart items tilte name link
 			add_filter('raq_cart_item_name', array(&$this, 'reset_raq_cart_item_link'), 100, 4);
+
+			//change raq item thumbnail
+			add_filter('raq_cart_item_fpd_thumbnail', array(&$this, 'change_raq_cart_item_thumbnail'), 100, 3);
+
+			// MRR-END
 		}
 
 		public function cross_sells_display()
