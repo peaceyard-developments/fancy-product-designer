@@ -133,13 +133,13 @@ if (!class_exists('FPD_Frontend_Product')) {
 
 			if ($product_settings->show_designer()) {
 
-				// MRR - Load fpd MSPC & products from raq page, cart just on the product page load
+				// Load fpd MSPC & products from raq page, cart just on the product page load
 				if (isset($_GET['raq_item_key'])) {
 					do_action('fpd_before_product_designer_raq');
 				} else {
 					do_action('fpd_before_product_designer');
 				}
-				// MRR-END
+
 
 				//load product from share
 				if (isset($_GET['share_id'])) {
@@ -436,9 +436,9 @@ if (!class_exists('FPD_Frontend_Product')) {
 							},
 							imageEditorSettings: {
 								masks: <?php echo json_encode(fpd_get_files_from_uploads_by_type('fpd_masks', array('svg')), JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT); ?>,
-								/*MRR-get feather mask location */
+								/*get feather mask location */
 								feathers: <?php echo json_encode(fpd_get_files_from_uploads_by_type('fpd_feathers', array('svg')), JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT); ?>
-								/* MRR-END */
+
 							},
 							guidedTour: <?php echo $guided_tour; ?>,
 							productsJSON: fpdProductsJSON,

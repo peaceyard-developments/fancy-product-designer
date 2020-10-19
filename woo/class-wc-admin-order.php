@@ -9,7 +9,7 @@ if (!class_exists('FPD_Admin_Order')) {
 
 		public function __construct()
 		{
-			// MRR - This is where fpd meta data hide in order admin page
+			// This is where fpd meta data hide in order admin page
 			add_filter('woocommerce_hidden_order_itemmeta', array(&$this, 'hide_fpd_meta'));
 			add_action('add_meta_boxes', array(&$this, 'add_meta_boxes'));
 			add_action('woocommerce_before_order_itemmeta', array(&$this, 'admin_order_item_values'), 10, 3);

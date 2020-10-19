@@ -25,9 +25,9 @@ if (!class_exists('FPD_WC_Product')) {
 
 			add_action('fpd_before_product_designer', array(&$this, 'before_product_designer'), 1);
 
-			// MRR - Add MSPC before FPD when a product loading from raq page
+			//Add MSPC before FPD when a product loading from raq page
 			add_action('fpd_before_product_designer_raq', array(&$this, 'before_product_designer_from_raq'), 1);
-			// MRR - END
+
 
 			add_action('fpd_before_js_fpd_init', array(&$this, 'before_js_product_designer'), 1);
 			add_action('fpd_after_product_designer', array(&$this, 'after_product_designer'), 1);
@@ -250,7 +250,7 @@ if (!class_exists('FPD_WC_Product')) {
 			}
 		}
 
-		// MRR - Load product from raq page before FPD designer add to product page
+		// Load product from raq page before FPD designer add to product page
 		public function before_product_designer_from_raq($post)
 		{
 
@@ -343,7 +343,7 @@ if (!class_exists('FPD_WC_Product')) {
 				}
 			}
 		}
-		// MRR - END
+
 
 		public function before_js_product_designer()
 		{
@@ -496,9 +496,9 @@ if (!class_exists('FPD_WC_Product')) {
 
 							var priceSet = _setTotalPrice();
 							jQuery('.single_add_to_cart_button').addClass('fpd-disabled');
-							// MRR - Disable raq button while Add to cart process
+							//Disable raq button while Add to cart process
 							jQuery(".add-request-quote-button").addClass("fpd-disabled");
-							// MRR - END
+
 							var tempDevicePixelRation = fabric.devicePixelRatio,
 								viewOpts = fancyProductDesigner.viewInstances[0].options,
 								multiplier = FPDUtil.getScalingByDimesions(viewOpts.stageWidth, viewOpts.stageHeight, <?php echo fpd_get_option('fpd_wc_cart_thumbnail_width'); ?>, <?php echo fpd_get_option('fpd_wc_cart_thumbnail_height'); ?>);
@@ -532,13 +532,13 @@ if (!class_exists('FPD_WC_Product')) {
 						}
 
 					});
-					//MRR - Add FPD waiting spinner on raq button click event
+					//Add FPD waiting spinner on raq button click event
 					$cartForm.on('raq_fpdProductSubmit', function() {
 						fancyProductDesigner.toggleSpinner(true);
 					})
-					// MRR - END
 
-					//MRR - fill custom form with values on raq btn click
+
+					//fill custom form with values on raq btn click
 					$raq_btn = jQuery('.add-request-quote-button');
 					$raq_btn.on('click', function(evt) {
 
@@ -593,7 +593,7 @@ if (!class_exists('FPD_WC_Product')) {
 						}
 
 					});
-					// MRR - END
+
 
 					jQuery('.fpd-modal-product-designer').on('click', '.fpd-done', function(evt) {
 

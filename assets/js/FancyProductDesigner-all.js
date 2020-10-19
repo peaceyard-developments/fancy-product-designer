@@ -3360,9 +3360,8 @@ var FancyProductDesignerOptions = function () {
        * @default []
        */
       masks: [],
-      /* MRR - create feather mask url array */
+      /* create feather mask url array */
       feathers: [],
-      /* MRR-END */
     },
     /**
      * An object containing left, top, width and height properties that represents a printing box. A printing box is a rectangle which is always visible in the canvas and represents the printing area. It is used in the ADMIN solution to create a PDF with a specific printing area.
@@ -11974,7 +11973,7 @@ var FPDImageEditor = function ($container, targetElement, fpdInstance) {
         .filter('[data-id="' + id + '"]')
         .addClass("fpd-active");
     });
-    /* MRR */
+
     //--- Feather
     /* Read the fpd_masks folder to find custom masks and then they are added to the mask tab*/
     var newSVG = null;
@@ -12016,10 +12015,10 @@ var FPDImageEditor = function ($container, targetElement, fpdInstance) {
 
             fabricCanvas.renderAll();
           });
-          /* MRR Adding restore feature for feather */
+          /*  Adding restore feature for feather */
           fabricCanvas.remove(clippingObject);
           fabricCanvas.remove(newSVG);
-          /* MRR-END */
+
           instance.reset();
           masked = false;
           if (!fabricImage) {
@@ -12179,7 +12178,6 @@ var FPDImageEditor = function ($container, targetElement, fpdInstance) {
       }
     );
 
-    /* MRR-END */
     //--- MASK
 
     if (options.masks && $.isArray(options.masks)) {
@@ -12295,9 +12293,8 @@ var FPDImageEditor = function ($container, targetElement, fpdInstance) {
           fabricCanvas.clipTo = function (ctx) {
             clippingObject.render(ctx);
           };
-          /* MRR - Identify when add mask */
+          /*Identify when add mask */
           masked = true;
-          /* MRR-END */
         }
 
         fabricCanvas.remove(clippingObject);
@@ -12461,10 +12458,10 @@ var FPDImageEditor = function ($container, targetElement, fpdInstance) {
       if (!fabricImage) {
         return false;
       }
-      /* MRR Adding restore feature for feather */
+      /*  Adding restore feature for feather */
       fabricCanvas.remove(clippingObject);
       fabricCanvas.remove(newSVG);
-      /* MRR-END */
+
       fabricCanvas.clear();
       instance.loadImage(targetElement.originSource);
     });

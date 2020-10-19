@@ -32,10 +32,10 @@ if (!class_exists('FPD_Scripts_Styles')) {
 			}
 
 			$fpd_css_url = $local_test ? '//radykal.dep/fpd/dist/css/FancyProductDesigner.css?' . $timestamp : plugins_url('/assets/css/FancyProductDesigner-all.min.css', FPD_PLUGIN_ROOT_PHP);
-			/* MRR */
+
 			/* $fpd_js_url = $local_test ? '//radykal.dep/fpd/dist/js/FancyProductDesigner.js?' . $timestamp : plugins_url('/assets/js/FancyProductDesigner-all.js', FPD_PLUGIN_ROOT_PHP); */
 			$fpd_js_url = $local_test ? '//radykal.dep/fpd/dist/js/FancyProductDesigner.js?' . $timestamp : plugins_url('/assets/js/FancyProductDesigner-all.min.js', FPD_PLUGIN_ROOT_PHP);
-			/* MRR-END */
+
 
 
 			$fpd_js_plugins_url = $local_test ? '//radykal.dep/fpd/dist/js/plugins.js' : plugins_url('/assets/js/plugins.js', FPD_PLUGIN_ROOT_PHP);

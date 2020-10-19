@@ -30,7 +30,7 @@ if (!class_exists('FPD_WC_Order')) {
 			add_action('phpmailer_init', array(&$this, 'init_phpmailer'));
 		}
 
-		// MRR - this is where fpd add order meta from the cart
+		// this is where fpd add order meta from the cart
 		//add order meta from the cart
 		public function add_order_item_meta($item_id, $item)
 		{
@@ -130,7 +130,7 @@ if (!class_exists('FPD_WC_Order')) {
 			}
 		}
 
-		// MRR - This is where FPD generate customized product link to view from cart page
+		// This is where FPD generate customized product link to view from cart page
 		public function display_order_item_meta($item_id, $item, $order, $plain_text = false)
 		{
 

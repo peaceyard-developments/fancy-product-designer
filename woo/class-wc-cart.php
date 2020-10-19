@@ -37,7 +37,7 @@ if (!class_exists('FPD_WC_Cart')) {
 
 			//add_action( 'woocommerce_cart_collaterals', array(&$this, 'cross_sells_display'), 20 );
 
-			// MRR - IN QUOTE Page
+			// IN QUOTE Page
 			//reset raq item link so the customized product is loaded from the raq list
 			add_filter('raq_cart_item_permalink', array(&$this, 'set_raq_cart_item_permalink'), 100, 3);
 			// Reset raq cart items tilte name link
@@ -45,8 +45,6 @@ if (!class_exists('FPD_WC_Cart')) {
 
 			//change raq item thumbnail
 			add_filter('raq_cart_item_fpd_thumbnail', array(&$this, 'change_raq_cart_item_thumbnail'), 100, 3);
-
-			// MRR-END
 		}
 
 		public function cross_sells_display()
@@ -243,7 +241,7 @@ if (!class_exists('FPD_WC_Cart')) {
 			return $permalink;
 		}
 
-		// MRR - FPD designed product paramalink modifier function for raq page
+		// FPD designed product paramalink modifier function for raq page
 		public function set_raq_cart_item_permalink($permalink, $raq_item_key = null)
 		{
 			if (!empty($permalink)) {
@@ -251,7 +249,7 @@ if (!class_exists('FPD_WC_Cart')) {
 			}
 			return $permalink;
 		}
-		// MRR - END
+
 
 		public function reset_cart_item_link($link, $cart_item, $cart_item_key)
 		{
@@ -295,7 +293,7 @@ if (!class_exists('FPD_WC_Cart')) {
 			return $link;
 		}
 
-		// MRR - FPD designed product title link in request a quote page
+		//FPD designed product title link in request a quote page
 		public function reset_raq_cart_item_link($title, $permalink, $fpd_prod, $raq_item_key)
 		{
 
@@ -318,7 +316,7 @@ if (!class_exists('FPD_WC_Cart')) {
 
 			return $link;
 		}
-		// MRR - END
+
 
 		public function change_cart_item_thumbnail($thumbnail, $cart_item = null)
 		{
@@ -352,7 +350,7 @@ if (!class_exists('FPD_WC_Cart')) {
 
 			return $thumbnail;
 		}
-		// MRR - FPD designed product thumbnail modifier function for request a quote page
+		//FPD designed product thumbnail modifier function for request a quote page
 		public function change_raq_cart_item_thumbnail($thumbnail, $fpd_tumb = null)
 		{
 
@@ -378,7 +376,7 @@ if (!class_exists('FPD_WC_Cart')) {
 
 			return $thumbnail;
 		}
-		// MRR - END
+
 
 		public function after_cart()
 		{

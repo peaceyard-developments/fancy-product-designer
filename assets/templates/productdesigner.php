@@ -966,9 +966,9 @@
 			<span data-id="mask" class="fpd-active" data-defaulttext="Mask">image_editor.mask</span>
 			<span data-id="filters" data-defaulttext="Filters">image_editor.filters</span>
 			<span data-id="color-manipulation" data-defaulttext="Color Manipulation">image_editor.color_manipulation</span>
-			<!-- MRR -->
+
 			<span data-id="edge-feather" data-defaulttext="Edge Feather">image_editor.edge_feather</span>
-			<!-- MRR-END -->
+
 		</div>
 
 		<div class="fpd-tab-content">
@@ -1032,7 +1032,7 @@
 				</div>
 
 			</div>
-			<!-- MRR -->
+
 			<!-- EDGE FEATHER -->
 			<div data-id="edge-feather" class="fpd-content-edge-feather">
 
@@ -1047,7 +1047,7 @@
 				</div>
 
 			</div>
-			<!-- MRR-END -->
+
 		</div>
 
 		<div class="fpd-image-editor-main"></div>
